@@ -1,11 +1,15 @@
 {
   "image":"mcr.microsoft.com/devcontainers/universal:2",
-  "extensions": [
-    "GitHub.github-vscode-theme",
-    "alexcvzz.vscode-sqlite"
-    // Additional Extensions Here
-  ],
-  "postCreateCommand": "echo \"This file was added by the postCreateCommand.\" > TEMP.md"
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "GitHub.github-vscode-theme",
+        "alexcvzz.vscode-sqlite"
+      ]
+    }
+  },
+  "postCreateCommand": "./lab_setup.sh"
 }
 
 // DevContainer Reference: https://code.visualstudio.com/docs/remote/devcontainerjson-reference
+
