@@ -9,7 +9,7 @@
     }
   },
   "postCreateCommand": "./workspaces/hands-on-introduction-data-engineering-4395021/lab_setup.sh",
-  "workspaceMount": "source=${localWorkspaceFolder}/sub-folder,target=/workspace,type=bind",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
   "workspaceFolder": "/home/codespace"
 }
 
