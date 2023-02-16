@@ -9,8 +9,8 @@
     }
   },
   "postCreateCommand": "./workspaces/hands-on-introduction-data-engineering-4395021/lab_setup.sh",
-  "workspaceMount": "source=${localWorkspaceFolder}/sub-folder,target=/workspace,type=bind",,
-  "workspaceFolder": "/home/codespaces"
+  "workspaceMount": "source=${localWorkspaceFolder}/sub-folder,target=/workspace,type=bind",
+  "workspaceFolder": "/home/codespace"
 }
 
 // DevContainer Reference: https://code.visualstudio.com/docs/remote/devcontainerjson-reference
