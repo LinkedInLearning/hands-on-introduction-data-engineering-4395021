@@ -4,13 +4,13 @@
     "vscode": {
       "extensions": [
         "GitHub.github-vscode-theme",
-        "alexcvzz.vscode-sqlite"
+        "alexcvzz.vscode-sqlite",
+	"ms-python.python"
       ]
     }
   },
-  "postCreateCommand": "./workspaces/hands-on-introduction-data-engineering-4395021/lab_setup.sh",
-  "workspaceFolder": "/home/codespace"
+  "features": {},
+  "postCreateCommand": "./lab_setup.sh"
 }
 
 // DevContainer Reference: https://code.visualstudio.com/docs/remote/devcontainerjson-reference
-
