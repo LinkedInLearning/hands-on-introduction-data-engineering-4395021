@@ -8,7 +8,6 @@ export LAB_END_TO_END_PATH="$LAB_BASE_PATH/end-to-end"
 export LAB_TEMP_PATH="$LAB_BASE_PATH/temp"
 export LAB_AIRFLOW_PATH="$LAB_BASE_PATH/airflow"
 
-
 # Set some environment variables
 export AIRFLOW__WEBSERVER__WORKER_REFRESH_BATCH_SIZE=0
 export AIRFLOW__WEBSERVER__WORKER_REFRESH_INTERVAL=0
