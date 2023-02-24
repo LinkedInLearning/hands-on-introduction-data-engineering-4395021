@@ -1,6 +1,6 @@
-from airflow import DAG
-from airflow.operators.bash import BashOperator
 from datetime import datetime
+from airflow.operators.bash import BashOperator
+from airflow import DAG
 
 # Default settings applied to all tasks
 default_args = {
@@ -15,19 +15,20 @@ default_args = {
 
 with DAG(
     dag_id='two-task-dag',
-    description='An example Airflow DAG',
+    description='A two task Airflow DAG',
     schedule_interval=None,
     default_args=default_args
     ) as dag:
 
     t0 = BashOperator(
         task_id='bash_task_0',
-        bash_command='echo "Hi there, this is the first Airflow task!"'
+        bash_command='echo "First Airflow task!"'
     )
 
     t1 = BashOperator(
         task_id='bash_task_1',
-        bash_command='echo "Sleeping..." && sleep 5s && echo “Hi there, this is the second Airflow task!”'
+        bash_command='echo "Sleeping..." && sleep 5s && echo "Second Airflow task!"'
     )
 
     t0 >> t1
+
