@@ -2,19 +2,15 @@
 
 # Paths
 export LAB_BASE_PATH=`pwd`
-export AIRFLOW_HOME="$LAB_BASE_PATH/airflow"
 export LAB_MANUAL_PATH="$LAB_BASE_PATH/lab/manual"
 export LAB_ORCHESTRATED_PATH="$LAB_BASE_PATH/lab/orchestrated"
 export LAB_ETL_PATH="$LAB_BASE_PATH/lab/etl"
 export LAB_AIRFLOW_PATH="$LAB_BASE_PATH/airflow"
-export LAB_AIRFLOW_DAGS_PATH="$LAB_BASE_PATH/airflow/dags"
 
 # Create some of the directories that we'll use
 mkdir -p $LAB_MANUAL_PATH
 mkdir -p $LAB_ORCHESTRATED_PATH
 mkdir -p $LAB_ETL_PATH
-mkdir -p $LAB_AIRFLOW_PATH
-mkdir -p $LAB_AIRFLOW_DAGS_PATH
 
 # Set some environment variables
 export AIRFLOW__WEBSERVER__WORKER_REFRESH_BATCH_SIZE=0
