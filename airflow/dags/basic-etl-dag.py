@@ -7,7 +7,7 @@ import pandas as pd
 with DAG(
     dag_id='basic_etl_dag',
     schedule_interval=None,
-    start_date=datetime(2022, 1, 1),
+    start_date=datetime(2023, 1, 1),
     catchup=False,
 ) as dag:
 
@@ -22,7 +22,7 @@ with DAG(
       df = pd.read_csv("/workspaces/hands-on-introduction-data-engineering-4395021/lab/end-to-end/basic-etl-extract-data.csv")
       generic_type_df = df[df["Type"] == "generic"]
       generic_type_df["Date"] = today.strftime("%Y-%m-%d")
-      generic_type_df.to_csv("/workspaces/hands-on-introduction-data-engineering-4395021/lab/end-to-end/basic-etl-transformed-data.csv", index=False)
+      generic_type_df.to_csv("/workspaces/hands-on-introduction-data-engineering-4395021/lab/end-to-end/basic-etl-transform-data.csv", index=False)
       print(f'Number of rows: {len(generic_type_df)}')
 
   transform_task = PythonOperator(
