@@ -21,5 +21,5 @@ dag = DAG(
 
 task1 = BashOperator(
 		task_id='prove_things_work',
-		bash_command='echo "hello, world!" > /home/codespace/temp/create-this-file.txt',
+		bash_command='echo "hello, world!" > /workspaces/hands-on-introduction-data-engineering-4395021/lab/temp/create-this-file.txt',
 		dag=dag)
