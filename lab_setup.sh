@@ -8,12 +8,6 @@ export LAB_ETL_PATH="$LAB_BASE_PATH/etl"
 export LAB_TEMP_PATH="$LAB_BASE_PATH/temp"
 export LAB_AIRFLOW_PATH="$LAB_BASE_PATH/airflow"
 
-# Create some of the directories that we'll use
-mkdir -p $LAB_MANUAL_PATH
-mkdir -p $LAB_ORCHESTRATED_PATH
-mkdir -p $LAB_ETL_PATH
-mkdir -p $LAB_TEMP_PATH
-
 
 # Set some environment variables
 export AIRFLOW__WEBSERVER__WORKER_REFRESH_BATCH_SIZE=0
