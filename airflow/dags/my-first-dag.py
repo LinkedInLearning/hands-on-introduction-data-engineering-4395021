@@ -3,23 +3,25 @@ from airflow.operators.bash import BashOperator
 from datetime import datetime, timedelta
 
 default_args = {
-		'owner' : 'Vinoo',
-		'depends_on_past' :False,
-		'email' :['email@example.com'],
-		'email_on_failure': False,
-		'email_on_retry': False,
-		'catchup': False,
-		'retries': 0,
-		'retry_delay': timedelta(minutes=5)
-		}
+    'owner': 'Vinoo',
+    'depends_on_past': False,
+    'email_on_failure': False,
+    'email_on_retry': False,
+    'retries': 0,
+    'catchup': False,
+    'start_date': datetime(2023, 1, 1)
+}
 
-dag = DAG(
-	'CreateFile',
-	default_args=default_args,
-	start_date=datetime(2023,1,1,0,0))
+with DAG(
+    dag_id='one-task-dag',
+    description='A one task Airflow DAG',
+    schedule_interval=None,
+    default_args=default_args
+    ) as dag:
 
-
-task1 = BashOperator(
-		task_id='prove_things_work',
+	task1 = BashOperator(
+		task_id='one-task',
 		bash_command='echo "hello, world!" > /workspaces/hands-on-introduction-data-engineering-4395021/lab/temp/create-this-file.txt',
 		dag=dag)
+
+	task1
