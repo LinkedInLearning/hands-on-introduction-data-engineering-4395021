@@ -1,3 +1,4 @@
+# One Task DAG
 from airflow import DAG
 from airflow.operators.bash import BashOperator
 from datetime import datetime, timedelta
@@ -13,15 +14,13 @@ default_args = {
 }
 
 with DAG(
-    dag_id='one-task-dag',
+    dag_id='one_task_dag',
     description='A one task Airflow DAG',
     schedule_interval=None,
     default_args=default_args
     ) as dag:
 
 	task1 = BashOperator(
-		task_id='one-task',
+		task_id='one_task',
 		bash_command='echo "hello, world!" > /workspaces/hands-on-introduction-data-engineering-4395021/lab/temp/create-this-file.txt',
 		dag=dag)
-
-	task1
