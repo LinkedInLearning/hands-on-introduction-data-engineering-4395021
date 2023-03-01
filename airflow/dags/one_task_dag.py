@@ -1,7 +1,7 @@
 # One Task DAG
-from airflow import DAG
+from datetime import datetime
 from airflow.operators.bash import BashOperator
-from datetime import datetime, timedelta
+from airflow import DAG
 
 default_args = {
     'owner': 'Vinoo',
