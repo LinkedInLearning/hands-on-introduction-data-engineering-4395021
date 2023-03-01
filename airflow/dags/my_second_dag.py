@@ -14,7 +14,7 @@ default_args = {
 }
 
 with DAG(
-    dag_id='two-task-dag',
+    dag_id='two_task_dag',
     description='A two task Airflow DAG',
     schedule_interval=None,
     default_args=default_args
