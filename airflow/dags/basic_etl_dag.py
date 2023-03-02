@@ -6,9 +6,9 @@ from airflow.operators.python import PythonOperator
 from airflow import DAG
 
 with DAG(
-    dag_id='basic_etl_dag', 
+    dag_id='basic_etl_dag',
     schedule_interval=None,
-    start_date=datetime(2023, 1, 1), 
+    start_date=datetime(2023, 1, 1),
     catchup=False) as dag:
 
     extract_task = BashOperator(
@@ -31,8 +31,8 @@ with DAG(
 
     load_task = BashOperator(
         task_id='load_task',
-        bash_command='echo -e ".separator ","\n.import /workspaces/hands-on-introduction-data-engineering-4395021/lab/end-to-end/basic-etl-transform-data.csv top_level_domains" | sqlite3 /workspaces/hands-on-introduction-data-engineering-4395021/lab/end-to-end/basic-etl-load-db.db'
-        , dag=dag)
+        bash_command='echo -e ".separator ","\n.import /workspaces/hands-on-introduction-data-engineering-4395021/lab/end-to-end/basic-etl-transform-data.csv top_level_domains" | sqlite3 /workspaces/hands-on-introduction-data-engineering-4395021/lab/end-to-end/basic-etl-load-db.db',
+        dag=dag)
 
     extract_task >> transform_task >> load_task
 
