@@ -31,7 +31,7 @@ sqlite3 "$LAB_ORCHESTRATED_PATH/airflow-load-db.db" <<EOF
 EOF
 
 # Basic Etl Sqlite Database
-sqlite3 "$LAB_END_TO_END_PATH/basic-etl-load-database.db" <<EOF
+sqlite3 "$LAB_END_TO_END_PATH/basic-etl-load-db.db" <<EOF
 .read create_table.sql
 .headers on
 .mode csv
