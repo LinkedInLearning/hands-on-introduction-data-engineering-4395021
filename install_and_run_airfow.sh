@@ -15,7 +15,7 @@ echo "Updated load_examples to False"
 
 sed -i -e '/dag_dir_list_interval =/ s/= .*/= 2/' ${AIRFLOW_HOME}/airflow.cfg
 sed -i -e '/worker_refresh_batch_size =/ s/= .*/= 0/' ${AIRFLOW_HOME}/airflow.cfg
-sed -i -e '/worker_refresh_batch_interval =/ s/= .*/= 0/' ${AIRFLOW_HOME}/airflow.cfg
+sed -i -e '/worker_refresh_interval =/ s/= .*/= 0/' ${AIRFLOW_HOME}/airflow.cfg
 sed -i -e '/workers =/ s/= .*/= 2/' ${AIRFLOW_HOME}/airflow.cfg
 
 airflow users create --username admin --firstname Firstname --lastname Lastname --role Admin --email admin@example.org --password password
