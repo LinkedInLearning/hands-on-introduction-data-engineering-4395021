@@ -20,7 +20,7 @@ with DAG(
         """Read in the file, and write a transformed file out"""
         today = date.today()
         df = pd.read_csv('/workspaces/hands-on-introduction-data-engineering-4395021/lab/challenge/challenge-extract-data.csv')
-        count_df = df.groupby(["Sector"])["Sector"].count()
+        count_df = df.groupby(["Sector"])["Sector"].count().reset_index(name="count")
         count_df['Date'] = today.strftime('%Y-%m-%d')
         count_df.to_csv('/workspaces/hands-on-introduction-data-engineering-4395021/lab/challenge/challenge-transform-data.csv', index=False)
 
