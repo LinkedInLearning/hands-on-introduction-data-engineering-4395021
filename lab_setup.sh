@@ -30,6 +30,7 @@ EOF
 
 # Challenge Sqlite Database
 sqlite3 "$LAB_CHALLENGE_PATH/challenge-load-db.db" <<EOF
+.read create_challenge_table.sql
 .quit
 EOF
 
