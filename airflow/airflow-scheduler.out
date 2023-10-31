@@ -1,0 +1,184 @@
+[[34m2023-10-30 21:39:50,168[0m] {[34mscheduler_job.py:[0m714} INFO[0m - Starting the scheduler[0m
+[[34m2023-10-30 21:39:50,169[0m] {[34mscheduler_job.py:[0m719} INFO[0m - Processing each file at most -1 times[0m
+[[34m2023-10-30 21:39:50,172[0m] {[34mexecutor_loader.py:[0m107} INFO[0m - Loaded executor: SequentialExecutor[0m
+[[34m2023-10-30 21:39:50,179[0m] {[34mmanager.py:[0m163} INFO[0m - Launched DagFileProcessorManager with pid: 19871[0m
+[[34m2023-10-30 21:39:50,181[0m] {[34mscheduler_job.py:[0m1408} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-10-30 21:39:50,217[0m] {[34msettings.py:[0m58} INFO[0m - Configured default timezone Timezone('UTC')[0m
+[2023-10-30T21:39:50.245+0000] {manager.py:409} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
+[[34m2023-10-30 21:41:47,585[0m] {[34mserve_logs.py:[0m60} WARNING[0m - The Authorization header is missing: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.5
+X-Forwarded-For: 10.240.3.217
+Referer: https://fuzzy-capybara-g9r97qgprvw2pvg5.github.dev/
+X-Request-Id: 29d5d68b406652b4a36af7f2bf0607ec
+X-Real-Ip: 10.240.3.217
+X-Forwarded-Proto: https
+X-Forwarded-Host: fuzzy-capybara-g9r97qgprvw2pvg5-8793.app.github.dev
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-site
+X-Original-Proto: http
+Proxy-Connection: Keep-Alive
+Traceparent: 00-315e091dd3a831f241dbf6ac280512ea-34e692523bb1dd29-00
+
+.[0m
+[[34m2023-10-30 21:41:47,586[0m] {[34mserve_logs.py:[0m104} WARNING[0m - Unknown error[0m
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.[0m
+[[34m2023-10-30 21:41:47,724[0m] {[34mserve_logs.py:[0m60} WARNING[0m - The Authorization header is missing: Accept: image/avif,image/webp,*/*
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.5
+X-Forwarded-For: 10.240.3.217
+Referer: https://fuzzy-capybara-g9r97qgprvw2pvg5-8793.app.github.dev/
+X-Request-Id: 7deb88ba3b6aee606d3067b3f76b5667
+X-Real-Ip: 10.240.3.217
+X-Forwarded-Proto: https
+X-Forwarded-Host: fuzzy-capybara-g9r97qgprvw2pvg5-8793.app.github.dev
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+X-Original-Proto: http
+Proxy-Connection: Keep-Alive
+Traceparent: 00-e9341dc5e915ce9740ab1c9569bd82fa-b5d727a502025ebd-00
+
+.[0m
+[[34m2023-10-30 21:41:47,725[0m] {[34mserve_logs.py:[0m104} WARNING[0m - Unknown error[0m
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.[0m
+[[34m2023-10-30 21:41:50,772[0m] {[34mserve_logs.py:[0m60} WARNING[0m - The Authorization header is missing: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.5
+X-Forwarded-For: 10.240.3.217
+Referer: https://fuzzy-capybara-g9r97qgprvw2pvg5.github.dev/
+X-Request-Id: d9dfd73dcb07a937fe601c9c37b2c457
+X-Real-Ip: 10.240.3.217
+X-Forwarded-Proto: https
+X-Forwarded-Host: fuzzy-capybara-g9r97qgprvw2pvg5-8793.app.github.dev
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-site
+X-Original-Proto: http
+Proxy-Connection: Keep-Alive
+Traceparent: 00-3f8f46da2f91fe9cad595159bc4e5b1f-0d8449b68a7aad82-00
+
+.[0m
+[[34m2023-10-30 21:41:50,773[0m] {[34mserve_logs.py:[0m104} WARNING[0m - Unknown error[0m
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.[0m
+[[34m2023-10-30 21:41:52,349[0m] {[34mserve_logs.py:[0m60} WARNING[0m - The Authorization header is missing: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.5
+X-Forwarded-For: 10.240.3.217
+Referer: https://fuzzy-capybara-g9r97qgprvw2pvg5.github.dev/
+X-Request-Id: 08dda183de32ee390f0f5ebd236bf024
+X-Real-Ip: 10.240.3.217
+X-Forwarded-Proto: https
+X-Forwarded-Host: fuzzy-capybara-g9r97qgprvw2pvg5-8793.app.github.dev
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-site
+X-Original-Proto: http
+Proxy-Connection: Keep-Alive
+Traceparent: 00-39f3843b708d6ebf555c8a79d83bc0ed-0607da6ae6d32590-00
+
+.[0m
+[[34m2023-10-30 21:41:52,350[0m] {[34mserve_logs.py:[0m104} WARNING[0m - Unknown error[0m
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.[0m
+[[34m2023-10-30 21:41:54,418[0m] {[34mserve_logs.py:[0m60} WARNING[0m - The Authorization header is missing: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.5
+X-Forwarded-For: 10.240.3.217
+Referer: https://fuzzy-capybara-g9r97qgprvw2pvg5.github.dev/
+X-Request-Id: de3b5fddde8f0a61302bf12185e928b4
+X-Real-Ip: 10.240.3.217
+X-Forwarded-Proto: https
+X-Forwarded-Host: fuzzy-capybara-g9r97qgprvw2pvg5-8793.app.github.dev
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-site
+X-Original-Proto: http
+Proxy-Connection: Keep-Alive
+Traceparent: 00-5431e3e90b30b555c1b95233e53f6848-99a409daf77375b6-00
+
+.[0m
+[[34m2023-10-30 21:41:54,420[0m] {[34mserve_logs.py:[0m104} WARNING[0m - Unknown error[0m
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.[0m
+[[34m2023-10-30 21:44:50,332[0m] {[34mscheduler_job.py:[0m1408} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-10-30 21:49:50,367[0m] {[34mscheduler_job.py:[0m1408} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-10-30 21:51:36,872[0m] {[34mscheduler_job.py:[0m360} INFO[0m - 1 tasks up for execution:
+	<TaskInstance: one_task_dag.one_task manual__2023-10-30T21:51:35.783797+00:00 [scheduled]>[0m
+[[34m2023-10-30 21:51:36,873[0m] {[34mscheduler_job.py:[0m425} INFO[0m - DAG one_task_dag has 0/16 running and queued tasks[0m
+[[34m2023-10-30 21:51:36,873[0m] {[34mscheduler_job.py:[0m511} INFO[0m - Setting the following tasks to queued state:
+	<TaskInstance: one_task_dag.one_task manual__2023-10-30T21:51:35.783797+00:00 [scheduled]>[0m
+[[34m2023-10-30 21:51:36,963[0m] {[34mscheduler_job.py:[0m550} INFO[0m - Sending TaskInstanceKey(dag_id='one_task_dag', task_id='one_task', run_id='manual__2023-10-30T21:51:35.783797+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default[0m
+[[34m2023-10-30 21:51:36,963[0m] {[34mbase_executor.py:[0m93} INFO[0m - Adding to queue: ['airflow', 'tasks', 'run', 'one_task_dag', 'one_task', 'manual__2023-10-30T21:51:35.783797+00:00', '--local', '--subdir', 'DAGS_FOLDER/one_task_dag.py'][0m
+[[34m2023-10-30 21:51:36,999[0m] {[34msequential_executor.py:[0m61} INFO[0m - Executing command: ['airflow', 'tasks', 'run', 'one_task_dag', 'one_task', 'manual__2023-10-30T21:51:35.783797+00:00', '--local', '--subdir', 'DAGS_FOLDER/one_task_dag.py'][0m
+[[34m2023-10-30 21:51:38,128[0m] {[34mdagbag.py:[0m538} INFO[0m - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py[0m
+[[34m2023-10-30 21:51:38,898[0m] {[34mtask_command.py:[0m388} INFO[0m - Running <TaskInstance: one_task_dag.one_task manual__2023-10-30T21:51:35.783797+00:00 [queued]> on host codespaces-7102c6[0m
+[[34m2023-10-30 21:51:39,676[0m] {[34mscheduler_job.py:[0m602} INFO[0m - Executor reports execution of one_task_dag.one_task run_id=manual__2023-10-30T21:51:35.783797+00:00 exited with status success for try_number 1[0m
+[[34m2023-10-30 21:51:39,682[0m] {[34mscheduler_job.py:[0m645} INFO[0m - TaskInstance Finished: dag_id=one_task_dag, task_id=one_task, run_id=manual__2023-10-30T21:51:35.783797+00:00, map_index=-1, run_start_date=2023-10-30 21:51:38.969093+00:00, run_end_date=2023-10-30 21:51:39.282016+00:00, run_duration=0.312923, state=success, executor_state=success, try_number=1, max_tries=0, job_id=2, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2023-10-30 21:51:36.881782+00:00, queued_by_job_id=1, pid=24831[0m
+[[34m2023-10-30 21:51:39,754[0m] {[34mdagrun.py:[0m607} INFO[0m - Marking run <DagRun one_task_dag @ 2023-10-30 21:51:35.783797+00:00: manual__2023-10-30T21:51:35.783797+00:00, state:running, queued_at: 2023-10-30 21:51:35.849518+00:00. externally triggered: True> successful[0m
+[[34m2023-10-30 21:51:39,754[0m] {[34mdagrun.py:[0m658} INFO[0m - DagRun Finished: dag_id=one_task_dag, execution_date=2023-10-30 21:51:35.783797+00:00, run_id=manual__2023-10-30T21:51:35.783797+00:00, run_start_date=2023-10-30 21:51:36.612069+00:00, run_end_date=2023-10-30 21:51:39.754828+00:00, run_duration=3.142759, state=success, external_trigger=True, run_type=manual, data_interval_start=2023-10-30 21:51:35.783797+00:00, data_interval_end=2023-10-30 21:51:35.783797+00:00, dag_hash=356f98d91ba0fe9fbe25b85bc0212ddc[0m
+[[34m2023-10-30 21:51:39,757[0m] {[34mdag.py:[0m3437} INFO[0m - Setting next_dagrun for one_task_dag to None, run_after=None[0m

@@ -1,0 +1,466 @@
+[2023-10-30T21:39:50.425+0000] {processor.py:153} INFO - Started process (PID=19872) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:39:50.426+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py for tasks to queue
+[2023-10-30T21:39:50.426+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:39:50.426+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:39:50.452+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:39:50.439+0000] {dagbag.py:343} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py", line 4, in <module>
+    from airflow.operators.bash import bashOperator
+ImportError: cannot import name 'bashOperator' from 'airflow.operators.bash' (/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/operators/bash.py)
+[2023-10-30T21:39:50.454+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:39:50.512+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py took 0.102 seconds
+[2023-10-30T21:40:20.700+0000] {processor.py:153} INFO - Started process (PID=20068) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:40:20.701+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py for tasks to queue
+[2023-10-30T21:40:20.701+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:40:20.701+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:40:20.706+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:40:20.705+0000] {dagbag.py:343} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py", line 4, in <module>
+    from airflow.operators.bash import bashOperator
+ImportError: cannot import name 'bashOperator' from 'airflow.operators.bash' (/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/operators/bash.py)
+[2023-10-30T21:40:20.706+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:40:20.750+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py took 0.053 seconds
+[2023-10-30T21:40:51.324+0000] {processor.py:153} INFO - Started process (PID=20255) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:40:51.325+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py for tasks to queue
+[2023-10-30T21:40:51.326+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:40:51.325+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:40:51.332+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:40:51.332+0000] {dagbag.py:343} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py", line 4, in <module>
+    from airflow.operators.bash import bashOperator
+ImportError: cannot import name 'bashOperator' from 'airflow.operators.bash' (/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/operators/bash.py)
+[2023-10-30T21:40:51.333+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:40:51.384+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py took 0.064 seconds
+[2023-10-30T21:41:21.625+0000] {processor.py:153} INFO - Started process (PID=20436) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:41:21.626+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py for tasks to queue
+[2023-10-30T21:41:21.627+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:41:21.626+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:41:21.631+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:41:21.631+0000] {dagbag.py:343} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py", line 4, in <module>
+    from airflow.operators.bash import bashOperator
+ImportError: cannot import name 'bashOperator' from 'airflow.operators.bash' (/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/operators/bash.py)
+[2023-10-30T21:41:21.632+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:41:21.678+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py took 0.055 seconds
+[2023-10-30T21:41:52.422+0000] {processor.py:153} INFO - Started process (PID=20622) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:41:52.423+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py for tasks to queue
+[2023-10-30T21:41:52.424+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:41:52.424+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:41:52.429+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:41:52.429+0000] {dagbag.py:343} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py", line 4, in <module>
+    from airflow.operators.bash import bashOperator
+ImportError: cannot import name 'bashOperator' from 'airflow.operators.bash' (/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/operators/bash.py)
+[2023-10-30T21:41:52.430+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:41:52.478+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py took 0.057 seconds
+[2023-10-30T21:42:23.006+0000] {processor.py:153} INFO - Started process (PID=20801) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:42:23.007+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py for tasks to queue
+[2023-10-30T21:42:23.007+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:42:23.007+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:42:23.011+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:42:23.011+0000] {dagbag.py:343} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py", line 4, in <module>
+    from airflow.operators.bash import bashOperator
+ImportError: cannot import name 'bashOperator' from 'airflow.operators.bash' (/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/operators/bash.py)
+[2023-10-30T21:42:23.012+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:42:23.056+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py took 0.052 seconds
+[2023-10-30T21:42:53.344+0000] {processor.py:153} INFO - Started process (PID=20996) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:42:53.345+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py for tasks to queue
+[2023-10-30T21:42:53.345+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:42:53.345+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:42:53.350+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:42:53.349+0000] {dagbag.py:343} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py", line 4, in <module>
+    from airflow.operators.bash import bashOperator
+ImportError: cannot import name 'bashOperator' from 'airflow.operators.bash' (/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/operators/bash.py)
+[2023-10-30T21:42:53.350+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:42:53.397+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py took 0.055 seconds
+[2023-10-30T21:43:24.123+0000] {processor.py:153} INFO - Started process (PID=21204) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:43:24.124+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py for tasks to queue
+[2023-10-30T21:43:24.125+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:43:24.124+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:43:24.129+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:43:24.129+0000] {dagbag.py:343} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py", line 4, in <module>
+    from airflow.operators.bash import bashOperator
+ImportError: cannot import name 'bashOperator' from 'airflow.operators.bash' (/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/operators/bash.py)
+[2023-10-30T21:43:24.130+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:43:24.175+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py took 0.054 seconds
+[2023-10-30T21:43:54.577+0000] {processor.py:153} INFO - Started process (PID=21387) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:43:54.577+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py for tasks to queue
+[2023-10-30T21:43:54.578+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:43:54.578+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:43:54.689+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:43:54.689+0000] {dagbag.py:343} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py", line 4, in <module>
+    from airflow.operators.bash import bashOperator
+ImportError: cannot import name 'bashOperator' from 'airflow.operators.bash' (/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/operators/bash.py)
+[2023-10-30T21:43:54.690+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:43:54.742+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py took 0.167 seconds
+[2023-10-30T21:44:25.285+0000] {processor.py:153} INFO - Started process (PID=21564) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:44:25.286+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py for tasks to queue
+[2023-10-30T21:44:25.286+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:44:25.286+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:44:25.291+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:44:25.291+0000] {dagbag.py:343} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py", line 4, in <module>
+    from airflow.operators.bash import bashOperator
+ImportError: cannot import name 'bashOperator' from 'airflow.operators.bash' (/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/operators/bash.py)
+[2023-10-30T21:44:25.292+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:44:25.338+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py took 0.055 seconds
+[2023-10-30T21:44:55.826+0000] {processor.py:153} INFO - Started process (PID=21745) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:44:55.827+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py for tasks to queue
+[2023-10-30T21:44:55.827+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:44:55.827+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:44:55.832+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:44:55.832+0000] {dagbag.py:343} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py", line 4, in <module>
+    from airflow.operators.bash import bashOperator
+ImportError: cannot import name 'bashOperator' from 'airflow.operators.bash' (/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/operators/bash.py)
+[2023-10-30T21:44:55.832+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:44:55.877+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py took 0.053 seconds
+[2023-10-30T21:45:26.434+0000] {processor.py:153} INFO - Started process (PID=21922) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:45:26.435+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py for tasks to queue
+[2023-10-30T21:45:26.436+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:45:26.436+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:45:26.441+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:45:26.440+0000] {dagbag.py:343} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py", line 4, in <module>
+    from airflow.operators.bash import bashOperator
+ImportError: cannot import name 'bashOperator' from 'airflow.operators.bash' (/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/operators/bash.py)
+[2023-10-30T21:45:26.441+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:45:26.489+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py took 0.057 seconds
+[2023-10-30T21:45:57.038+0000] {processor.py:153} INFO - Started process (PID=22109) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:45:57.039+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py for tasks to queue
+[2023-10-30T21:45:57.040+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:45:57.040+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:45:57.046+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:45:57.045+0000] {dagbag.py:343} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py", line 4, in <module>
+    from airflow.operators.bash import bashOperator
+ImportError: cannot import name 'bashOperator' from 'airflow.operators.bash' (/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/operators/bash.py)
+[2023-10-30T21:45:57.046+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:45:57.099+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py took 0.064 seconds
+[2023-10-30T21:46:27.156+0000] {processor.py:153} INFO - Started process (PID=22287) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:46:27.157+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py for tasks to queue
+[2023-10-30T21:46:27.157+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:46:27.157+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:46:27.162+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:46:27.161+0000] {dagbag.py:343} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py", line 4, in <module>
+    from airflow.operators.bash import bashOperator
+ImportError: cannot import name 'bashOperator' from 'airflow.operators.bash' (/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/operators/bash.py)
+[2023-10-30T21:46:27.162+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:46:27.207+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py took 0.054 seconds
+[2023-10-30T21:46:57.532+0000] {processor.py:153} INFO - Started process (PID=22469) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:46:57.547+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py for tasks to queue
+[2023-10-30T21:46:57.549+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:46:57.549+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:46:57.566+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:46:57.565+0000] {dagbag.py:343} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py", line 4, in <module>
+    from airflow.operators.bash import bashOperator
+ImportError: cannot import name 'bashOperator' from 'airflow.operators.bash' (/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/operators/bash.py)
+[2023-10-30T21:46:57.575+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:46:57.634+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py took 0.106 seconds
+[2023-10-30T21:46:58.326+0000] {processor.py:153} INFO - Started process (PID=22477) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:46:58.327+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py for tasks to queue
+[2023-10-30T21:46:58.328+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:46:58.328+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:46:58.336+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:46:58.335+0000] {dagbag.py:343} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py", line 3, in <module>
+    from airflow.operators.bash import bashOperator
+ImportError: cannot import name 'bashOperator' from 'airflow.operators.bash' (/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/operators/bash.py)
+[2023-10-30T21:46:58.336+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:46:58.388+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py took 0.065 seconds
+[2023-10-30T21:47:20.980+0000] {processor.py:153} INFO - Started process (PID=23014) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:47:20.981+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py for tasks to queue
+[2023-10-30T21:47:20.982+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:47:20.982+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:47:20.992+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:47:20.991+0000] {dagbag.py:343} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py", line 3, in <module>
+    from airflow.operators.bash import bash0perator
+ImportError: cannot import name 'bash0perator' from 'airflow.operators.bash' (/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/operators/bash.py)
+[2023-10-30T21:47:20.993+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:47:21.048+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py took 0.071 seconds
+[2023-10-30T21:47:28.953+0000] {processor.py:153} INFO - Started process (PID=23070) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:47:28.954+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py for tasks to queue
+[2023-10-30T21:47:28.955+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:47:28.955+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:47:28.964+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:47:28.963+0000] {dagbag.py:343} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py", line 3, in <module>
+    from airflow.operators.bash import bash0perator
+ImportError: cannot import name 'bash0perator' from 'airflow.operators.bash' (/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/operators/bash.py)
+[2023-10-30T21:47:28.965+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:47:29.016+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py took 0.067 seconds
+[2023-10-30T21:47:40.348+0000] {processor.py:153} INFO - Started process (PID=23144) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:47:40.349+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py for tasks to queue
+[2023-10-30T21:47:40.350+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:47:40.350+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:47:40.358+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:47:40.358+0000] {dagbag.py:343} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py", line 3, in <module>
+    from airflow.operators.bash import bash0perator
+ImportError: cannot import name 'bash0perator' from 'airflow.operators.bash' (/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/operators/bash.py)
+[2023-10-30T21:47:40.359+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:47:40.425+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py took 0.080 seconds
+[2023-10-30T21:47:43.349+0000] {processor.py:153} INFO - Started process (PID=23168) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:47:43.350+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py for tasks to queue
+[2023-10-30T21:47:43.350+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:47:43.350+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:47:43.359+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:47:43.358+0000] {dagbag.py:343} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py", line 3, in <module>
+    from airflow.operators.bash import bashOperator
+ImportError: cannot import name 'bashOperator' from 'airflow.operators.bash' (/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/operators/bash.py)
+[2023-10-30T21:47:43.360+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:47:43.419+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py took 0.074 seconds
+[2023-10-30T21:48:13.556+0000] {processor.py:153} INFO - Started process (PID=23437) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:48:13.557+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py for tasks to queue
+[2023-10-30T21:48:13.558+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:48:13.558+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:48:13.563+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:48:13.562+0000] {dagbag.py:343} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py", line 3, in <module>
+    from airflow.operators.bash import bashOperator
+ImportError: cannot import name 'bashOperator' from 'airflow.operators.bash' (/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/operators/bash.py)
+[2023-10-30T21:48:13.563+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:48:13.615+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py took 0.061 seconds
+[2023-10-30T21:48:43.761+0000] {processor.py:153} INFO - Started process (PID=23603) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:48:43.762+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py for tasks to queue
+[2023-10-30T21:48:43.762+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:48:43.762+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:48:43.767+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:48:43.766+0000] {dagbag.py:343} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py", line 3, in <module>
+    from airflow.operators.bash import bashOperator
+ImportError: cannot import name 'bashOperator' from 'airflow.operators.bash' (/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/operators/bash.py)
+[2023-10-30T21:48:43.767+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:48:43.812+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py took 0.053 seconds
+[2023-10-30T21:49:13.952+0000] {processor.py:153} INFO - Started process (PID=23780) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:49:13.953+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py for tasks to queue
+[2023-10-30T21:49:13.953+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:49:13.953+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:49:13.958+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:49:13.957+0000] {dagbag.py:343} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py", line 3, in <module>
+    from airflow.operators.bash import bashOperator
+ImportError: cannot import name 'bashOperator' from 'airflow.operators.bash' (/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/operators/bash.py)
+[2023-10-30T21:49:13.958+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:49:14.003+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py took 0.053 seconds
+[2023-10-30T21:49:29.250+0000] {processor.py:153} INFO - Started process (PID=23887) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:49:29.251+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py for tasks to queue
+[2023-10-30T21:49:29.252+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:49:29.252+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:49:29.264+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:49:29.262+0000] {dagbag.py:343} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py", line 23, in <module>
+    task1 = bashOperator(
+NameError: name 'bashOperator' is not defined. Did you mean: 'BashOperator'?
+[2023-10-30T21:49:29.265+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:49:29.316+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py took 0.069 seconds
+[2023-10-30T21:49:47.635+0000] {processor.py:153} INFO - Started process (PID=24038) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:49:47.652+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py for tasks to queue
+[2023-10-30T21:49:47.657+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:49:47.657+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:49:47.741+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:49:47.717+0000] {dagbag.py:343} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py", line 23, in <module>
+    task1 = BashOperator(
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 394, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/operators/bash.py", line 147, in __init__
+    super().__init__(**kwargs)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 394, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 874, in __init__
+    self.dag = dag
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 981, in __setattr__
+    super().__setattr__(key, value)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 1039, in dag
+    dag.add_task(self)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/dag.py", line 2328, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2023-10-30T21:49:47.747+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:49:47.818+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py took 0.185 seconds
+[2023-10-30T21:50:18.098+0000] {processor.py:153} INFO - Started process (PID=24284) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:50:18.099+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py for tasks to queue
+[2023-10-30T21:50:18.100+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:50:18.100+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:50:18.109+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:50:18.108+0000] {dagbag.py:343} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py", line 23, in <module>
+    task1 = BashOperator(
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 394, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/operators/bash.py", line 147, in __init__
+    super().__init__(**kwargs)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 394, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 874, in __init__
+    self.dag = dag
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 981, in __setattr__
+    super().__setattr__(key, value)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 1039, in dag
+    dag.add_task(self)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/dag.py", line 2328, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2023-10-30T21:50:18.110+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:50:18.155+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py took 0.060 seconds
+[2023-10-30T21:50:48.597+0000] {processor.py:153} INFO - Started process (PID=24483) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:50:48.598+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py for tasks to queue
+[2023-10-30T21:50:48.599+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:50:48.599+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:50:48.610+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:50:48.608+0000] {dagbag.py:343} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py", line 23, in <module>
+    task1 = BashOperator(
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 394, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/operators/bash.py", line 147, in __init__
+    super().__init__(**kwargs)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 394, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 874, in __init__
+    self.dag = dag
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 981, in __setattr__
+    super().__setattr__(key, value)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 1039, in dag
+    dag.add_task(self)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/models/dag.py", line 2328, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2023-10-30T21:50:48.611+0000] {processor.py:755} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:50:48.660+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py took 0.066 seconds
+[2023-10-30T21:50:55.388+0000] {processor.py:153} INFO - Started process (PID=24515) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:50:55.389+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py for tasks to queue
+[2023-10-30T21:50:55.389+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:50:55.389+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:50:55.412+0000] {processor.py:753} INFO - DAG(s) dict_keys(['one_task_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:50:55.629+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:50:55.629+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:one_task_dag
+[2023-10-30T21:50:55.715+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:50:55.714+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:one_task_dag
+[2023-10-30T21:50:55.768+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:50:55.768+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:one_task_dag
+[2023-10-30T21:50:55.768+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:50:55.768+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-30T21:50:55.784+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:50:55.784+0000] {dag.py:2711} INFO - Creating ORM DAG for one_task_dag
+[2023-10-30T21:50:55.800+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:50:55.800+0000] {dag.py:3437} INFO - Setting next_dagrun for one_task_dag to None, run_after=None
+[2023-10-30T21:50:55.910+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py took 0.524 seconds
+[2023-10-30T21:51:26.671+0000] {processor.py:153} INFO - Started process (PID=24743) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:51:26.674+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py for tasks to queue
+[2023-10-30T21:51:26.675+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:51:26.675+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:51:26.688+0000] {processor.py:753} INFO - DAG(s) dict_keys(['one_task_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:51:26.790+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:51:26.790+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-30T21:51:26.921+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:51:26.921+0000] {dag.py:3437} INFO - Setting next_dagrun for one_task_dag to None, run_after=None
+[2023-10-30T21:51:27.206+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py took 0.538 seconds
+[2023-10-30T21:51:58.052+0000] {processor.py:153} INFO - Started process (PID=24929) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:51:58.053+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py for tasks to queue
+[2023-10-30T21:51:58.053+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:51:58.053+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:51:58.065+0000] {processor.py:753} INFO - DAG(s) dict_keys(['one_task_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:51:58.084+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:51:58.084+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-30T21:51:58.101+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:51:58.101+0000] {dag.py:3437} INFO - Setting next_dagrun for one_task_dag to None, run_after=None
+[2023-10-30T21:51:58.151+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py took 0.102 seconds
+[2023-10-30T21:52:28.548+0000] {processor.py:153} INFO - Started process (PID=25215) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:52:28.549+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py for tasks to queue
+[2023-10-30T21:52:28.550+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:52:28.549+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:52:28.562+0000] {processor.py:753} INFO - DAG(s) dict_keys(['one_task_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:52:28.576+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:52:28.576+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-30T21:52:28.592+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:52:28.592+0000] {dag.py:3437} INFO - Setting next_dagrun for one_task_dag to None, run_after=None
+[2023-10-30T21:52:28.646+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py took 0.100 seconds
+[2023-10-30T21:52:59.027+0000] {processor.py:153} INFO - Started process (PID=25432) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:52:59.028+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py for tasks to queue
+[2023-10-30T21:52:59.029+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:52:59.029+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:52:59.042+0000] {processor.py:753} INFO - DAG(s) dict_keys(['one_task_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:52:59.056+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:52:59.056+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-30T21:52:59.071+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:52:59.071+0000] {dag.py:3437} INFO - Setting next_dagrun for one_task_dag to None, run_after=None
+[2023-10-30T21:52:59.137+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py took 0.113 seconds
+[2023-10-30T21:53:29.650+0000] {processor.py:153} INFO - Started process (PID=25679) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:53:29.651+0000] {processor.py:743} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py for tasks to queue
+[2023-10-30T21:53:29.651+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:53:29.651+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:53:29.663+0000] {processor.py:753} INFO - DAG(s) dict_keys(['one_task_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2023-10-30T21:53:29.677+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:53:29.677+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-30T21:53:29.693+0000] {logging_mixin.py:137} INFO - [2023-10-30T21:53:29.693+0000] {dag.py:3437} INFO - Setting next_dagrun for one_task_dag to None, run_after=None
+[2023-10-30T21:53:29.743+0000] {processor.py:175} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py took 0.096 seconds
