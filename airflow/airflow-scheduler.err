@@ -1,0 +1,31 @@
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/lockfile/pidlockfile.py", line 77, in acquire
+    write_pid_to_pidfile(self.path)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/lockfile/pidlockfile.py", line 161, in write_pid_to_pidfile
+    pidfile_fd = os.open(pidfile_path, open_flags, open_mode)
+FileExistsError: [Errno 17] File exists: '/workspaces/hands-on-introduction-data-engineering-4395021/airflow/airflow-scheduler.pid'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/codespace/.python/current/bin/airflow", line 8, in <module>
+    sys.exit(main())
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/__main__.py", line 39, in main
+    args.func(args)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/cli/cli_parser.py", line 52, in command
+    return func(*args, **kwargs)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/utils/cli.py", line 108, in wrapper
+    return f(*args, **kwargs)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/cli/commands/scheduler_command.py", line 67, in scheduler
+    with ctx:
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/daemon/daemon.py", line 365, in __enter__
+    self.open()
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/daemon/daemon.py", line 357, in open
+    self.pidfile.__enter__()
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/lockfile/__init__.py", line 197, in __enter__
+    self.acquire()
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/daemon/pidfile.py", line 49, in acquire
+    super().acquire(timeout, *args, **kwargs)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/lockfile/pidlockfile.py", line 87, in acquire
+    raise AlreadyLocked("%s is already locked" %
+lockfile.AlreadyLocked: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/airflow-scheduler.pid is already locked
