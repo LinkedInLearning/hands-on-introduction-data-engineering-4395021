@@ -1,5 +1,9 @@
 #!/bin/sh
 
+# Turn off SQLALCHEMY Warning
+export SQLALCHEMY_SILENCE_UBER_WARNING=1
+echo 'export SQLALCHEMY_SILENCE_UBER_WARNING=1' >> ~/.bashrc 
+
 # Paths
 export LAB_BASE_PATH=`pwd`/lab
 export LAB_MANUAL_PATH="$LAB_BASE_PATH/manual"
