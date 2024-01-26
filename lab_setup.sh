@@ -8,6 +8,11 @@ echo 'export SQLALCHEMY_SILENCE_UBER_WARNING=1' >> ~/.bashrc
 export AIRFLOW_HOME="/workspaces/hands-on-introduction-data-engineering-4395021/airflow"
 echo 'export AIRFLOW_HOME="/workspaces/hands-on-introduction-data-engineering-4395021/airflow"' >> ~/.bashrc 
 
+# Some Setup + Install some helpful libs
+pip install --upgrade pip
+pip install connexion[swagger-ui]
+pip install graphviz
+
 # Paths
 export LAB_BASE_PATH=`pwd`/lab
 export LAB_MANUAL_PATH="$LAB_BASE_PATH/manual"
@@ -41,8 +46,6 @@ sqlite3 "$LAB_CHALLENGE_PATH/challenge-load-db.db" <<EOF
 .read create_challenge_table.sql
 .quit
 EOF
-
-
-
+ 
 # Source bashrc
 source ~/.bashrc 
