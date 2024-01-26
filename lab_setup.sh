@@ -6,7 +6,7 @@ echo 'export SQLALCHEMY_SILENCE_UBER_WARNING=1' >> ~/.bashrc
 
 # Set Airflow home
 export AIRFLOW_HOME="/workspaces/hands-on-introduction-data-engineering-4395021/airflow"
-echo 'AIRFLOW_HOME="/workspaces/hands-on-introduction-data-engineering-4395021/airflow' >> ~/.bashrc 
+echo 'export AIRFLOW_HOME="/workspaces/hands-on-introduction-data-engineering-4395021/airflow"' >> ~/.bashrc 
 
 # Paths
 export LAB_BASE_PATH=`pwd`/lab
