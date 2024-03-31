@@ -1,0 +1,27 @@
+[2024-03-31T22:19:36.922+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: one_task_dag.one_task manual__2024-03-31T22:19:33.179973+00:00 [queued]>
+[2024-03-31T22:19:36.930+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: one_task_dag.one_task manual__2024-03-31T22:19:33.179973+00:00 [queued]>
+[2024-03-31T22:19:36.930+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2024-03-31T22:19:36.930+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2024-03-31T22:19:36.930+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2024-03-31T22:19:36.961+0000] {taskinstance.py:1300} INFO - Executing <Task(BashOperator): one_task> on 2024-03-31 22:19:33.179973+00:00
+[2024-03-31T22:19:36.964+0000] {standard_task_runner.py:55} INFO - Started process 24581 to run task
+[2024-03-31T22:19:36.966+0000] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'one_task_dag', 'one_task', 'manual__2024-03-31T22:19:33.179973+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/one_task_dag.py', '--cfg-path', '/tmp/tmpjg39sako']
+[2024-03-31T22:19:36.967+0000] {standard_task_runner.py:83} INFO - Job 5: Subtask one_task
+[2024-03-31T22:19:37.016+0000] {task_command.py:388} INFO - Running <TaskInstance: one_task_dag.one_task manual__2024-03-31T22:19:33.179973+00:00 [running]> on host codespaces-cbabfc
+[2024-03-31T22:19:37.091+0000] {taskinstance.py:1507} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Abhi
+AIRFLOW_CTX_DAG_ID=one_task_dag
+AIRFLOW_CTX_TASK_ID=one_task
+AIRFLOW_CTX_EXECUTION_DATE=2024-03-31T22:19:33.179973+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-03-31T22:19:33.179973+00:00
+[2024-03-31T22:19:37.092+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2024-03-31T22:19:37.092+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'echo "hello, linkd learning!" > /workspaces/hands-on-introduction-data-engineering-4395021/lab/temp/createthisfile.txt']
+[2024-03-31T22:19:37.099+0000] {subprocess.py:86} INFO - Output:
+[2024-03-31T22:19:37.101+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-03-31T22:19:37.133+0000] {taskinstance.py:1318} INFO - Marking task as SUCCESS. dag_id=one_task_dag, task_id=one_task, execution_date=20240331T221933, start_date=20240331T221936, end_date=20240331T221937
+[2024-03-31T22:19:37.178+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2024-03-31T22:19:37.187+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check
