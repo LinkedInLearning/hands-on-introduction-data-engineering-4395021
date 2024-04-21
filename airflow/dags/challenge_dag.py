@@ -13,7 +13,7 @@ with DAG(
 
     extract_task = BashOperator(
         task_id='extract_task',
-        bash_command='wget -c https://datahub.io/core/s-and-p-500-companies/r/constituents.csv -O /workspaces/hands-on-introduction-data-engineering-4395021/lab/challenge/challenge-extract-data.csv'
+        bash_command='wget -c https://raw.githubusercontent.com/vinooganesh/hands-on-introduction-data-engineering-4395021-data-files/main/constituents.csv -O /workspaces/hands-on-introduction-data-engineering-4395021/lab/challenge/challenge-extract-data.csv'
         )
 
     def transform_data():
