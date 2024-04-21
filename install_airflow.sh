@@ -37,7 +37,7 @@ echo "Changing value of ${BRed}worker_refresh_batch_size${NC} in airflow.cfg  to
 sed -i -e '/worker_refresh_batch_size =/ s/= .*/= 0/' ${AIRFLOW_HOME}/airflow.cfg
 echo "Changing value of ${BRed}worker_refresh_interval${NC} in airflow.cfg  to ${BPurple}0${NC}"
 sed -i -e '/worker_refresh_interval =/ s/= .*/= 0/' ${AIRFLOW_HOME}/airflow.cfg
-echo "Changing value of ${BRed}workers{NC} in airflow.cfg to ${BPurple}2${NC}"
+echo "Changing value of ${BRed}workers${NC} in airflow.cfg to ${BPurple}2${NC}"
 sed -i -e '/workers =/ s/= .*/= 2/' ${AIRFLOW_HOME}/airflow.cfg
 echo "Changing value of ${BRed}expose_config${NC} in airflow.cfg to ${BPurple}True${NC}"
 sed -i -e '/expose_config =/ s/= .*/= True/' ${AIRFLOW_HOME}/airflow.cfg
