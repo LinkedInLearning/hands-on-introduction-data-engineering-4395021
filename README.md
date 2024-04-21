@@ -30,7 +30,7 @@ To resolve this issue:
 
 ### Instructor
 
-Vinoo Ganesh 
+[Vinoo Ganesh](www.vinoo.io)
                             
 
 
