@@ -30,11 +30,9 @@ To resolve this issue:
 
 ### Instructor
 
-[Vinoo Ganesh](www.vinoo.io)
+[Vinoo Ganesh](https://www.vinoo.io)
                             
 
-
-                            
 
 Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/vinoo-ganesh).
 
