@@ -1,0 +1,9 @@
+[2024-04-23 22:23:05 +0000] [28518] [INFO] Starting gunicorn 20.1.0
+[2024-04-23 22:23:05 +0000] [28518] [INFO] Listening at: http://[::]:8793 (28518)
+[2024-04-23 22:23:05 +0000] [28518] [INFO] Using worker: sync
+[2024-04-23 22:23:05 +0000] [28523] [INFO] Booting worker with pid: 28523
+[2024-04-23 22:23:05 +0000] [28525] [INFO] Booting worker with pid: 28525
+[2024-04-23 23:00:26 +0000] [28518] [INFO] Handling signal: term
+[2024-04-23 23:00:26 +0000] [28523] [INFO] Worker exiting (pid: 28523)
+[2024-04-23 23:00:26 +0000] [28525] [INFO] Worker exiting (pid: 28525)
+[2024-04-23 23:00:26 +0000] [28518] [INFO] Shutting down: Master

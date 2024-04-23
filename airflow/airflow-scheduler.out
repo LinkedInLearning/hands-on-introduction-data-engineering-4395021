@@ -1,0 +1,67 @@
+[[34m2024-04-23T22:23:05.425+0000[0m] {[34mscheduler_job_runner.py:[0m788} INFO[0m - Starting the scheduler[0m
+[[34m2024-04-23T22:23:05.426+0000[0m] {[34mscheduler_job_runner.py:[0m795} INFO[0m - Processing each file at most -1 times[0m
+[[34m2024-04-23T22:23:05.430+0000[0m] {[34mmanager.py:[0m165} INFO[0m - Launched DagFileProcessorManager with pid: 28524[0m
+[[34m2024-04-23T22:23:05.431+0000[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2024-04-23T22:23:05.434+0000[0m] {[34msettings.py:[0m60} INFO[0m - Configured default timezone Timezone('UTC')[0m
+[2024-04-23T22:23:05.453+0000] {manager.py:411} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
+[[34m2024-04-23T22:28:05.690+0000[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2024-04-23T22:33:05.926+0000[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2024-04-23T22:38:06.161+0000[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2024-04-23T22:43:06.319+0000[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2024-04-23T22:48:06.455+0000[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2024-04-23T22:53:06.615+0000[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2024-04-23T22:54:25.527+0000[0m] {[34mdagrun.py:[0m630} INFO[0m - Marking run <DagRun load_dag @ 2024-04-23 22:54:24.000820+00:00: manual__2024-04-23T22:54:24.000820+00:00, state:running, queued_at: 2024-04-23 22:54:24.049442+00:00. externally triggered: True> successful[0m
+[[34m2024-04-23T22:54:25.527+0000[0m] {[34mdagrun.py:[0m681} INFO[0m - DagRun Finished: dag_id=load_dag, execution_date=2024-04-23 22:54:24.000820+00:00, run_id=manual__2024-04-23T22:54:24.000820+00:00, run_start_date=2024-04-23 22:54:25.488967+00:00, run_end_date=2024-04-23 22:54:25.527670+00:00, run_duration=0.038703, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-04-23 22:54:24.000820+00:00, data_interval_end=2024-04-23 22:54:24.000820+00:00, dag_hash=b850356117939d767e1beeab3742427a[0m
+[[34m2024-04-23T22:54:50.214+0000[0m] {[34mdagrun.py:[0m630} INFO[0m - Marking run <DagRun load_dag @ 2024-04-23 22:54:49.429749+00:00: manual__2024-04-23T22:54:49.429749+00:00, state:running, queued_at: 2024-04-23 22:54:49.435540+00:00. externally triggered: True> successful[0m
+[[34m2024-04-23T22:54:50.214+0000[0m] {[34mdagrun.py:[0m681} INFO[0m - DagRun Finished: dag_id=load_dag, execution_date=2024-04-23 22:54:49.429749+00:00, run_id=manual__2024-04-23T22:54:49.429749+00:00, run_start_date=2024-04-23 22:54:50.183271+00:00, run_end_date=2024-04-23 22:54:50.214802+00:00, run_duration=0.031531, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-04-23 22:54:49.429749+00:00, data_interval_end=2024-04-23 22:54:49.429749+00:00, dag_hash=b850356117939d767e1beeab3742427a[0m
+[[34m2024-04-23T22:56:40.303+0000[0m] {[34mscheduler_job_runner.py:[0m411} INFO[0m - 1 tasks up for execution:
+	<TaskInstance: load_dag.load_task manual__2024-04-23T22:56:39.604477+00:00 [scheduled]>[0m
+[[34m2024-04-23T22:56:40.303+0000[0m] {[34mscheduler_job_runner.py:[0m476} INFO[0m - DAG load_dag has 0/16 running and queued tasks[0m
+[[34m2024-04-23T22:56:40.303+0000[0m] {[34mscheduler_job_runner.py:[0m587} INFO[0m - Setting the following tasks to queued state:
+	<TaskInstance: load_dag.load_task manual__2024-04-23T22:56:39.604477+00:00 [scheduled]>[0m
+[[34m2024-04-23T22:56:40.305+0000[0m] {[34mscheduler_job_runner.py:[0m625} INFO[0m - Sending TaskInstanceKey(dag_id='load_dag', task_id='load_task', run_id='manual__2024-04-23T22:56:39.604477+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default[0m
+[[34m2024-04-23T22:56:40.305+0000[0m] {[34mbase_executor.py:[0m147} INFO[0m - Adding to queue: ['airflow', 'tasks', 'run', 'load_dag', 'load_task', 'manual__2024-04-23T22:56:39.604477+00:00', '--local', '--subdir', 'DAGS_FOLDER/load_dag.py'][0m
+[[34m2024-04-23T22:56:40.331+0000[0m] {[34msequential_executor.py:[0m74} INFO[0m - Executing command: ['airflow', 'tasks', 'run', 'load_dag', 'load_task', 'manual__2024-04-23T22:56:39.604477+00:00', '--local', '--subdir', 'DAGS_FOLDER/load_dag.py'][0m
+[[34m2024-04-23T22:56:41.145+0000[0m] {[34mdagbag.py:[0m541} INFO[0m - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py[0m
+[[34m2024-04-23T22:56:41.822+0000[0m] {[34mexample_local_kubernetes_executor.py:[0m39} WARNING[0m - Could not import DAGs in example_local_kubernetes_executor.py[0m
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[[34m2024-04-23T22:56:41.823+0000[0m] {[34mexample_local_kubernetes_executor.py:[0m40} WARNING[0m - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes][0m
+[[34m2024-04-23T22:56:41.852+0000[0m] {[34mexample_kubernetes_executor.py:[0m41} WARNING[0m - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes][0m
+[[34m2024-04-23T22:56:42.196+0000[0m] {[34mtask_command.py:[0m410} INFO[0m - Running <TaskInstance: load_dag.load_task manual__2024-04-23T22:56:39.604477+00:00 [queued]> on host codespaces-225cfe[0m
+[[34m2024-04-23T22:56:42.991+0000[0m] {[34mscheduler_job_runner.py:[0m677} INFO[0m - Received executor event with state success for task instance TaskInstanceKey(dag_id='load_dag', task_id='load_task', run_id='manual__2024-04-23T22:56:39.604477+00:00', try_number=1, map_index=-1)[0m
+[[34m2024-04-23T22:56:42.997+0000[0m] {[34mscheduler_job_runner.py:[0m713} INFO[0m - TaskInstance Finished: dag_id=load_dag, task_id=load_task, run_id=manual__2024-04-23T22:56:39.604477+00:00, map_index=-1, run_start_date=2024-04-23 22:56:42.264486+00:00, run_end_date=2024-04-23 22:56:42.532845+00:00, run_duration=0.268359, state=success, executor_state=success, try_number=1, max_tries=0, job_id=2, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2024-04-23 22:56:40.304016+00:00, queued_by_job_id=1, pid=44199[0m
+[[34m2024-04-23T22:56:43.216+0000[0m] {[34mdagrun.py:[0m630} INFO[0m - Marking run <DagRun load_dag @ 2024-04-23 22:56:39.604477+00:00: manual__2024-04-23T22:56:39.604477+00:00, state:running, queued_at: 2024-04-23 22:56:39.608998+00:00. externally triggered: True> successful[0m
+[[34m2024-04-23T22:56:43.216+0000[0m] {[34mdagrun.py:[0m681} INFO[0m - DagRun Finished: dag_id=load_dag, execution_date=2024-04-23 22:56:39.604477+00:00, run_id=manual__2024-04-23T22:56:39.604477+00:00, run_start_date=2024-04-23 22:56:40.238812+00:00, run_end_date=2024-04-23 22:56:43.216404+00:00, run_duration=2.977592, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-04-23 22:56:39.604477+00:00, data_interval_end=2024-04-23 22:56:39.604477+00:00, dag_hash=e1793756bf31ab374f21362b095adb4f[0m
+[[34m2024-04-23T22:56:43.261+0000[0m] {[34mscheduler_job_runner.py:[0m411} INFO[0m - 1 tasks up for execution:
+	<TaskInstance: load_dag.load_task manual__2024-04-23T22:56:40.603036+00:00 [scheduled]>[0m
+[[34m2024-04-23T22:56:43.262+0000[0m] {[34mscheduler_job_runner.py:[0m476} INFO[0m - DAG load_dag has 0/16 running and queued tasks[0m
+[[34m2024-04-23T22:56:43.262+0000[0m] {[34mscheduler_job_runner.py:[0m587} INFO[0m - Setting the following tasks to queued state:
+	<TaskInstance: load_dag.load_task manual__2024-04-23T22:56:40.603036+00:00 [scheduled]>[0m
+[[34m2024-04-23T22:56:43.263+0000[0m] {[34mscheduler_job_runner.py:[0m625} INFO[0m - Sending TaskInstanceKey(dag_id='load_dag', task_id='load_task', run_id='manual__2024-04-23T22:56:40.603036+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default[0m
+[[34m2024-04-23T22:56:43.264+0000[0m] {[34mbase_executor.py:[0m147} INFO[0m - Adding to queue: ['airflow', 'tasks', 'run', 'load_dag', 'load_task', 'manual__2024-04-23T22:56:40.603036+00:00', '--local', '--subdir', 'DAGS_FOLDER/load_dag.py'][0m
+[[34m2024-04-23T22:56:43.290+0000[0m] {[34msequential_executor.py:[0m74} INFO[0m - Executing command: ['airflow', 'tasks', 'run', 'load_dag', 'load_task', 'manual__2024-04-23T22:56:40.603036+00:00', '--local', '--subdir', 'DAGS_FOLDER/load_dag.py'][0m
+[[34m2024-04-23T22:56:44.080+0000[0m] {[34mdagbag.py:[0m541} INFO[0m - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py[0m
+[[34m2024-04-23T22:56:44.720+0000[0m] {[34mexample_local_kubernetes_executor.py:[0m39} WARNING[0m - Could not import DAGs in example_local_kubernetes_executor.py[0m
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[[34m2024-04-23T22:56:44.720+0000[0m] {[34mexample_local_kubernetes_executor.py:[0m40} WARNING[0m - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes][0m
+[[34m2024-04-23T22:56:44.746+0000[0m] {[34mexample_kubernetes_executor.py:[0m41} WARNING[0m - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes][0m
+[[34m2024-04-23T22:56:45.079+0000[0m] {[34mtask_command.py:[0m410} INFO[0m - Running <TaskInstance: load_dag.load_task manual__2024-04-23T22:56:40.603036+00:00 [queued]> on host codespaces-225cfe[0m
+[[34m2024-04-23T22:56:45.846+0000[0m] {[34mscheduler_job_runner.py:[0m677} INFO[0m - Received executor event with state success for task instance TaskInstanceKey(dag_id='load_dag', task_id='load_task', run_id='manual__2024-04-23T22:56:40.603036+00:00', try_number=1, map_index=-1)[0m
+[[34m2024-04-23T22:56:45.849+0000[0m] {[34mscheduler_job_runner.py:[0m713} INFO[0m - TaskInstance Finished: dag_id=load_dag, task_id=load_task, run_id=manual__2024-04-23T22:56:40.603036+00:00, map_index=-1, run_start_date=2024-04-23 22:56:45.154803+00:00, run_end_date=2024-04-23 22:56:45.424789+00:00, run_duration=0.269986, state=success, executor_state=success, try_number=1, max_tries=0, job_id=3, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2024-04-23 22:56:43.262895+00:00, queued_by_job_id=1, pid=44238[0m
+[[34m2024-04-23T22:56:46.003+0000[0m] {[34mdagrun.py:[0m630} INFO[0m - Marking run <DagRun load_dag @ 2024-04-23 22:56:40.603036+00:00: manual__2024-04-23T22:56:40.603036+00:00, state:running, queued_at: 2024-04-23 22:56:40.607954+00:00. externally triggered: True> successful[0m
+[[34m2024-04-23T22:56:46.004+0000[0m] {[34mdagrun.py:[0m681} INFO[0m - DagRun Finished: dag_id=load_dag, execution_date=2024-04-23 22:56:40.603036+00:00, run_id=manual__2024-04-23T22:56:40.603036+00:00, run_start_date=2024-04-23 22:56:43.181808+00:00, run_end_date=2024-04-23 22:56:46.004318+00:00, run_duration=2.82251, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-04-23 22:56:40.603036+00:00, data_interval_end=2024-04-23 22:56:40.603036+00:00, dag_hash=e1793756bf31ab374f21362b095adb4f[0m
+[[34m2024-04-23T22:58:06.773+0000[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2024-04-23T23:00:24.854+0000[0m] {[34mscheduler_job_runner.py:[0m247} INFO[0m - Exiting gracefully upon receiving signal 15[0m
+[[34m2024-04-23T23:00:25.857+0000[0m] {[34mprocess_utils.py:[0m131} INFO[0m - Sending Signals.SIGTERM to group 28524. PIDs of all processes in the group: [28524][0m
+[[34m2024-04-23T23:00:25.858+0000[0m] {[34mprocess_utils.py:[0m86} INFO[0m - Sending the signal Signals.SIGTERM to group 28524[0m
+[[34m2024-04-23T23:00:26.111+0000[0m] {[34mprocess_utils.py:[0m79} INFO[0m - Process psutil.Process(pid=28524, status='terminated', exitcode=0, started='22:23:04') (28524) terminated with exit code 0[0m
+[[34m2024-04-23T23:00:26.114+0000[0m] {[34mprocess_utils.py:[0m131} INFO[0m - Sending Signals.SIGTERM to group 28524. PIDs of all processes in the group: [][0m
+[[34m2024-04-23T23:00:26.114+0000[0m] {[34mprocess_utils.py:[0m86} INFO[0m - Sending the signal Signals.SIGTERM to group 28524[0m
+[[34m2024-04-23T23:00:26.114+0000[0m] {[34mprocess_utils.py:[0m100} INFO[0m - Sending the signal Signals.SIGTERM to process 28524 as process group is missing.[0m
+[[34m2024-04-23T23:00:26.115+0000[0m] {[34mscheduler_job_runner.py:[0m864} INFO[0m - Exited execute loop[0m

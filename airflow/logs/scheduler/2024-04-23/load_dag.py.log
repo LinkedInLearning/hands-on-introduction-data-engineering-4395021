@@ -1,0 +1,938 @@
+[2024-04-23T22:29:24.338+0000] {processor.py:157} INFO - Started process (PID=31869) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:29:24.338+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:29:24.339+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:29:24.339+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:29:24.341+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:29:24.347+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.011 seconds
+[2024-04-23T22:29:30.242+0000] {processor.py:157} INFO - Started process (PID=31922) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:29:30.242+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:29:30.243+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:29:30.242+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:29:30.244+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:29:30.251+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.012 seconds
+[2024-04-23T22:29:45.727+0000] {processor.py:157} INFO - Started process (PID=32025) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:29:45.728+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:29:45.728+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:29:45.728+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:29:45.731+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:29:45.730+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py", line 3
+    from airflow.operators
+                          ^
+SyntaxError: invalid syntax
+[2024-04-23T22:29:45.731+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:29:45.765+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.040 seconds
+[2024-04-23T22:30:03.870+0000] {processor.py:157} INFO - Started process (PID=32167) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:30:03.870+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:30:03.871+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:30:03.871+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:30:03.873+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:30:03.872+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py", line 6
+    with
+        ^
+SyntaxError: invalid syntax
+[2024-04-23T22:30:03.873+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:30:03.908+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.040 seconds
+[2024-04-23T22:30:21.750+0000] {processor.py:157} INFO - Started process (PID=32317) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:30:21.751+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:30:21.752+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:30:21.751+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:30:21.754+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:30:21.753+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py", line 6
+    with 
+         ^
+SyntaxError: invalid syntax
+[2024-04-23T22:30:21.754+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:30:21.790+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.042 seconds
+[2024-04-23T22:30:38.889+0000] {processor.py:157} INFO - Started process (PID=32451) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:30:38.889+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:30:38.890+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:30:38.890+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:30:38.892+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:30:38.891+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py", line 8
+    )
+     ^
+SyntaxError: expected ':'
+[2024-04-23T22:30:38.892+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:30:38.925+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.039 seconds
+[2024-04-23T22:30:56.038+0000] {processor.py:157} INFO - Started process (PID=32568) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:30:56.039+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:30:56.040+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:30:56.039+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:30:56.042+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:30:56.042+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py", line 8
+    )
+     ^
+SyntaxError: expected ':'
+[2024-04-23T22:30:56.043+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:30:56.093+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.057 seconds
+[2024-04-23T22:31:14.868+0000] {processor.py:157} INFO - Started process (PID=32707) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:31:14.869+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:31:14.870+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:31:14.869+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:31:14.872+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:31:14.871+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py", line 9
+    )
+     ^
+SyntaxError: expected ':'
+[2024-04-23T22:31:14.872+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:31:14.908+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.041 seconds
+[2024-04-23T22:31:33.786+0000] {processor.py:157} INFO - Started process (PID=32850) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:31:33.786+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:31:33.787+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:31:33.787+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:31:33.789+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:31:33.788+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py", line 9
+    )
+     ^
+SyntaxError: expected ':'
+[2024-04-23T22:31:33.789+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:31:33.825+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.041 seconds
+[2024-04-23T22:31:51.132+0000] {processor.py:157} INFO - Started process (PID=32988) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:31:51.133+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:31:51.134+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:31:51.133+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:31:51.136+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:31:51.135+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py", line 10
+    )
+    ^
+SyntaxError: positional argument follows keyword argument
+[2024-04-23T22:31:51.136+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:31:51.177+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.047 seconds
+[2024-04-23T22:32:08.687+0000] {processor.py:157} INFO - Started process (PID=33102) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:32:08.688+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:32:08.689+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:32:08.688+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:32:08.691+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:32:08.690+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py", line 11
+    )
+     ^
+SyntaxError: expected ':'
+[2024-04-23T22:32:08.691+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:32:08.730+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.044 seconds
+[2024-04-23T22:32:25.891+0000] {processor.py:157} INFO - Started process (PID=33237) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:32:25.892+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:32:25.893+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:32:25.893+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:32:25.896+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:32:25.895+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py", line 11
+    ) as dags
+             ^
+SyntaxError: expected ':'
+[2024-04-23T22:32:25.897+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:32:25.934+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.046 seconds
+[2024-04-23T22:32:43.477+0000] {processor.py:157} INFO - Started process (PID=33376) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:32:43.478+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:32:43.479+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:32:43.478+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:32:43.481+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:32:43.480+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py", line 13
+    
+    ^
+IndentationError: expected an indented block after 'with' statement on line 6
+[2024-04-23T22:32:43.481+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:32:43.517+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.041 seconds
+[2024-04-23T22:32:59.793+0000] {processor.py:157} INFO - Started process (PID=33490) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:32:59.793+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:32:59.794+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:32:59.794+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:32:59.799+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:32:59.798+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py", line 13, in <module>
+    load_task = bas
+NameError: name 'bas' is not defined
+[2024-04-23T22:32:59.800+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:32:59.834+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.043 seconds
+[2024-04-23T22:33:15.037+0000] {processor.py:157} INFO - Started process (PID=33625) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:33:15.038+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:33:15.038+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:33:15.038+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:33:15.044+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:33:15.042+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py", line 14, in <module>
+    task_
+NameError: name 'task_' is not defined
+[2024-04-23T22:33:15.046+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:33:15.081+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.046 seconds
+[2024-04-23T22:33:32.605+0000] {processor.py:157} INFO - Started process (PID=33760) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:33:32.606+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:33:32.607+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:33:32.606+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:33:32.610+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:33:32.609+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py", line 14
+    task_id ='load_task'
+             
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-04-23T22:33:32.610+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:33:32.646+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.045 seconds
+[2024-04-23T22:33:49.904+0000] {processor.py:157} INFO - Started process (PID=33880) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:33:49.905+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:33:49.905+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:33:49.905+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:33:49.908+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:33:49.907+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py", line 14
+    task_id ='load_task'
+             ^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-04-23T22:33:49.908+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:33:49.944+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.043 seconds
+[2024-04-23T22:34:27.518+0000] {processor.py:157} INFO - Started process (PID=34168) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:34:27.519+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:34:27.520+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:34:27.519+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:34:27.522+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:34:27.521+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py", line 14
+    task_id ='load_task'
+             ^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-04-23T22:34:27.522+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:34:27.561+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.045 seconds
+[2024-04-23T22:35:02.178+0000] {processor.py:157} INFO - Started process (PID=34492) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:35:02.178+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:35:02.179+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:35:02.179+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:35:02.181+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:35:02.181+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py", line 14
+    task_id ='load_task'
+             ^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-04-23T22:35:02.182+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:35:02.219+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.043 seconds
+[2024-04-23T22:35:35.562+0000] {processor.py:157} INFO - Started process (PID=34790) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:35:35.563+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:35:35.563+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:35:35.563+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:35:35.565+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:35:35.565+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py", line 14
+    task_id ='load_task'
+             ^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-04-23T22:35:35.566+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:35:35.601+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.041 seconds
+[2024-04-23T22:35:51.050+0000] {processor.py:157} INFO - Started process (PID=34895) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:35:51.050+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:35:51.051+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:35:51.051+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:35:51.053+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:35:51.053+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py", line 14
+    task_id ='load_task'
+             ^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-04-23T22:35:51.054+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:35:51.089+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.042 seconds
+[2024-04-23T22:36:07.662+0000] {processor.py:157} INFO - Started process (PID=35026) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:36:07.663+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:36:07.664+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:36:07.663+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:36:07.666+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:36:07.666+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py", line 14
+    task_id ='load_task'
+             ^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-04-23T22:36:07.667+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:36:07.704+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.044 seconds
+[2024-04-23T22:36:24.776+0000] {processor.py:157} INFO - Started process (PID=35177) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:36:24.777+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:36:24.777+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:36:24.777+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:36:24.780+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:36:24.779+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py", line 14
+    task_id ='load_task'
+             ^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-04-23T22:36:24.780+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:36:24.818+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.044 seconds
+[2024-04-23T22:36:42.673+0000] {processor.py:157} INFO - Started process (PID=35293) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:36:42.674+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:36:42.674+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:36:42.674+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:36:42.676+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:36:42.676+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py", line 14
+    task_id ='load_task'
+             ^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-04-23T22:36:42.677+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:36:42.735+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.064 seconds
+[2024-04-23T22:37:01.250+0000] {processor.py:157} INFO - Started process (PID=35440) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:37:01.250+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:37:01.251+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:37:01.251+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:37:01.254+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:37:01.253+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py", line 14
+    task_id ='load_task'
+             ^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-04-23T22:37:01.254+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:37:01.291+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.043 seconds
+[2024-04-23T22:37:19.749+0000] {processor.py:157} INFO - Started process (PID=35582) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:37:19.750+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:37:19.751+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:37:19.750+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:37:19.753+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:37:19.752+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py", line 14
+    task_id ='load_task'
+             ^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-04-23T22:37:19.753+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:37:19.787+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.040 seconds
+[2024-04-23T22:37:53.709+0000] {processor.py:157} INFO - Started process (PID=35830) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:37:53.710+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:37:53.711+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:37:53.711+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:37:53.714+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:37:53.713+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py", line 15
+    bash_command='echo -e ".seperator ","\n. import --skip 1 /workspaces/hands-on-introduction-data-engineering-4395021/
+                 ^
+SyntaxError: unterminated string literal (detected at line 15)
+[2024-04-23T22:37:53.714+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:37:53.752+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.046 seconds
+[2024-04-23T22:38:09.287+0000] {processor.py:157} INFO - Started process (PID=35952) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:38:09.287+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:38:09.288+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:38:09.288+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:38:09.290+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:38:09.290+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py", line 15
+    bash_command='echo -e ".seperator ","\n. import --skip 1 /workspaces/hands-on-introduction-data-engineering-4395021/
+                 ^
+SyntaxError: unterminated string literal (detected at line 15)
+[2024-04-23T22:38:09.291+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:38:09.326+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.041 seconds
+[2024-04-23T22:38:43.166+0000] {processor.py:157} INFO - Started process (PID=36202) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:38:43.167+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:38:43.167+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:38:43.167+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:38:43.170+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:38:43.169+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py", line 15
+    bash_command='echo -e ".seperator ","\n. import --skip 1 /workspaces/hands-on-introduction-data-engineering-4395021/
+                 ^
+SyntaxError: unterminated string literal (detected at line 15)
+[2024-04-23T22:38:43.170+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:38:43.209+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.046 seconds
+[2024-04-23T22:39:00.114+0000] {processor.py:157} INFO - Started process (PID=36336) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:39:00.114+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:39:00.115+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:39:00.115+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:39:00.117+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:39:00.116+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py", line 15
+    bash_command='echo -e ".seperator ","\n. import --skip 1 /workspaces/hands-on-introduction-data-engineering-4395021/
+                 ^
+SyntaxError: unterminated string literal (detected at line 15)
+[2024-04-23T22:39:00.117+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:39:00.155+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.044 seconds
+[2024-04-23T22:39:17.202+0000] {processor.py:157} INFO - Started process (PID=36488) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:39:17.203+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:39:17.203+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:39:17.203+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:39:17.206+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:39:17.205+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py", line 14
+    task_id ='load_task'
+             ^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-04-23T22:39:17.206+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:39:17.246+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.046 seconds
+[2024-04-23T22:39:33.595+0000] {processor.py:157} INFO - Started process (PID=36601) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:39:33.595+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:39:33.596+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:39:33.596+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:39:33.598+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:39:33.598+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py", line 14
+    task_id ='load_task'
+             ^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-04-23T22:39:33.599+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:39:33.638+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.046 seconds
+[2024-04-23T22:39:50.199+0000] {processor.py:157} INFO - Started process (PID=36731) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:39:50.200+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:39:50.201+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:39:50.200+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:39:50.203+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:39:50.202+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py", line 14
+    task_id ='load_task'
+             ^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-04-23T22:39:50.203+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:39:50.239+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.042 seconds
+[2024-04-23T22:40:07.545+0000] {processor.py:157} INFO - Started process (PID=36859) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:40:07.546+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:40:07.547+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:40:07.546+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:40:07.549+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:40:07.548+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py", line 14
+    task_id ='load_task'
+             ^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-04-23T22:40:07.549+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:40:07.587+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.045 seconds
+[2024-04-23T22:40:25.288+0000] {processor.py:157} INFO - Started process (PID=36984) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:40:25.289+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:40:25.290+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:40:25.289+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:40:25.293+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:40:25.292+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py", line 14
+    task_id ='load_task'
+             ^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-04-23T22:40:25.293+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:40:25.344+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.059 seconds
+[2024-04-23T22:40:43.178+0000] {processor.py:157} INFO - Started process (PID=37122) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:40:43.178+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:40:43.179+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:40:43.179+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:40:43.181+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:40:43.181+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py", line 14
+    task_id ='load_task'
+             ^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-04-23T22:40:43.181+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:40:43.218+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.042 seconds
+[2024-04-23T22:41:02.194+0000] {processor.py:157} INFO - Started process (PID=37263) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:41:02.195+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:41:02.196+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:41:02.195+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:41:02.198+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:41:02.197+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py", line 14
+    task_id ='load_task'
+             ^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-04-23T22:41:02.198+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:41:02.236+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.043 seconds
+[2024-04-23T22:41:21.004+0000] {processor.py:157} INFO - Started process (PID=37415) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:41:21.005+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:41:21.006+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:41:21.006+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:41:21.010+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:41:21.009+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py", line 14
+    task_id ='load_task'
+             ^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-04-23T22:41:21.010+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:41:21.068+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.067 seconds
+[2024-04-23T22:41:38.834+0000] {processor.py:157} INFO - Started process (PID=37531) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:41:38.835+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:41:38.836+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:41:38.835+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:41:38.838+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:41:38.838+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py", line 14
+    task_id ='load_task'
+             ^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-04-23T22:41:38.839+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:41:38.877+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.046 seconds
+[2024-04-23T22:41:58.484+0000] {processor.py:157} INFO - Started process (PID=37679) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:41:58.485+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:41:58.486+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:41:58.485+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:41:58.488+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:41:58.487+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py", line 14
+    task_id ='load_task'
+             ^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-04-23T22:41:58.488+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:41:58.522+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.040 seconds
+[2024-04-23T22:42:33.039+0000] {processor.py:157} INFO - Started process (PID=37952) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:42:33.039+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:42:33.040+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:42:33.040+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:42:33.042+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:42:33.042+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py", line 14
+    task_id ='load_task'
+             ^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-04-23T22:42:33.042+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:42:33.077+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.040 seconds
+[2024-04-23T22:43:06.201+0000] {processor.py:157} INFO - Started process (PID=38178) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:43:06.201+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:43:06.202+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:43:06.202+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:43:06.204+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:43:06.204+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py", line 14
+    task_id ='load_task'
+             ^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-04-23T22:43:06.204+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:43:06.239+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.041 seconds
+[2024-04-23T22:43:23.908+0000] {processor.py:157} INFO - Started process (PID=38311) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:43:23.909+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:43:23.910+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:43:23.909+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:43:23.912+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:43:23.911+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py", line 14
+    task_id ='load_task'
+             ^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-04-23T22:43:23.912+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:43:23.948+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.042 seconds
+[2024-04-23T22:43:58.795+0000] {processor.py:157} INFO - Started process (PID=38569) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:43:58.796+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:43:58.796+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:43:58.796+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:43:58.799+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:43:58.798+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py", line 14
+    task_id ='load_task'
+             ^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-04-23T22:43:58.799+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:43:58.836+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.043 seconds
+[2024-04-23T22:44:30.275+0000] {processor.py:157} INFO - Started process (PID=38787) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:44:30.276+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:44:30.276+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:44:30.276+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:44:30.279+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:44:30.278+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py", line 14
+    task_id ='load_task'
+             ^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-04-23T22:44:30.279+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:44:30.318+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.045 seconds
+[2024-04-23T22:45:04.475+0000] {processor.py:157} INFO - Started process (PID=39046) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:45:04.476+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:45:04.476+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:45:04.476+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:45:04.481+0000] {processor.py:836} INFO - DAG(s) dict_keys(['load_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:45:04.604+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:45:04.604+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:load_dag
+[2024-04-23T22:45:04.636+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:45:04.635+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:load_dag
+[2024-04-23T22:45:04.669+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:45:04.669+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:load_dag
+[2024-04-23T22:45:04.678+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:45:04.678+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-04-23T22:45:04.685+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:45:04.685+0000] {dag.py:2763} INFO - Creating ORM DAG for load_dag
+[2024-04-23T22:45:04.692+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:45:04.692+0000] {dag.py:3504} INFO - Setting next_dagrun for load_dag to None, run_after=None
+[2024-04-23T22:45:04.755+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.283 seconds
+[2024-04-23T22:45:36.108+0000] {processor.py:157} INFO - Started process (PID=39299) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:45:36.109+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:45:36.109+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:45:36.109+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:45:36.114+0000] {processor.py:836} INFO - DAG(s) dict_keys(['load_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:45:36.124+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:45:36.124+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-04-23T22:45:36.139+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:45:36.138+0000] {dag.py:3504} INFO - Setting next_dagrun for load_dag to None, run_after=None
+[2024-04-23T22:45:36.177+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.071 seconds
+[2024-04-23T22:46:11.027+0000] {processor.py:157} INFO - Started process (PID=39545) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:46:11.027+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:46:11.028+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:46:11.028+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:46:11.032+0000] {processor.py:836} INFO - DAG(s) dict_keys(['load_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:46:11.042+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:46:11.042+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-04-23T22:46:11.059+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:46:11.059+0000] {dag.py:3504} INFO - Setting next_dagrun for load_dag to None, run_after=None
+[2024-04-23T22:46:11.098+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.073 seconds
+[2024-04-23T22:46:47.314+0000] {processor.py:157} INFO - Started process (PID=39828) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:46:47.314+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:46:47.315+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:46:47.315+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:46:47.317+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:46:47.316+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py", line 14
+    task_id ='load_task'
+             ^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-04-23T22:46:47.317+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:46:47.355+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.043 seconds
+[2024-04-23T22:47:23.352+0000] {processor.py:157} INFO - Started process (PID=40091) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:47:23.353+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:47:23.353+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:47:23.353+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:47:23.359+0000] {processor.py:836} INFO - DAG(s) dict_keys(['load_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:47:23.369+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:47:23.369+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-04-23T22:47:23.383+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:47:23.383+0000] {dag.py:3504} INFO - Setting next_dagrun for load_dag to None, run_after=None
+[2024-04-23T22:47:23.446+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.096 seconds
+[2024-04-23T22:47:59.800+0000] {processor.py:157} INFO - Started process (PID=40370) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:47:59.800+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:47:59.801+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:47:59.801+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:47:59.806+0000] {processor.py:836} INFO - DAG(s) dict_keys(['load_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:47:59.816+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:47:59.816+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-04-23T22:47:59.831+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:47:59.831+0000] {dag.py:3504} INFO - Setting next_dagrun for load_dag to None, run_after=None
+[2024-04-23T22:47:59.868+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.071 seconds
+[2024-04-23T22:48:33.381+0000] {processor.py:157} INFO - Started process (PID=40625) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:48:33.381+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:48:33.382+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:48:33.382+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:48:33.386+0000] {processor.py:836} INFO - DAG(s) dict_keys(['load_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:48:33.396+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:48:33.396+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-04-23T22:48:33.413+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:48:33.413+0000] {dag.py:3504} INFO - Setting next_dagrun for load_dag to None, run_after=None
+[2024-04-23T22:48:33.453+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.075 seconds
+[2024-04-23T22:49:08.541+0000] {processor.py:157} INFO - Started process (PID=40902) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:49:08.542+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:49:08.543+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:49:08.542+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:49:08.547+0000] {processor.py:836} INFO - DAG(s) dict_keys(['load_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:49:08.558+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:49:08.558+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-04-23T22:49:08.572+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:49:08.572+0000] {dag.py:3504} INFO - Setting next_dagrun for load_dag to None, run_after=None
+[2024-04-23T22:49:08.609+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.070 seconds
+[2024-04-23T22:49:24.733+0000] {processor.py:157} INFO - Started process (PID=41015) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:49:24.734+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:49:24.734+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:49:24.734+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:49:24.740+0000] {processor.py:836} INFO - DAG(s) dict_keys(['load_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:49:24.820+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:49:24.820+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-04-23T22:49:24.833+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:49:24.833+0000] {dag.py:3504} INFO - Setting next_dagrun for load_dag to None, run_after=None
+[2024-04-23T22:49:24.870+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.139 seconds
+[2024-04-23T22:49:40.518+0000] {processor.py:157} INFO - Started process (PID=41145) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:49:40.518+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:49:40.519+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:49:40.519+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:49:40.524+0000] {processor.py:836} INFO - DAG(s) dict_keys(['load_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:49:40.530+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:49:40.530+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-04-23T22:49:40.545+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:49:40.545+0000] {dag.py:3504} INFO - Setting next_dagrun for load_dag to None, run_after=None
+[2024-04-23T22:49:40.596+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.081 seconds
+[2024-04-23T22:50:16.490+0000] {processor.py:157} INFO - Started process (PID=41406) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:50:16.490+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:50:16.491+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:50:16.491+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:50:16.495+0000] {processor.py:836} INFO - DAG(s) dict_keys(['load_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:50:16.683+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:50:16.683+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-04-23T22:50:16.696+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:50:16.696+0000] {dag.py:3504} INFO - Setting next_dagrun for load_dag to None, run_after=None
+[2024-04-23T22:50:16.737+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.250 seconds
+[2024-04-23T22:50:51.725+0000] {processor.py:157} INFO - Started process (PID=41671) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:50:51.725+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:50:51.726+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:50:51.726+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:50:51.730+0000] {processor.py:836} INFO - DAG(s) dict_keys(['load_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:50:51.740+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:50:51.740+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-04-23T22:50:51.755+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:50:51.755+0000] {dag.py:3504} INFO - Setting next_dagrun for load_dag to None, run_after=None
+[2024-04-23T22:50:51.794+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.071 seconds
+[2024-04-23T22:51:22.524+0000] {processor.py:157} INFO - Started process (PID=41915) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:51:22.524+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:51:22.525+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:51:22.525+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:51:22.529+0000] {processor.py:836} INFO - DAG(s) dict_keys(['load_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:51:22.539+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:51:22.539+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-04-23T22:51:22.555+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:51:22.554+0000] {dag.py:3504} INFO - Setting next_dagrun for load_dag to None, run_after=None
+[2024-04-23T22:51:22.594+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.072 seconds
+[2024-04-23T22:51:58.904+0000] {processor.py:157} INFO - Started process (PID=42191) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:51:58.905+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:51:58.906+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:51:58.905+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:51:58.910+0000] {processor.py:836} INFO - DAG(s) dict_keys(['load_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:51:58.920+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:51:58.920+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-04-23T22:51:58.936+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:51:58.935+0000] {dag.py:3504} INFO - Setting next_dagrun for load_dag to None, run_after=None
+[2024-04-23T22:51:58.975+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.073 seconds
+[2024-04-23T22:52:32.950+0000] {processor.py:157} INFO - Started process (PID=42445) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:52:32.951+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:52:32.952+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:52:32.951+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:52:32.956+0000] {processor.py:836} INFO - DAG(s) dict_keys(['load_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:52:32.967+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:52:32.967+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-04-23T22:52:32.982+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:52:32.982+0000] {dag.py:3504} INFO - Setting next_dagrun for load_dag to None, run_after=None
+[2024-04-23T22:52:33.019+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.071 seconds
+[2024-04-23T22:53:06.497+0000] {processor.py:157} INFO - Started process (PID=42686) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:53:06.497+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:53:06.498+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:53:06.498+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:53:06.502+0000] {processor.py:836} INFO - DAG(s) dict_keys(['load_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:53:06.512+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:53:06.512+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-04-23T22:53:06.527+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:53:06.527+0000] {dag.py:3504} INFO - Setting next_dagrun for load_dag to None, run_after=None
+[2024-04-23T22:53:06.563+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.069 seconds
+[2024-04-23T22:53:45.116+0000] {processor.py:157} INFO - Started process (PID=42959) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:53:45.117+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:53:45.117+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:53:45.117+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:53:45.122+0000] {processor.py:836} INFO - DAG(s) dict_keys(['load_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:53:45.132+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:53:45.132+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-04-23T22:53:45.234+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:53:45.233+0000] {dag.py:3504} INFO - Setting next_dagrun for load_dag to None, run_after=None
+[2024-04-23T22:53:45.271+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.158 seconds
+[2024-04-23T22:54:28.246+0000] {processor.py:157} INFO - Started process (PID=43246) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:54:28.247+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:54:28.247+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:54:28.247+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:54:28.252+0000] {processor.py:836} INFO - DAG(s) dict_keys(['load_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:54:28.262+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:54:28.262+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-04-23T22:54:28.277+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:54:28.277+0000] {dag.py:3504} INFO - Setting next_dagrun for load_dag to None, run_after=None
+[2024-04-23T22:54:28.320+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.076 seconds
+[2024-04-23T22:55:09.945+0000] {processor.py:157} INFO - Started process (PID=43542) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:55:09.945+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:55:09.946+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:55:09.946+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:55:09.950+0000] {processor.py:836} INFO - DAG(s) dict_keys(['load_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:55:10.091+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:55:10.090+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-04-23T22:55:10.307+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:55:10.307+0000] {dag.py:3504} INFO - Setting next_dagrun for load_dag to None, run_after=None
+[2024-04-23T22:55:10.591+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.648 seconds
+[2024-04-23T22:55:47.283+0000] {processor.py:157} INFO - Started process (PID=43805) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:55:47.283+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:55:47.284+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:55:47.284+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:55:47.288+0000] {processor.py:836} INFO - DAG(s) dict_keys(['load_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:55:47.299+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:55:47.298+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-04-23T22:55:47.313+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:55:47.313+0000] {dag.py:3504} INFO - Setting next_dagrun for load_dag to None, run_after=None
+[2024-04-23T22:55:47.352+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.072 seconds
+[2024-04-23T22:56:27.602+0000] {processor.py:157} INFO - Started process (PID=44099) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:56:27.602+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:56:27.603+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:56:27.603+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:56:27.608+0000] {processor.py:836} INFO - DAG(s) dict_keys(['load_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:56:27.687+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:56:27.687+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-04-23T22:56:27.701+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:56:27.701+0000] {dag.py:3504} INFO - Setting next_dagrun for load_dag to None, run_after=None
+[2024-04-23T22:56:27.738+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.139 seconds
+[2024-04-23T22:57:13.222+0000] {processor.py:157} INFO - Started process (PID=44429) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:57:13.222+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:57:13.223+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:57:13.223+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:57:13.227+0000] {processor.py:836} INFO - DAG(s) dict_keys(['load_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:57:13.237+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:57:13.237+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-04-23T22:57:13.255+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:57:13.254+0000] {dag.py:3504} INFO - Setting next_dagrun for load_dag to None, run_after=None
+[2024-04-23T22:57:13.292+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.073 seconds
+[2024-04-23T22:57:51.912+0000] {processor.py:157} INFO - Started process (PID=44721) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:57:51.912+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:57:51.913+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:57:51.913+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:57:51.917+0000] {processor.py:836} INFO - DAG(s) dict_keys(['load_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:57:51.927+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:57:51.927+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-04-23T22:57:51.947+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:57:51.947+0000] {dag.py:3504} INFO - Setting next_dagrun for load_dag to None, run_after=None
+[2024-04-23T22:57:51.986+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.077 seconds
+[2024-04-23T22:58:26.093+0000] {processor.py:157} INFO - Started process (PID=44988) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:58:26.094+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:58:26.094+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:58:26.094+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:58:26.099+0000] {processor.py:836} INFO - DAG(s) dict_keys(['load_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:58:26.114+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:58:26.114+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-04-23T22:58:26.130+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:58:26.130+0000] {dag.py:3504} INFO - Setting next_dagrun for load_dag to None, run_after=None
+[2024-04-23T22:58:26.167+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.076 seconds
+[2024-04-23T22:58:59.638+0000] {processor.py:157} INFO - Started process (PID=45235) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:58:59.639+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:58:59.639+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:58:59.639+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:58:59.644+0000] {processor.py:836} INFO - DAG(s) dict_keys(['load_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:58:59.654+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:58:59.654+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-04-23T22:58:59.673+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:58:59.673+0000] {dag.py:3504} INFO - Setting next_dagrun for load_dag to None, run_after=None
+[2024-04-23T22:58:59.711+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.075 seconds
+[2024-04-23T22:59:32.440+0000] {processor.py:157} INFO - Started process (PID=45488) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:59:32.441+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T22:59:32.441+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:59:32.441+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:59:32.446+0000] {processor.py:836} INFO - DAG(s) dict_keys(['load_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T22:59:32.456+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:59:32.455+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-04-23T22:59:32.471+0000] {logging_mixin.py:150} INFO - [2024-04-23T22:59:32.471+0000] {dag.py:3504} INFO - Setting next_dagrun for load_dag to None, run_after=None
+[2024-04-23T22:59:32.509+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.071 seconds
+[2024-04-23T23:00:05.437+0000] {processor.py:157} INFO - Started process (PID=45774) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T23:00:05.437+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py for tasks to queue
+[2024-04-23T23:00:05.438+0000] {logging_mixin.py:150} INFO - [2024-04-23T23:00:05.438+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T23:00:05.442+0000] {processor.py:836} INFO - DAG(s) dict_keys(['load_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py
+[2024-04-23T23:00:05.453+0000] {logging_mixin.py:150} INFO - [2024-04-23T23:00:05.453+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-04-23T23:00:05.468+0000] {logging_mixin.py:150} INFO - [2024-04-23T23:00:05.468+0000] {dag.py:3504} INFO - Setting next_dagrun for load_dag to None, run_after=None
+[2024-04-23T23:00:05.507+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/load_dag.py took 0.073 seconds
