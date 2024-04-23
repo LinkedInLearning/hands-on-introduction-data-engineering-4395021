@@ -1,0 +1,30 @@
+[[34m2024-04-23T23:10:36.339+0000[0m] {[34mscheduler_job_runner.py:[0m788} INFO[0m - Starting the scheduler[0m
+[[34m2024-04-23T23:10:36.339+0000[0m] {[34mscheduler_job_runner.py:[0m795} INFO[0m - Processing each file at most -1 times[0m
+[[34m2024-04-23T23:10:36.344+0000[0m] {[34mmanager.py:[0m165} INFO[0m - Launched DagFileProcessorManager with pid: 50478[0m
+[[34m2024-04-23T23:10:36.345+0000[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2024-04-23T23:10:36.348+0000[0m] {[34msettings.py:[0m60} INFO[0m - Configured default timezone Timezone('UTC')[0m
+[2024-04-23T23:10:36.367+0000] {manager.py:411} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
+[[34m2024-04-23T23:15:36.563+0000[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[2024-04-23T23:15:37.045+0000] {manager.py:542} INFO - DAG extract_dag is missing and will be deactivated.
+[2024-04-23T23:15:37.045+0000] {manager.py:542} INFO - DAG extract_d is missing and will be deactivated.
+[2024-04-23T23:15:37.045+0000] {manager.py:542} INFO - DAG extr is missing and will be deactivated.
+[2024-04-23T23:15:37.046+0000] {manager.py:542} INFO - DAG B is missing and will be deactivated.
+[2024-04-23T23:15:37.046+0000] {manager.py:542} INFO - DAG basic_etc is missing and will be deactivated.
+[2024-04-23T23:15:37.048+0000] {manager.py:552} INFO - Deactivated 5 DAGs which are no longer present in file.
+[2024-04-23T23:15:37.081+0000] {manager.py:556} INFO - Deleted DAG basic_etc in serialized_dag table
+[2024-04-23T23:15:37.112+0000] {manager.py:556} INFO - Deleted DAG B in serialized_dag table
+[2024-04-23T23:15:37.143+0000] {manager.py:556} INFO - Deleted DAG extract_dag in serialized_dag table
+[2024-04-23T23:15:37.175+0000] {manager.py:556} INFO - Deleted DAG extract_d in serialized_dag table
+[2024-04-23T23:15:37.207+0000] {manager.py:556} INFO - Deleted DAG extr in serialized_dag table
+[[34m2024-04-23T23:20:36.598+0000[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2024-04-23T23:25:36.625+0000[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2024-04-23T23:26:42.049+0000[0m] {[34mdagrun.py:[0m630} INFO[0m - Marking run <DagRun basic_etl_dag @ 2024-04-23 23:26:41.031241+00:00: manual__2024-04-23T23:26:41.031241+00:00, state:running, queued_at: 2024-04-23 23:26:41.071677+00:00. externally triggered: True> successful[0m
+[[34m2024-04-23T23:26:42.050+0000[0m] {[34mdagrun.py:[0m681} INFO[0m - DagRun Finished: dag_id=basic_etl_dag, execution_date=2024-04-23 23:26:41.031241+00:00, run_id=manual__2024-04-23T23:26:41.031241+00:00, run_start_date=2024-04-23 23:26:42.012833+00:00, run_end_date=2024-04-23 23:26:42.050187+00:00, run_duration=0.037354, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-04-23 23:26:41.031241+00:00, data_interval_end=2024-04-23 23:26:41.031241+00:00, dag_hash=7f932d20f019386a4f597ceb97547b32[0m
+[[34m2024-04-23T23:28:06.068+0000[0m] {[34mdagrun.py:[0m630} INFO[0m - Marking run <DagRun basic_etl_dag @ 2024-04-23 23:28:05.634860+00:00: manual__2024-04-23T23:28:05.634860+00:00, state:running, queued_at: 2024-04-23 23:28:05.640555+00:00. externally triggered: True> successful[0m
+[[34m2024-04-23T23:28:06.068+0000[0m] {[34mdagrun.py:[0m681} INFO[0m - DagRun Finished: dag_id=basic_etl_dag, execution_date=2024-04-23 23:28:05.634860+00:00, run_id=manual__2024-04-23T23:28:05.634860+00:00, run_start_date=2024-04-23 23:28:06.036452+00:00, run_end_date=2024-04-23 23:28:06.068666+00:00, run_duration=0.032214, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-04-23 23:28:05.634860+00:00, data_interval_end=2024-04-23 23:28:05.634860+00:00, dag_hash=7f932d20f019386a4f597ceb97547b32[0m
+[[34m2024-04-23T23:30:36.653+0000[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2024-04-23T23:32:25.207+0000[0m] {[34mdagrun.py:[0m630} INFO[0m - Marking run <DagRun basic_etl_dag @ 2024-04-23 23:32:24.579984+00:00: manual__2024-04-23T23:32:24.579984+00:00, state:running, queued_at: 2024-04-23 23:32:24.585595+00:00. externally triggered: True> successful[0m
+[[34m2024-04-23T23:32:25.207+0000[0m] {[34mdagrun.py:[0m681} INFO[0m - DagRun Finished: dag_id=basic_etl_dag, execution_date=2024-04-23 23:32:24.579984+00:00, run_id=manual__2024-04-23T23:32:24.579984+00:00, run_start_date=2024-04-23 23:32:25.176684+00:00, run_end_date=2024-04-23 23:32:25.207431+00:00, run_duration=0.030747, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-04-23 23:32:24.579984+00:00, data_interval_end=2024-04-23 23:32:24.579984+00:00, dag_hash=0114bd36af12db9e8d9a78032944ac4c[0m
+[[34m2024-04-23T23:35:11.430+0000[0m] {[34mdagrun.py:[0m630} INFO[0m - Marking run <DagRun basic_etl_dag @ 2024-04-23 23:35:10.555654+00:00: manual__2024-04-23T23:35:10.555654+00:00, state:running, queued_at: 2024-04-23 23:35:10.593623+00:00. externally triggered: True> successful[0m
+[[34m2024-04-23T23:35:11.431+0000[0m] {[34mdagrun.py:[0m681} INFO[0m - DagRun Finished: dag_id=basic_etl_dag, execution_date=2024-04-23 23:35:10.555654+00:00, run_id=manual__2024-04-23T23:35:10.555654+00:00, run_start_date=2024-04-23 23:35:11.397137+00:00, run_end_date=2024-04-23 23:35:11.431049+00:00, run_duration=0.033912, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-04-23 23:35:10.555654+00:00, data_interval_end=2024-04-23 23:35:10.555654+00:00, dag_hash=0114bd36af12db9e8d9a78032944ac4c[0m
+[[34m2024-04-23T23:35:36.681+0000[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m

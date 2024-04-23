@@ -1,0 +1,18 @@
+2024-04-23 23:10:36,339 INFO - Starting the scheduler
+2024-04-23 23:10:36,339 INFO - Processing each file at most -1 times
+2024-04-23 23:10:36,344 INFO - Launched DagFileProcessorManager with pid: 50478
+2024-04-23 23:10:36,345 INFO - Resetting orphaned tasks for active dag runs
+2024-04-23 23:10:36,348 INFO - Configured default timezone Timezone('UTC')
+2024-04-23 23:15:36,563 INFO - Resetting orphaned tasks for active dag runs
+2024-04-23 23:20:36,598 INFO - Resetting orphaned tasks for active dag runs
+2024-04-23 23:25:36,625 INFO - Resetting orphaned tasks for active dag runs
+2024-04-23 23:26:42,049 INFO - Marking run <DagRun basic_etl_dag @ 2024-04-23 23:26:41.031241+00:00: manual__2024-04-23T23:26:41.031241+00:00, state:running, queued_at: 2024-04-23 23:26:41.071677+00:00. externally triggered: True> successful
+2024-04-23 23:26:42,050 INFO - DagRun Finished: dag_id=basic_etl_dag, execution_date=2024-04-23 23:26:41.031241+00:00, run_id=manual__2024-04-23T23:26:41.031241+00:00, run_start_date=2024-04-23 23:26:42.012833+00:00, run_end_date=2024-04-23 23:26:42.050187+00:00, run_duration=0.037354, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-04-23 23:26:41.031241+00:00, data_interval_end=2024-04-23 23:26:41.031241+00:00, dag_hash=7f932d20f019386a4f597ceb97547b32
+2024-04-23 23:28:06,068 INFO - Marking run <DagRun basic_etl_dag @ 2024-04-23 23:28:05.634860+00:00: manual__2024-04-23T23:28:05.634860+00:00, state:running, queued_at: 2024-04-23 23:28:05.640555+00:00. externally triggered: True> successful
+2024-04-23 23:28:06,068 INFO - DagRun Finished: dag_id=basic_etl_dag, execution_date=2024-04-23 23:28:05.634860+00:00, run_id=manual__2024-04-23T23:28:05.634860+00:00, run_start_date=2024-04-23 23:28:06.036452+00:00, run_end_date=2024-04-23 23:28:06.068666+00:00, run_duration=0.032214, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-04-23 23:28:05.634860+00:00, data_interval_end=2024-04-23 23:28:05.634860+00:00, dag_hash=7f932d20f019386a4f597ceb97547b32
+2024-04-23 23:30:36,653 INFO - Resetting orphaned tasks for active dag runs
+2024-04-23 23:32:25,207 INFO - Marking run <DagRun basic_etl_dag @ 2024-04-23 23:32:24.579984+00:00: manual__2024-04-23T23:32:24.579984+00:00, state:running, queued_at: 2024-04-23 23:32:24.585595+00:00. externally triggered: True> successful
+2024-04-23 23:32:25,207 INFO - DagRun Finished: dag_id=basic_etl_dag, execution_date=2024-04-23 23:32:24.579984+00:00, run_id=manual__2024-04-23T23:32:24.579984+00:00, run_start_date=2024-04-23 23:32:25.176684+00:00, run_end_date=2024-04-23 23:32:25.207431+00:00, run_duration=0.030747, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-04-23 23:32:24.579984+00:00, data_interval_end=2024-04-23 23:32:24.579984+00:00, dag_hash=0114bd36af12db9e8d9a78032944ac4c
+2024-04-23 23:35:11,430 INFO - Marking run <DagRun basic_etl_dag @ 2024-04-23 23:35:10.555654+00:00: manual__2024-04-23T23:35:10.555654+00:00, state:running, queued_at: 2024-04-23 23:35:10.593623+00:00. externally triggered: True> successful
+2024-04-23 23:35:11,431 INFO - DagRun Finished: dag_id=basic_etl_dag, execution_date=2024-04-23 23:35:10.555654+00:00, run_id=manual__2024-04-23T23:35:10.555654+00:00, run_start_date=2024-04-23 23:35:11.397137+00:00, run_end_date=2024-04-23 23:35:11.431049+00:00, run_duration=0.033912, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-04-23 23:35:10.555654+00:00, data_interval_end=2024-04-23 23:35:10.555654+00:00, dag_hash=0114bd36af12db9e8d9a78032944ac4c
+2024-04-23 23:35:36,681 INFO - Resetting orphaned tasks for active dag runs
