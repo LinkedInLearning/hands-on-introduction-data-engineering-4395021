@@ -744,3 +744,10 @@ NameError: name 'load' is not defined
 [2024-04-23T23:37:44.719+0000] {logging_mixin.py:150} INFO - [2024-04-23T23:37:44.719+0000] {dag.py:2742} INFO - Sync 1 DAGs
 [2024-04-23T23:37:44.736+0000] {logging_mixin.py:150} INFO - [2024-04-23T23:37:44.735+0000] {dag.py:3504} INFO - Setting next_dagrun for basic_etl_dag to None, run_after=None
 [2024-04-23T23:37:44.776+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/basic_etl_dag.py took 0.351 seconds
+[2024-04-23T23:38:14.946+0000] {processor.py:157} INFO - Started process (PID=61621) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/basic_etl_dag.py
+[2024-04-23T23:38:14.947+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/basic_etl_dag.py for tasks to queue
+[2024-04-23T23:38:14.947+0000] {logging_mixin.py:150} INFO - [2024-04-23T23:38:14.947+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/basic_etl_dag.py
+[2024-04-23T23:38:15.233+0000] {processor.py:836} INFO - DAG(s) dict_keys(['basic_etl_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/basic_etl_dag.py
+[2024-04-23T23:38:15.248+0000] {logging_mixin.py:150} INFO - [2024-04-23T23:38:15.248+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-04-23T23:38:15.263+0000] {logging_mixin.py:150} INFO - [2024-04-23T23:38:15.263+0000] {dag.py:3504} INFO - Setting next_dagrun for basic_etl_dag to None, run_after=None
+[2024-04-23T23:38:15.303+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/basic_etl_dag.py took 0.359 seconds
