@@ -16,3 +16,11 @@
 2024-04-23 23:35:11,430 INFO - Marking run <DagRun basic_etl_dag @ 2024-04-23 23:35:10.555654+00:00: manual__2024-04-23T23:35:10.555654+00:00, state:running, queued_at: 2024-04-23 23:35:10.593623+00:00. externally triggered: True> successful
 2024-04-23 23:35:11,431 INFO - DagRun Finished: dag_id=basic_etl_dag, execution_date=2024-04-23 23:35:10.555654+00:00, run_id=manual__2024-04-23T23:35:10.555654+00:00, run_start_date=2024-04-23 23:35:11.397137+00:00, run_end_date=2024-04-23 23:35:11.431049+00:00, run_duration=0.033912, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-04-23 23:35:10.555654+00:00, data_interval_end=2024-04-23 23:35:10.555654+00:00, dag_hash=0114bd36af12db9e8d9a78032944ac4c
 2024-04-23 23:35:36,681 INFO - Resetting orphaned tasks for active dag runs
+2024-04-23 23:38:42,223 INFO - Exiting gracefully upon receiving signal 15
+2024-04-23 23:38:43,226 INFO - Sending Signals.SIGTERM to group 50478. PIDs of all processes in the group: [50478]
+2024-04-23 23:38:43,227 INFO - Sending the signal Signals.SIGTERM to group 50478
+2024-04-23 23:38:43,440 INFO - Process psutil.Process(pid=50478, status='terminated', exitcode=0, started='23:10:35') (50478) terminated with exit code 0
+2024-04-23 23:38:43,442 INFO - Sending Signals.SIGTERM to group 50478. PIDs of all processes in the group: []
+2024-04-23 23:38:43,443 INFO - Sending the signal Signals.SIGTERM to group 50478
+2024-04-23 23:38:43,443 INFO - Sending the signal Signals.SIGTERM to process 50478 as process group is missing.
+2024-04-23 23:38:43,443 INFO - Exited execute loop

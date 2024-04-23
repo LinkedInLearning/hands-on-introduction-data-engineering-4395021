@@ -28,3 +28,11 @@
 [[34m2024-04-23T23:35:11.430+0000[0m] {[34mdagrun.py:[0m630} INFO[0m - Marking run <DagRun basic_etl_dag @ 2024-04-23 23:35:10.555654+00:00: manual__2024-04-23T23:35:10.555654+00:00, state:running, queued_at: 2024-04-23 23:35:10.593623+00:00. externally triggered: True> successful[0m
 [[34m2024-04-23T23:35:11.431+0000[0m] {[34mdagrun.py:[0m681} INFO[0m - DagRun Finished: dag_id=basic_etl_dag, execution_date=2024-04-23 23:35:10.555654+00:00, run_id=manual__2024-04-23T23:35:10.555654+00:00, run_start_date=2024-04-23 23:35:11.397137+00:00, run_end_date=2024-04-23 23:35:11.431049+00:00, run_duration=0.033912, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-04-23 23:35:10.555654+00:00, data_interval_end=2024-04-23 23:35:10.555654+00:00, dag_hash=0114bd36af12db9e8d9a78032944ac4c[0m
 [[34m2024-04-23T23:35:36.681+0000[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2024-04-23T23:38:42.223+0000[0m] {[34mscheduler_job_runner.py:[0m247} INFO[0m - Exiting gracefully upon receiving signal 15[0m
+[[34m2024-04-23T23:38:43.226+0000[0m] {[34mprocess_utils.py:[0m131} INFO[0m - Sending Signals.SIGTERM to group 50478. PIDs of all processes in the group: [50478][0m
+[[34m2024-04-23T23:38:43.227+0000[0m] {[34mprocess_utils.py:[0m86} INFO[0m - Sending the signal Signals.SIGTERM to group 50478[0m
+[[34m2024-04-23T23:38:43.440+0000[0m] {[34mprocess_utils.py:[0m79} INFO[0m - Process psutil.Process(pid=50478, status='terminated', exitcode=0, started='23:10:35') (50478) terminated with exit code 0[0m
+[[34m2024-04-23T23:38:43.442+0000[0m] {[34mprocess_utils.py:[0m131} INFO[0m - Sending Signals.SIGTERM to group 50478. PIDs of all processes in the group: [][0m
+[[34m2024-04-23T23:38:43.443+0000[0m] {[34mprocess_utils.py:[0m86} INFO[0m - Sending the signal Signals.SIGTERM to group 50478[0m
+[[34m2024-04-23T23:38:43.443+0000[0m] {[34mprocess_utils.py:[0m100} INFO[0m - Sending the signal Signals.SIGTERM to process 50478 as process group is missing.[0m
+[[34m2024-04-23T23:38:43.443+0000[0m] {[34mscheduler_job_runner.py:[0m864} INFO[0m - Exited execute loop[0m

@@ -3,3 +3,7 @@
 [2024-04-23 23:10:36 +0000] [50472] [INFO] Using worker: sync
 [2024-04-23 23:10:36 +0000] [50473] [INFO] Booting worker with pid: 50473
 [2024-04-23 23:10:36 +0000] [50479] [INFO] Booting worker with pid: 50479
+[2024-04-23 23:38:43 +0000] [50472] [INFO] Handling signal: term
+[2024-04-23 23:38:43 +0000] [50473] [INFO] Worker exiting (pid: 50473)
+[2024-04-23 23:38:43 +0000] [50479] [INFO] Worker exiting (pid: 50479)
+[2024-04-23 23:38:43 +0000] [50472] [INFO] Shutting down: Master
