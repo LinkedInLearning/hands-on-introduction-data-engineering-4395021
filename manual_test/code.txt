@@ -1,0 +1,12 @@
+extract
+wget -c https://raw.githubusercontent.com/LinkedInLearning/hands-on-introduction-data-engineering-4395021/b82f29e0eaed61a398a1f6f81b547590e3ac78fd/data/constituents.csv -O /workspaces/hands-on-introduction-data-engineering-4395021/manual_test/data.csv
+
+transform
+import pandas as pd
+from datetime import date
+df=pd.read_csv('data.csv')
+df_agg_sp = df['Sector'].value_counts().reset_index()
+df_agg_sp.columns = ['Sector','Count']
+today = date.today()
+df_agg_sp['Date']=today.strftime('%Y-%m-%d')
+df_agg_sp.to_csv('data-transform.csv', index=False)
