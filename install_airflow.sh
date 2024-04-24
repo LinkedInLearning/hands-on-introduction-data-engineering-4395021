@@ -23,7 +23,7 @@ pip install "apache-airflow==${AIRFLOW_VERSION}" --constraint "${CONSTRAINT_URL}
 echo "Running DB Migrate"
 
 # Init the airflow DB
-airflow db migrate
+airflow db init
 
 # Run Airflow Info
 airflow info
