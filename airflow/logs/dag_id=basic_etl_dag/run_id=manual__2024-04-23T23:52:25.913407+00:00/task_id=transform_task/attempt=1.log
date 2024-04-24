@@ -1,0 +1,37 @@
+[2024-04-23T23:52:32.443+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: basic_etl_dag.transform_task manual__2024-04-23T23:52:25.913407+00:00 [queued]>
+[2024-04-23T23:52:32.448+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: basic_etl_dag.transform_task manual__2024-04-23T23:52:25.913407+00:00 [queued]>
+[2024-04-23T23:52:32.448+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-04-23T23:52:32.486+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): transform_task> on 2024-04-23 23:52:25.913407+00:00
+[2024-04-23T23:52:32.490+0000] {standard_task_runner.py:57} INFO - Started process 9685 to run task
+[2024-04-23T23:52:32.492+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'basic_etl_dag', 'transform_task', 'manual__2024-04-23T23:52:25.913407+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/basic_etl_dag.py', '--cfg-path', '/tmp/tmpza6dkxuc']
+[2024-04-23T23:52:32.493+0000] {standard_task_runner.py:85} INFO - Job 6: Subtask transform_task
+[2024-04-23T23:52:32.542+0000] {task_command.py:410} INFO - Running <TaskInstance: basic_etl_dag.transform_task manual__2024-04-23T23:52:25.913407+00:00 [running]> on host codespaces-1d31e6
+[2024-04-23T23:52:32.635+0000] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='basic_etl_dag' AIRFLOW_CTX_TASK_ID='transform_task' AIRFLOW_CTX_EXECUTION_DATE='2024-04-23T23:52:25.913407+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-04-23T23:52:25.913407+00:00'
+[2024-04-23T23:52:32.637+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/basic_etl_dag.py", line 22, in transform_data
+    df = pd.read_csv('/workspaces/hands-on-introduction-data-engineering-4395021/lab/end-to-end/basic-etl-extract-data.csv')
+  File "/home/codespace/.local/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/codespace/.local/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 626, in _read
+    return parser.read(nrows)
+  File "/home/codespace/.local/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1923, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+  File "/home/codespace/.local/lib/python3.10/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 234, in read
+    chunks = self._reader.read_low_memory(nrows)
+  File "parsers.pyx", line 838, in pandas._libs.parsers.TextReader.read_low_memory
+  File "parsers.pyx", line 905, in pandas._libs.parsers.TextReader._read_rows
+  File "parsers.pyx", line 874, in pandas._libs.parsers.TextReader._tokenize_rows
+  File "parsers.pyx", line 891, in pandas._libs.parsers.TextReader._check_tokenize_status
+  File "parsers.pyx", line 2061, in pandas._libs.parsers.raise_parser_error
+pandas.errors.ParserError: Error tokenizing data. C error: Expected 5 fields in line 8, saw 976
+
+[2024-04-23T23:52:32.640+0000] {taskinstance.py:1345} INFO - Marking task as FAILED. dag_id=basic_etl_dag, task_id=transform_task, execution_date=20240423T235225, start_date=20240423T235232, end_date=20240423T235232
+[2024-04-23T23:52:32.673+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 6 for task transform_task (Error tokenizing data. C error: Expected 5 fields in line 8, saw 976
+; 9685)
+[2024-04-23T23:52:32.704+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2024-04-23T23:52:32.717+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

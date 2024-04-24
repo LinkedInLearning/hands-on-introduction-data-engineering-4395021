@@ -1,9 +1,9 @@
-[2024-04-23 23:10:36 +0000] [50472] [INFO] Starting gunicorn 20.1.0
-[2024-04-23 23:10:36 +0000] [50472] [INFO] Listening at: http://[::]:8793 (50472)
-[2024-04-23 23:10:36 +0000] [50472] [INFO] Using worker: sync
-[2024-04-23 23:10:36 +0000] [50473] [INFO] Booting worker with pid: 50473
-[2024-04-23 23:10:36 +0000] [50479] [INFO] Booting worker with pid: 50479
-[2024-04-23 23:38:43 +0000] [50472] [INFO] Handling signal: term
-[2024-04-23 23:38:43 +0000] [50473] [INFO] Worker exiting (pid: 50473)
-[2024-04-23 23:38:43 +0000] [50479] [INFO] Worker exiting (pid: 50479)
-[2024-04-23 23:38:43 +0000] [50472] [INFO] Shutting down: Master
+[2024-04-23 23:44:06 +0000] [6261] [INFO] Starting gunicorn 20.1.0
+[2024-04-23 23:44:06 +0000] [6261] [INFO] Listening at: http://[::]:8793 (6261)
+[2024-04-23 23:44:06 +0000] [6261] [INFO] Using worker: sync
+[2024-04-23 23:44:06 +0000] [6262] [INFO] Booting worker with pid: 6262
+[2024-04-23 23:44:06 +0000] [6268] [INFO] Booting worker with pid: 6268
+[2024-04-24 00:16:35 +0000] [6261] [INFO] Handling signal: term
+[2024-04-24 00:16:35 +0000] [6262] [INFO] Worker exiting (pid: 6262)
+[2024-04-24 00:16:35 +0000] [6268] [INFO] Worker exiting (pid: 6268)
+[2024-04-24 00:16:35 +0000] [6261] [INFO] Shutting down: Master

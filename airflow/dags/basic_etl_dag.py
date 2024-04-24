@@ -8,12 +8,12 @@ from airflow import DAG
 with DAG(
     dag_id='basic_etl_dag',
     schedule_interval=None,
-    start_date=datetime(2024, 4, 24),
+    start_date=datetime(2023, 1, 1),
     catchup=False) as dag:
 
     extract_task = BashOperator(
         task_id='extract_task',
-        bash_command='wget -c https://datahub.io/core/top-level-domain-names/r/top-level-domain-names.csv.csv -O /workspaces/hands-on-introduction-data-engineering-4395021/lab/end-to-end/basic-etl-extract-data.csv'
+        bash_command='wget -c https://raw.githubusercontent.com/vinooganesh/hands-on-introduction-data-engineering-4395021-data-files/main/top-level-domain-names.csv -O /workspaces/hands-on-introduction-data-engineering-4395021/lab/end-to-end/basic-etl-extract-data.csv'
         )
 
     def transform_data():
