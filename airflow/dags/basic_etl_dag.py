@@ -11,9 +11,10 @@ with DAG(
     start_date=datetime(2023, 1, 1),
     catchup=False) as dag:
 
+    # The location of the top-level-domain-names.csv file has changed. Now, it is hosted in the same repository as this project.
     extract_task = BashOperator(
         task_id='extract_task',
-        bash_command='wget -c https://datahub.io/core/top-level-domain-names/r/top-level-domain-names.csv.csv -O /workspaces/hands-on-introduction-data-engineering-4395021/lab/end-to-end/basic-etl-extract-data.csv'
+        bash_command='wget -c https://raw.githubusercontent.com/LinkedInLearning/hands-on-introduction-data-engineering-4395021/main/data/top-level-domain-names.csv -O /workspaces/hands-on-introduction-data-engineering-4395021/lab/end-to-end/basic-etl-extract-data.csv'
         )
 
     def transform_data():
