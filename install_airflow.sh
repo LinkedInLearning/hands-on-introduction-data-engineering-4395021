@@ -15,35 +15,36 @@ sleep 3
 
 AIRFLOW_VERSION=2.6.3
 PYTHON_VERSION="$(python --version | cut -d " " -f 2 | cut -d "." -f 1-2)"
-echo "Installing Airflow Version $AIRFLOW_VERSION, with Python $PYTHON_VERSION"
+echo "This script will install Airflow version $AIRFLOW_VERSION, with Python $PYTHON_VERSION."
+sleep 3
 CONSTRAINT_URL="https://raw.githubusercontent.com/apache/airflow/constraints-${AIRFLOW_VERSION}/constraints-${PYTHON_VERSION}.txt"
 pip install "apache-airflow==${AIRFLOW_VERSION}" --constraint "${CONSTRAINT_URL}"
 
-echo "Running DB Init"
+echo "Running DB Migrate"
 
 # Init the airflow DB
-airflow db init
+airflow db migrate
 
 # Run Airflow Info
 airflow info
 
 # Give airflow enough time to finish writing it's config files with sleep 5
 sleep 5
-echo "Changing value of ${BRed}load_examples${NC} in airflow.cfg to ${BPurple}False${NC}"
+echo "Setting value of ${BRed}load_examples${NC} in airflow.cfg to ${BPurple}True${NC}"
 sed -i -e '/load_examples =/ s/= .*/= True/' ${AIRFLOW_HOME}/airflow.cfg
-echo "Changing value of ${BRed}dag_dir_list_interval${NC} in airflow.cfg to ${BPurple}2${NC}"
+echo "Setting value of ${BRed}dag_dir_list_interval${NC} in airflow.cfg to ${BPurple}2${NC}"
 sed -i -e '/dag_dir_list_interval =/ s/= .*/= 2/' ${AIRFLOW_HOME}/airflow.cfg
-echo "Changing value of ${BRed}worker_refresh_batch_size${NC} in airflow.cfg  to ${BPurple}0${NC}"
+echo "Setting value of ${BRed}worker_refresh_batch_size${NC} in airflow.cfg to ${BPurple}0${NC}"
 sed -i -e '/worker_refresh_batch_size =/ s/= .*/= 0/' ${AIRFLOW_HOME}/airflow.cfg
-echo "Changing value of ${BRed}worker_refresh_interval${NC} in airflow.cfg  to ${BPurple}0${NC}"
+echo "Setting value of ${BRed}worker_refresh_interval${NC} in airflow.cfg to ${BPurple}0${NC}"
 sed -i -e '/worker_refresh_interval =/ s/= .*/= 0/' ${AIRFLOW_HOME}/airflow.cfg
-echo "Changing value of ${BRed}workers${NC} in airflow.cfg to ${BPurple}2${NC}"
+echo "Setting value of ${BRed}workers${NC} in airflow.cfg to ${BPurple}2${NC}"
 sed -i -e '/workers =/ s/= .*/= 2/' ${AIRFLOW_HOME}/airflow.cfg
-echo "Changing value of ${BRed}expose_config${NC} in airflow.cfg to ${BPurple}True${NC}"
+echo "Setting value of ${BRed}expose_config${NC} in airflow.cfg to ${BPurple}True${NC}"
 sed -i -e '/expose_config =/ s/= .*/= True/' ${AIRFLOW_HOME}/airflow.cfg
 
 # Update CSRF For Webserver
-echo "Changing value of ${BRed}WTF_CSRF_ENABLED${NC} in webserver_config.py to ${BPurple}False${NC}"
+echo "Setting value of ${BRed}WTF_CSRF_ENABLED${NC} in webserver_config.py to ${BPurple}False${NC}"
 sed -i -e '/WTF_CSRF_ENABLED =/ s/= .*/= False/' ${AIRFLOW_HOME}/webserver_config.py
 
 # Create User
