@@ -7,7 +7,7 @@
         "alexcvzz.vscode-sqlite",
         "ms-python.python"
       ],
-      "settings": {
+      "settings": { // see https://github.com/AlexCovizzi/vscode-sqlite/issues/247
         "sqlite.sqlite3": ".vscode\\extensions\\alexcvzz.vscode-sqlite-0.14.1\\bin"
       }
     }
