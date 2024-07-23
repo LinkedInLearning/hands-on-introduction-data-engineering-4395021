@@ -1,16 +1,18 @@
 {
-  "image":"mcr.microsoft.com/devcontainers/universal:2",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
   "customizations": {
     "vscode": {
       "extensions": [
         "GitHub.github-vscode-theme",
         "alexcvzz.vscode-sqlite",
-	      "ms-python.python"
-      ]
+        "ms-python.python"
+      ],
+      "settings": {
+        "sqlite.sqlite3": ".vscode\\extensions\\alexcvzz.vscode-sqlite-0.14.1\\bin"
+      }
     }
   },
   "features": {},
   "postCreateCommand": "./lab_setup.sh"
 }
-
 // DevContainer Reference: https://code.visualstudio.com/docs/remote/devcontainerjson-reference
