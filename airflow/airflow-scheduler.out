@@ -1,0 +1,71 @@
+[2024-08-16T06:45:54.421+0000] {executor_loader.py:254} INFO - Loaded executor: SequentialExecutor
+[2024-08-16T06:45:54.499+0000] {scheduler_job_runner.py:935} INFO - Starting the scheduler
+[2024-08-16T06:45:54.500+0000] {scheduler_job_runner.py:942} INFO - Processing each file at most -1 times
+[2024-08-16T06:45:54.514+0000] {manager.py:174} INFO - Launched DagFileProcessorManager with pid: 12104
+[2024-08-16T06:45:54.516+0000] {scheduler_job_runner.py:1843} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-08-16T06:45:54.519+0000] {settings.py:63} INFO - Configured default timezone UTC
+[2024-08-16T06:45:54.552+0000] {manager.py:406} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
+[2024-08-16T06:46:03.639+0000] {serve_logs.py:85} WARNING - The Authorization header is missing: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8,te;q=0.7,hi;q=0.6
+Cache-Control: max-age=0
+Referer: https://laughing-spoon-v5xggxvj54q39x6.github.dev/
+X-Request-Id: 482a55f3f106a27f51f1e63e88bdf18b
+X-Real-Ip: 10.240.0.69
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: document
+Sec-Ch-Ua: "Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Priority: u=0, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: laughing-spoon-v5xggxvj54q39x6-8793.app.github.dev
+X-Forwarded-For: 10.240.0.69
+Proxy-Connection: Keep-Alive
+
+.
+[2024-08-16T06:46:04.099+0000] {serve_logs.py:85} WARNING - The Authorization header is missing: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8,te;q=0.7,hi;q=0.6
+Referer: https://laughing-spoon-v5xggxvj54q39x6-8793.app.github.dev/
+X-Request-Id: 727d1318958ace273b8dc51795368316
+X-Real-Ip: 10.240.0.69
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua: "Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Priority: u=1, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: laughing-spoon-v5xggxvj54q39x6-8793.app.github.dev
+X-Forwarded-For: 10.240.0.69
+Proxy-Connection: Keep-Alive
+
+.
+[2024-08-16T06:50:54.685+0000] {scheduler_job_runner.py:1843} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-08-16T06:55:54.924+0000] {scheduler_job_runner.py:1843} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-08-16T07:00:55.174+0000] {scheduler_job_runner.py:1843} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-08-16T07:02:51.596+0000] {scheduler_job_runner.py:260} INFO - Exiting gracefully upon receiving signal 15
+[2024-08-16T07:02:52.600+0000] {process_utils.py:132} INFO - Sending Signals.SIGTERM to group 12104. PIDs of all processes in the group: [12104]
+[2024-08-16T07:02:52.601+0000] {process_utils.py:87} INFO - Sending the signal Signals.SIGTERM to group 12104
+[2024-08-16T07:02:52.940+0000] {process_utils.py:80} INFO - Process psutil.Process(pid=12104, status='terminated', exitcode=0, started='06:45:54') (12104) terminated with exit code 0
+[2024-08-16T07:02:52.943+0000] {process_utils.py:132} INFO - Sending Signals.SIGTERM to group 12104. PIDs of all processes in the group: []
+[2024-08-16T07:02:52.944+0000] {process_utils.py:87} INFO - Sending the signal Signals.SIGTERM to group 12104
+[2024-08-16T07:02:52.944+0000] {process_utils.py:101} INFO - Sending the signal Signals.SIGTERM to process 12104 as process group is missing.
+[2024-08-16T07:02:52.945+0000] {scheduler_job_runner.py:1014} INFO - Exited execute loop

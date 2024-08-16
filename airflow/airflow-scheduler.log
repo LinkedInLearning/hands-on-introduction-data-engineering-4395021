@@ -1,0 +1,70 @@
+2024-08-16 06:45:54,421 INFO - Loaded executor: SequentialExecutor
+2024-08-16 06:45:54,499 INFO - Starting the scheduler
+2024-08-16 06:45:54,500 INFO - Processing each file at most -1 times
+2024-08-16 06:45:54,514 INFO - Launched DagFileProcessorManager with pid: 12104
+2024-08-16 06:45:54,516 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-08-16 06:45:54,519 INFO - Configured default timezone UTC
+2024-08-16 06:46:03,639 WARNING - The Authorization header is missing: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8,te;q=0.7,hi;q=0.6
+Cache-Control: max-age=0
+Referer: https://laughing-spoon-v5xggxvj54q39x6.github.dev/
+X-Request-Id: 482a55f3f106a27f51f1e63e88bdf18b
+X-Real-Ip: 10.240.0.69
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: document
+Sec-Ch-Ua: "Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Priority: u=0, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: laughing-spoon-v5xggxvj54q39x6-8793.app.github.dev
+X-Forwarded-For: 10.240.0.69
+Proxy-Connection: Keep-Alive
+
+.
+2024-08-16 06:46:04,099 WARNING - The Authorization header is missing: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8,te;q=0.7,hi;q=0.6
+Referer: https://laughing-spoon-v5xggxvj54q39x6-8793.app.github.dev/
+X-Request-Id: 727d1318958ace273b8dc51795368316
+X-Real-Ip: 10.240.0.69
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua: "Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Priority: u=1, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: laughing-spoon-v5xggxvj54q39x6-8793.app.github.dev
+X-Forwarded-For: 10.240.0.69
+Proxy-Connection: Keep-Alive
+
+.
+2024-08-16 06:50:54,685 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-08-16 06:55:54,924 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-08-16 07:00:55,174 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-08-16 07:02:51,596 INFO - Exiting gracefully upon receiving signal 15
+2024-08-16 07:02:52,600 INFO - Sending Signals.SIGTERM to group 12104. PIDs of all processes in the group: [12104]
+2024-08-16 07:02:52,601 INFO - Sending the signal Signals.SIGTERM to group 12104
+2024-08-16 07:02:52,940 INFO - Process psutil.Process(pid=12104, status='terminated', exitcode=0, started='06:45:54') (12104) terminated with exit code 0
+2024-08-16 07:02:52,943 INFO - Sending Signals.SIGTERM to group 12104. PIDs of all processes in the group: []
+2024-08-16 07:02:52,944 INFO - Sending the signal Signals.SIGTERM to group 12104
+2024-08-16 07:02:52,944 INFO - Sending the signal Signals.SIGTERM to process 12104 as process group is missing.
+2024-08-16 07:02:52,945 INFO - Exited execute loop

@@ -1,0 +1,9 @@
+[2024-08-16 06:45:54 +0000] [12101] [INFO] Starting gunicorn 23.0.0
+[2024-08-16 06:45:54 +0000] [12101] [INFO] Listening at: http://[::]:8793 (12101)
+[2024-08-16 06:45:54 +0000] [12101] [INFO] Using worker: sync
+[2024-08-16 06:45:54 +0000] [12102] [INFO] Booting worker with pid: 12102
+[2024-08-16 06:45:54 +0000] [12103] [INFO] Booting worker with pid: 12103
+[2024-08-16 07:02:52 +0000] [12101] [INFO] Handling signal: term
+[2024-08-16 07:02:52 +0000] [12102] [INFO] Worker exiting (pid: 12102)
+[2024-08-16 07:02:52 +0000] [12103] [INFO] Worker exiting (pid: 12103)
+[2024-08-16 07:02:53 +0000] [12101] [INFO] Shutting down: Master
