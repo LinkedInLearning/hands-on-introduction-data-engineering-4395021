@@ -68,3 +68,924 @@ Proxy-Connection: Keep-Alive
 2024-08-16 07:02:52,944 INFO - Sending the signal Signals.SIGTERM to group 12104
 2024-08-16 07:02:52,944 INFO - Sending the signal Signals.SIGTERM to process 12104 as process group is missing.
 2024-08-16 07:02:52,945 INFO - Exited execute loop
+2024-08-16 09:17:40,009 INFO - Loaded executor: SequentialExecutor
+2024-08-16 09:17:40,108 INFO - Starting the scheduler
+2024-08-16 09:17:40,110 INFO - Processing each file at most -1 times
+2024-08-16 09:17:40,126 INFO - Launched DagFileProcessorManager with pid: 30195
+2024-08-16 09:17:40,128 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-08-16 09:17:40,153 INFO - Configured default timezone UTC
+2024-08-16 09:22:40,179 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-08-16 09:27:40,208 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-08-16 09:32:40,239 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-08-16 09:37:40,276 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-08-16 09:42:40,307 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-08-16 09:47:40,334 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-08-16 11:13:13,453 INFO - Loaded executor: SequentialExecutor
+2024-08-16 11:13:13,552 INFO - Starting the scheduler
+2024-08-16 11:13:13,554 INFO - Processing each file at most -1 times
+2024-08-16 11:13:13,568 INFO - Launched DagFileProcessorManager with pid: 15646
+2024-08-16 11:13:13,570 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-08-16 11:13:13,573 INFO - Configured default timezone UTC
+2024-08-16 11:13:13,581 INFO - Marked 1 SchedulerJob instances as failed
+2024-08-16 11:13:23,069 WARNING - The Authorization header is missing: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8,te;q=0.7,hi;q=0.6
+Cache-Control: max-age=0
+Referer: https://laughing-spoon-v5xggxvj54q39x6.github.dev/
+X-Request-Id: 455ce534975f55fea97a6432491b4fb6
+X-Real-Ip: 10.240.3.196
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: document
+Sec-Ch-Ua: "Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Priority: u=0, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: laughing-spoon-v5xggxvj54q39x6-8793.app.github.dev
+X-Forwarded-For: 10.240.3.196
+Proxy-Connection: Keep-Alive
+
+.
+2024-08-16 11:13:23,646 WARNING - The Authorization header is missing: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8,te;q=0.7,hi;q=0.6
+Referer: https://laughing-spoon-v5xggxvj54q39x6-8793.app.github.dev/
+X-Request-Id: d23ffdf6ca198744cfd723a82cc8d186
+X-Real-Ip: 10.240.3.196
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua: "Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Priority: u=1, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: laughing-spoon-v5xggxvj54q39x6-8793.app.github.dev
+X-Forwarded-For: 10.240.3.196
+Proxy-Connection: Keep-Alive
+
+.
+2024-08-16 11:13:23,889 WARNING - The Authorization header is missing: Accept: */*
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8,te;q=0.7,hi;q=0.6
+X-Request-Id: 4b6ae84db33409946afb5ff043ff3824
+X-Real-Ip: 10.240.3.64
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Priority: u=1, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: laughing-spoon-v5xggxvj54q39x6-8793.app.github.dev
+X-Forwarded-For: 10.240.3.64
+Proxy-Connection: Keep-Alive
+
+.
+2024-08-16 11:13:45,710 WARNING - The Authorization header is missing: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8,te;q=0.7,hi;q=0.6
+Cache-Control: max-age=0
+Referer: https://laughing-spoon-v5xggxvj54q39x6.github.dev/
+X-Request-Id: 0b35bdae617c59780e9d89adf2a4f839
+X-Real-Ip: 10.240.4.3
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Ch-Ua: "Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Priority: u=0, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: laughing-spoon-v5xggxvj54q39x6-8793.app.github.dev
+X-Forwarded-For: 10.240.4.3
+Proxy-Connection: Keep-Alive
+
+.
+2024-08-16 11:13:46,087 WARNING - The Authorization header is missing: Accept: */*
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8,te;q=0.7,hi;q=0.6
+X-Request-Id: 6836d56aa866e2daf926421b90262991
+X-Real-Ip: 10.240.3.196
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Priority: u=1, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: laughing-spoon-v5xggxvj54q39x6-8793.app.github.dev
+X-Forwarded-For: 10.240.3.196
+Proxy-Connection: Keep-Alive
+
+.
+2024-08-16 11:13:46,425 WARNING - The Authorization header is missing: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8,te;q=0.7,hi;q=0.6
+Referer: https://laughing-spoon-v5xggxvj54q39x6-8793.app.github.dev/
+X-Request-Id: 3175b9cc0148659b917a80bf605eb13f
+X-Real-Ip: 10.240.4.3
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua: "Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Priority: u=1, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: laughing-spoon-v5xggxvj54q39x6-8793.app.github.dev
+X-Forwarded-For: 10.240.4.3
+Proxy-Connection: Keep-Alive
+
+.
+2024-08-16 11:14:00,404 INFO - 1 tasks up for execution:
+	<TaskInstance: one_task_dag.one_task manual__2024-08-16T11:13:59.653849+00:00 [scheduled]>
+2024-08-16 11:14:00,405 INFO - DAG one_task_dag has 0/16 running and queued tasks
+2024-08-16 11:14:00,405 INFO - Setting the following tasks to queued state:
+	<TaskInstance: one_task_dag.one_task manual__2024-08-16T11:13:59.653849+00:00 [scheduled]>
+2024-08-16 11:14:00,407 INFO - Trying to enqueue tasks: [<TaskInstance: one_task_dag.one_task manual__2024-08-16T11:13:59.653849+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-08-16 11:14:00,408 INFO - Sending TaskInstanceKey(dag_id='one_task_dag', task_id='one_task', run_id='manual__2024-08-16T11:13:59.653849+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 1 and queue default
+2024-08-16 11:14:00,408 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'one_task_dag', 'one_task', 'manual__2024-08-16T11:13:59.653849+00:00', '--local', '--subdir', 'DAGS_FOLDER/one_task_dag.py']
+2024-08-16 11:14:00,437 INFO - Executing command: ['airflow', 'tasks', 'run', 'one_task_dag', 'one_task', 'manual__2024-08-16T11:13:59.653849+00:00', '--local', '--subdir', 'DAGS_FOLDER/one_task_dag.py']
+2024-08-16 11:14:03,081 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='one_task_dag', task_id='one_task', run_id='manual__2024-08-16T11:13:59.653849+00:00', try_number=1, map_index=-1)
+2024-08-16 11:14:03,095 INFO - TaskInstance Finished: dag_id=one_task_dag, task_id=one_task, run_id=manual__2024-08-16T11:13:59.653849+00:00, map_index=-1, run_start_date=2024-08-16 11:14:02.428462+00:00, run_end_date=2024-08-16 11:14:02.697705+00:00, run_duration=0.269243, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=4, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2024-08-16 11:14:00.406499+00:00, queued_by_job_id=3, pid=16103
+2024-08-16 11:14:03,127 INFO - Marking run <DagRun one_task_dag @ 2024-08-16 11:13:59.653849+00:00: manual__2024-08-16T11:13:59.653849+00:00, state:running, queued_at: 2024-08-16 11:13:59.703141+00:00. externally triggered: True> successful
+2024-08-16 11:14:03,127 INFO - DagRun Finished: dag_id=one_task_dag, execution_date=2024-08-16 11:13:59.653849+00:00, run_id=manual__2024-08-16T11:13:59.653849+00:00, run_start_date=2024-08-16 11:14:00.320806+00:00, run_end_date=2024-08-16 11:14:03.127920+00:00, run_duration=2.807114, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-08-16 11:13:59.653849+00:00, data_interval_end=2024-08-16 11:13:59.653849+00:00, dag_hash=ca8c70c81c38febe6254419fc485a264
+2024-08-16 11:15:10,304 INFO - 1 tasks up for execution:
+	<TaskInstance: one_task_dag.one_task manual__2024-08-16T11:15:09.602278+00:00 [scheduled]>
+2024-08-16 11:15:10,304 INFO - DAG one_task_dag has 0/16 running and queued tasks
+2024-08-16 11:15:10,304 INFO - Setting the following tasks to queued state:
+	<TaskInstance: one_task_dag.one_task manual__2024-08-16T11:15:09.602278+00:00 [scheduled]>
+2024-08-16 11:15:10,306 INFO - Trying to enqueue tasks: [<TaskInstance: one_task_dag.one_task manual__2024-08-16T11:15:09.602278+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-08-16 11:15:10,306 INFO - Sending TaskInstanceKey(dag_id='one_task_dag', task_id='one_task', run_id='manual__2024-08-16T11:15:09.602278+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 1 and queue default
+2024-08-16 11:15:10,307 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'one_task_dag', 'one_task', 'manual__2024-08-16T11:15:09.602278+00:00', '--local', '--subdir', 'DAGS_FOLDER/one_task_dag.py']
+2024-08-16 11:15:10,334 INFO - Executing command: ['airflow', 'tasks', 'run', 'one_task_dag', 'one_task', 'manual__2024-08-16T11:15:09.602278+00:00', '--local', '--subdir', 'DAGS_FOLDER/one_task_dag.py']
+2024-08-16 11:15:12,836 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='one_task_dag', task_id='one_task', run_id='manual__2024-08-16T11:15:09.602278+00:00', try_number=1, map_index=-1)
+2024-08-16 11:15:12,840 INFO - TaskInstance Finished: dag_id=one_task_dag, task_id=one_task, run_id=manual__2024-08-16T11:15:09.602278+00:00, map_index=-1, run_start_date=2024-08-16 11:15:12.129958+00:00, run_end_date=2024-08-16 11:15:12.417980+00:00, run_duration=0.288022, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=5, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2024-08-16 11:15:10.305402+00:00, queued_by_job_id=3, pid=16637
+2024-08-16 11:15:12,904 INFO - Marking run <DagRun one_task_dag @ 2024-08-16 11:15:09.602278+00:00: manual__2024-08-16T11:15:09.602278+00:00, state:running, queued_at: 2024-08-16 11:15:09.609336+00:00. externally triggered: True> successful
+2024-08-16 11:15:12,905 INFO - DagRun Finished: dag_id=one_task_dag, execution_date=2024-08-16 11:15:09.602278+00:00, run_id=manual__2024-08-16T11:15:09.602278+00:00, run_start_date=2024-08-16 11:15:10.232197+00:00, run_end_date=2024-08-16 11:15:12.905298+00:00, run_duration=2.673101, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-08-16 11:15:09.602278+00:00, data_interval_end=2024-08-16 11:15:09.602278+00:00, dag_hash=ca8c70c81c38febe6254419fc485a264
+2024-08-16 11:18:13,692 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-08-16 11:23:13,737 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-08-16 11:28:13,781 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-08-16 11:33:13,817 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-08-16 11:38:13,858 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-08-16 11:43:13,901 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-08-17 02:44:24,582 INFO - Loaded executor: SequentialExecutor
+2024-08-17 02:44:24,670 INFO - Starting the scheduler
+2024-08-17 02:44:24,671 INFO - Processing each file at most -1 times
+2024-08-17 02:44:24,684 INFO - Launched DagFileProcessorManager with pid: 4366
+2024-08-17 02:44:24,685 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-08-17 02:44:24,689 INFO - Configured default timezone UTC
+2024-08-17 02:44:24,696 INFO - Marked 1 SchedulerJob instances as failed
+2024-08-17 02:49:24,802 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-08-17 02:54:24,981 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-08-17 02:59:25,013 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-08-17 03:00:57,227 INFO - 1 tasks up for execution:
+	<TaskInstance: two_task_dag.bash_task_0 manual__2024-08-17T03:00:56.185580+00:00 [scheduled]>
+2024-08-17 03:00:57,227 INFO - DAG two_task_dag has 0/16 running and queued tasks
+2024-08-17 03:00:57,228 INFO - Setting the following tasks to queued state:
+	<TaskInstance: two_task_dag.bash_task_0 manual__2024-08-17T03:00:56.185580+00:00 [scheduled]>
+2024-08-17 03:00:57,230 INFO - Trying to enqueue tasks: [<TaskInstance: two_task_dag.bash_task_0 manual__2024-08-17T03:00:56.185580+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-08-17 03:00:57,230 INFO - Sending TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_0', run_id='manual__2024-08-17T03:00:56.185580+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 2 and queue default
+2024-08-17 03:00:57,231 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_0', 'manual__2024-08-17T03:00:56.185580+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+2024-08-17 03:00:57,257 INFO - Executing command: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_0', 'manual__2024-08-17T03:00:56.185580+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+2024-08-17 03:00:59,681 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_0', run_id='manual__2024-08-17T03:00:56.185580+00:00', try_number=1, map_index=-1)
+2024-08-17 03:00:59,690 INFO - TaskInstance Finished: dag_id=two_task_dag, task_id=bash_task_0, run_id=manual__2024-08-17T03:00:56.185580+00:00, map_index=-1, run_start_date=2024-08-17 03:00:59.018163+00:00, run_end_date=2024-08-17 03:00:59.275891+00:00, run_duration=0.257728, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=7, pool=default_pool, queue=default, priority_weight=2, operator=BashOperator, queued_dttm=2024-08-17 03:00:57.228995+00:00, queued_by_job_id=6, pid=14122
+2024-08-17 03:00:59,794 INFO - 1 tasks up for execution:
+	<TaskInstance: two_task_dag.bash_task_1 manual__2024-08-17T03:00:56.185580+00:00 [scheduled]>
+2024-08-17 03:00:59,795 INFO - DAG two_task_dag has 0/16 running and queued tasks
+2024-08-17 03:00:59,796 INFO - Setting the following tasks to queued state:
+	<TaskInstance: two_task_dag.bash_task_1 manual__2024-08-17T03:00:56.185580+00:00 [scheduled]>
+2024-08-17 03:00:59,799 INFO - Trying to enqueue tasks: [<TaskInstance: two_task_dag.bash_task_1 manual__2024-08-17T03:00:56.185580+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-08-17 03:00:59,800 INFO - Sending TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_1', run_id='manual__2024-08-17T03:00:56.185580+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 1 and queue default
+2024-08-17 03:00:59,801 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_1', 'manual__2024-08-17T03:00:56.185580+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+2024-08-17 03:00:59,828 INFO - Executing command: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_1', 'manual__2024-08-17T03:00:56.185580+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+2024-08-17 03:01:02,227 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_1', run_id='manual__2024-08-17T03:00:56.185580+00:00', try_number=1, map_index=-1)
+2024-08-17 03:01:02,230 INFO - TaskInstance Finished: dag_id=two_task_dag, task_id=bash_task_1, run_id=manual__2024-08-17T03:00:56.185580+00:00, map_index=-1, run_start_date=2024-08-17 03:01:01.634736+00:00, run_end_date=2024-08-17 03:01:01.875098+00:00, run_duration=0.240362, state=failed, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=8, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2024-08-17 03:00:59.797221+00:00, queued_by_job_id=6, pid=14138
+2024-08-17 03:01:02,257 ERROR - Marking run <DagRun two_task_dag @ 2024-08-17 03:00:56.185580+00:00: manual__2024-08-17T03:00:56.185580+00:00, state:running, queued_at: 2024-08-17 03:00:56.227324+00:00. externally triggered: True> failed
+2024-08-17 03:01:02,258 INFO - DagRun Finished: dag_id=two_task_dag, execution_date=2024-08-17 03:00:56.185580+00:00, run_id=manual__2024-08-17T03:00:56.185580+00:00, run_start_date=2024-08-17 03:00:57.055985+00:00, run_end_date=2024-08-17 03:01:02.258536+00:00, run_duration=5.202551, state=failed, external_trigger=True, run_type=manual, data_interval_start=2024-08-17 03:00:56.185580+00:00, data_interval_end=2024-08-17 03:00:56.185580+00:00, dag_hash=99ba3d968751b23d112ec2db2c015deb
+2024-08-17 03:03:51,250 INFO - Exiting gracefully upon receiving signal 15
+2024-08-17 03:03:52,253 INFO - Sending Signals.SIGTERM to group 4366. PIDs of all processes in the group: [4366]
+2024-08-17 03:03:52,254 INFO - Sending the signal Signals.SIGTERM to group 4366
+2024-08-17 03:03:52,467 INFO - Process psutil.Process(pid=4366, status='terminated', exitcode=0, started='02:44:24') (4366) terminated with exit code 0
+2024-08-17 03:03:52,469 INFO - Sending Signals.SIGTERM to group 4366. PIDs of all processes in the group: []
+2024-08-17 03:03:52,469 INFO - Sending the signal Signals.SIGTERM to group 4366
+2024-08-17 03:03:52,470 INFO - Sending the signal Signals.SIGTERM to process 4366 as process group is missing.
+2024-08-17 03:03:52,470 INFO - Exited execute loop
+2024-08-17 03:04:01,489 INFO - Loaded executor: SequentialExecutor
+2024-08-17 03:04:01,563 INFO - Starting the scheduler
+2024-08-17 03:04:01,564 INFO - Processing each file at most -1 times
+2024-08-17 03:04:01,572 INFO - Launched DagFileProcessorManager with pid: 15862
+2024-08-17 03:04:01,575 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-08-17 03:04:01,580 INFO - Configured default timezone UTC
+2024-08-17 03:04:39,271 WARNING - The Authorization header is missing: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8,te;q=0.7,hi;q=0.6
+Cache-Control: max-age=0
+Referer: https://laughing-spoon-v5xggxvj54q39x6.github.dev/
+X-Request-Id: 1af26cf0b607efcde4da367abd8be72f
+X-Real-Ip: 10.240.0.69
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: document
+Sec-Ch-Ua: "Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Priority: u=0, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: laughing-spoon-v5xggxvj54q39x6-8793.app.github.dev
+X-Forwarded-For: 10.240.0.69
+Proxy-Connection: Keep-Alive
+
+.
+2024-08-17 03:04:39,715 WARNING - The Authorization header is missing: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8,te;q=0.7,hi;q=0.6
+Referer: https://laughing-spoon-v5xggxvj54q39x6-8793.app.github.dev/
+X-Request-Id: db097ed56b222d38a6efea78c944dc1a
+X-Real-Ip: 10.240.0.69
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua: "Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Priority: u=1, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: laughing-spoon-v5xggxvj54q39x6-8793.app.github.dev
+X-Forwarded-For: 10.240.0.69
+Proxy-Connection: Keep-Alive
+
+.
+2024-08-17 03:04:39,798 WARNING - The Authorization header is missing: Accept: */*
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8,te;q=0.7,hi;q=0.6
+X-Request-Id: f4371d42f4b2ffcb04d712b73a2c0d71
+X-Real-Ip: 10.240.4.3
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Priority: u=1, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: laughing-spoon-v5xggxvj54q39x6-8793.app.github.dev
+X-Forwarded-For: 10.240.4.3
+Proxy-Connection: Keep-Alive
+
+.
+2024-08-17 03:05:36,815 WARNING - The Authorization header is missing: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8,te;q=0.7,hi;q=0.6
+Cache-Control: max-age=0
+Referer: https://laughing-spoon-v5xggxvj54q39x6.github.dev/
+X-Request-Id: e560a5b6dba33a7dd9d58089410c1b7f
+X-Real-Ip: 10.240.2.23
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Ch-Ua: "Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Priority: u=0, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: laughing-spoon-v5xggxvj54q39x6-8793.app.github.dev
+X-Forwarded-For: 10.240.2.23
+Proxy-Connection: Keep-Alive
+
+.
+2024-08-17 03:05:37,157 WARNING - The Authorization header is missing: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8,te;q=0.7,hi;q=0.6
+Referer: https://laughing-spoon-v5xggxvj54q39x6-8793.app.github.dev/
+X-Request-Id: f67aca1b5ee53bb065e97a92ba4bb37e
+X-Real-Ip: 10.240.2.23
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua: "Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Priority: u=1, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: laughing-spoon-v5xggxvj54q39x6-8793.app.github.dev
+X-Forwarded-For: 10.240.2.23
+Proxy-Connection: Keep-Alive
+
+.
+2024-08-17 03:05:37,842 WARNING - The Authorization header is missing: Accept: */*
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8,te;q=0.7,hi;q=0.6
+X-Request-Id: 30ad82d8bde1e19c1a1fdef246e3e7aa
+X-Real-Ip: 10.240.3.64
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Priority: u=1, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: laughing-spoon-v5xggxvj54q39x6-8793.app.github.dev
+X-Forwarded-For: 10.240.3.64
+Proxy-Connection: Keep-Alive
+
+.
+2024-08-17 03:05:52,266 WARNING - The Authorization header is missing: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8,te;q=0.7,hi;q=0.6
+Cache-Control: max-age=0
+Referer: https://laughing-spoon-v5xggxvj54q39x6.github.dev/
+X-Request-Id: 6b03eb2eb7041552a1e6206e90fe4611
+X-Real-Ip: 10.240.0.69
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Ch-Ua: "Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Priority: u=0, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: laughing-spoon-v5xggxvj54q39x6-8793.app.github.dev
+X-Forwarded-For: 10.240.0.69
+Proxy-Connection: Keep-Alive
+
+.
+2024-08-17 03:05:52,685 WARNING - The Authorization header is missing: Accept: */*
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8,te;q=0.7,hi;q=0.6
+X-Request-Id: faed5bae9a097866d87d45d183586bcb
+X-Real-Ip: 10.240.3.196
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Priority: u=1, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: laughing-spoon-v5xggxvj54q39x6-8793.app.github.dev
+X-Forwarded-For: 10.240.3.196
+Proxy-Connection: Keep-Alive
+
+.
+2024-08-17 03:05:52,693 WARNING - The Authorization header is missing: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8,te;q=0.7,hi;q=0.6
+Referer: https://laughing-spoon-v5xggxvj54q39x6-8793.app.github.dev/
+X-Request-Id: fd2ea0c749a725b4fbc5eb08fe1170ef
+X-Real-Ip: 10.240.0.69
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua: "Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Priority: u=1, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: laughing-spoon-v5xggxvj54q39x6-8793.app.github.dev
+X-Forwarded-For: 10.240.0.69
+Proxy-Connection: Keep-Alive
+
+.
+2024-08-17 03:06:05,826 INFO - Exiting gracefully upon receiving signal 15
+2024-08-17 03:06:06,829 INFO - Sending Signals.SIGTERM to group 15862. PIDs of all processes in the group: [15862]
+2024-08-17 03:06:06,829 INFO - Sending the signal Signals.SIGTERM to group 15862
+2024-08-17 03:06:07,002 INFO - Process psutil.Process(pid=15862, status='terminated', exitcode=0, started='03:04:01') (15862) terminated with exit code 0
+2024-08-17 03:06:07,004 INFO - Sending Signals.SIGTERM to group 15862. PIDs of all processes in the group: []
+2024-08-17 03:06:07,005 INFO - Sending the signal Signals.SIGTERM to group 15862
+2024-08-17 03:06:07,005 INFO - Sending the signal Signals.SIGTERM to process 15862 as process group is missing.
+2024-08-17 03:06:07,005 INFO - Exited execute loop
+2024-08-17 03:11:12,438 INFO - Loaded executor: SequentialExecutor
+2024-08-17 03:11:12,524 INFO - Starting the scheduler
+2024-08-17 03:11:12,525 INFO - Processing each file at most -1 times
+2024-08-17 03:11:12,532 INFO - Launched DagFileProcessorManager with pid: 19629
+2024-08-17 03:11:12,534 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-08-17 03:11:12,537 INFO - Configured default timezone UTC
+2024-08-17 03:11:19,993 WARNING - The Authorization header is missing: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8,te;q=0.7,hi;q=0.6
+Referer: https://laughing-spoon-v5xggxvj54q39x6.github.dev/
+X-Request-Id: ff67d5c59442c48bd90be3b3b97b8b47
+X-Real-Ip: 10.240.3.196
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Ch-Ua: "Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Priority: u=0, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: laughing-spoon-v5xggxvj54q39x6-8793.app.github.dev
+X-Forwarded-For: 10.240.3.196
+Proxy-Connection: Keep-Alive
+
+.
+2024-08-17 03:11:21,406 WARNING - The Authorization header is missing: Accept: */*
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8,te;q=0.7,hi;q=0.6
+X-Request-Id: 13a98111540c99d9a2ab047f7d75053e
+X-Real-Ip: 10.240.3.196
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Priority: u=1, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: laughing-spoon-v5xggxvj54q39x6-8793.app.github.dev
+X-Forwarded-For: 10.240.3.196
+Proxy-Connection: Keep-Alive
+
+.
+2024-08-17 03:11:21,411 WARNING - The Authorization header is missing: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8,te;q=0.7,hi;q=0.6
+Referer: https://laughing-spoon-v5xggxvj54q39x6-8793.app.github.dev/
+X-Request-Id: 8c0d6df9117213c7aa9bfd420f8a6960
+X-Real-Ip: 10.240.3.196
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua: "Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Priority: u=1, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: laughing-spoon-v5xggxvj54q39x6-8793.app.github.dev
+X-Forwarded-For: 10.240.3.196
+Proxy-Connection: Keep-Alive
+
+.
+2024-08-17 03:16:12,581 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-08-17 03:17:29,861 WARNING - The Authorization header is missing: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8,te;q=0.7,hi;q=0.6
+Referer: https://laughing-spoon-v5xggxvj54q39x6.github.dev/
+X-Request-Id: b4bfa60aa424d00db8d2baf8a0f0c4f4
+X-Real-Ip: 10.240.4.3
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Ch-Ua: "Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Priority: u=0, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: laughing-spoon-v5xggxvj54q39x6-8793.app.github.dev
+X-Forwarded-For: 10.240.4.3
+Proxy-Connection: Keep-Alive
+
+.
+2024-08-17 03:17:31,394 WARNING - The Authorization header is missing: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8,te;q=0.7,hi;q=0.6
+Referer: https://laughing-spoon-v5xggxvj54q39x6-8793.app.github.dev/
+X-Request-Id: c8f6889dbbf2603f393dac56081fb04f
+X-Real-Ip: 10.240.4.3
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua: "Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Priority: u=1, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: laughing-spoon-v5xggxvj54q39x6-8793.app.github.dev
+X-Forwarded-For: 10.240.4.3
+Proxy-Connection: Keep-Alive
+
+.
+2024-08-17 03:17:31,500 WARNING - The Authorization header is missing: Accept: */*
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8,te;q=0.7,hi;q=0.6
+X-Request-Id: 67b47c0806983e4ccad97e5bc427dbb7
+X-Real-Ip: 10.240.3.64
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Priority: u=1, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: laughing-spoon-v5xggxvj54q39x6-8793.app.github.dev
+X-Forwarded-For: 10.240.3.64
+Proxy-Connection: Keep-Alive
+
+.
+2024-08-17 03:19:44,950 INFO - Exiting gracefully upon receiving signal 15
+2024-08-17 03:19:45,954 INFO - Sending Signals.SIGTERM to group 19629. PIDs of all processes in the group: [19629]
+2024-08-17 03:19:45,955 INFO - Sending the signal Signals.SIGTERM to group 19629
+2024-08-17 03:19:46,128 INFO - Process psutil.Process(pid=19629, status='terminated', exitcode=0, started='03:11:12') (19629) terminated with exit code 0
+2024-08-17 03:19:46,130 INFO - Sending Signals.SIGTERM to group 19629. PIDs of all processes in the group: []
+2024-08-17 03:19:46,131 INFO - Sending the signal Signals.SIGTERM to group 19629
+2024-08-17 03:19:46,131 INFO - Sending the signal Signals.SIGTERM to process 19629 as process group is missing.
+2024-08-17 03:19:46,131 INFO - Exited execute loop
+2024-08-17 03:19:58,338 INFO - Loaded executor: SequentialExecutor
+2024-08-17 03:19:58,413 INFO - Starting the scheduler
+2024-08-17 03:19:58,414 INFO - Processing each file at most -1 times
+2024-08-17 03:19:58,420 INFO - Launched DagFileProcessorManager with pid: 25548
+2024-08-17 03:19:58,422 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-08-17 03:19:58,425 INFO - Configured default timezone UTC
+2024-08-17 03:20:43,410 INFO - 1 tasks up for execution:
+	<TaskInstance: two_task_dag.bash_task_0 manual__2024-08-17T03:20:42.461339+00:00 [scheduled]>
+2024-08-17 03:20:43,411 INFO - DAG two_task_dag has 0/16 running and queued tasks
+2024-08-17 03:20:43,411 INFO - Setting the following tasks to queued state:
+	<TaskInstance: two_task_dag.bash_task_0 manual__2024-08-17T03:20:42.461339+00:00 [scheduled]>
+2024-08-17 03:20:43,416 INFO - Trying to enqueue tasks: [<TaskInstance: two_task_dag.bash_task_0 manual__2024-08-17T03:20:42.461339+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-08-17 03:20:43,416 INFO - Sending TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_0', run_id='manual__2024-08-17T03:20:42.461339+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 2 and queue default
+2024-08-17 03:20:43,417 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_0', 'manual__2024-08-17T03:20:42.461339+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+2024-08-17 03:20:43,447 INFO - Executing command: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_0', 'manual__2024-08-17T03:20:42.461339+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+2024-08-17 03:20:46,021 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_0', run_id='manual__2024-08-17T03:20:42.461339+00:00', try_number=1, map_index=-1)
+2024-08-17 03:20:46,030 INFO - TaskInstance Finished: dag_id=two_task_dag, task_id=bash_task_0, run_id=manual__2024-08-17T03:20:42.461339+00:00, map_index=-1, run_start_date=2024-08-17 03:20:45.245309+00:00, run_end_date=2024-08-17 03:20:45.518656+00:00, run_duration=0.273347, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=12, pool=default_pool, queue=default, priority_weight=2, operator=BashOperator, queued_dttm=2024-08-17 03:20:43.412825+00:00, queued_by_job_id=11, pid=26037
+2024-08-17 03:20:46,143 INFO - 1 tasks up for execution:
+	<TaskInstance: two_task_dag.bash_task_1 manual__2024-08-17T03:20:42.461339+00:00 [scheduled]>
+2024-08-17 03:20:46,144 INFO - DAG two_task_dag has 0/16 running and queued tasks
+2024-08-17 03:20:46,145 INFO - Setting the following tasks to queued state:
+	<TaskInstance: two_task_dag.bash_task_1 manual__2024-08-17T03:20:42.461339+00:00 [scheduled]>
+2024-08-17 03:20:46,150 INFO - Trying to enqueue tasks: [<TaskInstance: two_task_dag.bash_task_1 manual__2024-08-17T03:20:42.461339+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-08-17 03:20:46,150 INFO - Sending TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_1', run_id='manual__2024-08-17T03:20:42.461339+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 1 and queue default
+2024-08-17 03:20:46,151 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_1', 'manual__2024-08-17T03:20:42.461339+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+2024-08-17 03:20:46,179 INFO - Executing command: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_1', 'manual__2024-08-17T03:20:42.461339+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+2024-08-17 03:20:48,684 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_1', run_id='manual__2024-08-17T03:20:42.461339+00:00', try_number=1, map_index=-1)
+2024-08-17 03:20:48,688 INFO - TaskInstance Finished: dag_id=two_task_dag, task_id=bash_task_1, run_id=manual__2024-08-17T03:20:42.461339+00:00, map_index=-1, run_start_date=2024-08-17 03:20:48.029324+00:00, run_end_date=2024-08-17 03:20:48.335513+00:00, run_duration=0.306189, state=failed, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=13, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2024-08-17 03:20:46.146599+00:00, queued_by_job_id=11, pid=26060
+2024-08-17 03:20:48,715 ERROR - Marking run <DagRun two_task_dag @ 2024-08-17 03:20:42.461339+00:00: manual__2024-08-17T03:20:42.461339+00:00, state:running, queued_at: 2024-08-17 03:20:42.477114+00:00. externally triggered: True> failed
+2024-08-17 03:20:48,716 INFO - DagRun Finished: dag_id=two_task_dag, execution_date=2024-08-17 03:20:42.461339+00:00, run_id=manual__2024-08-17T03:20:42.461339+00:00, run_start_date=2024-08-17 03:20:43.325978+00:00, run_end_date=2024-08-17 03:20:48.716033+00:00, run_duration=5.390055, state=failed, external_trigger=True, run_type=manual, data_interval_start=2024-08-17 03:20:42.461339+00:00, data_interval_end=2024-08-17 03:20:42.461339+00:00, dag_hash=99ba3d968751b23d112ec2db2c015deb
+2024-08-17 03:22:51,231 INFO - 1 tasks up for execution:
+	<TaskInstance: two_task_dag.bash_task_0 manual__2024-08-17T03:22:50.659856+00:00 [scheduled]>
+2024-08-17 03:22:51,231 INFO - DAG two_task_dag has 0/16 running and queued tasks
+2024-08-17 03:22:51,231 INFO - Setting the following tasks to queued state:
+	<TaskInstance: two_task_dag.bash_task_0 manual__2024-08-17T03:22:50.659856+00:00 [scheduled]>
+2024-08-17 03:22:51,233 INFO - Trying to enqueue tasks: [<TaskInstance: two_task_dag.bash_task_0 manual__2024-08-17T03:22:50.659856+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-08-17 03:22:51,233 INFO - Sending TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_0', run_id='manual__2024-08-17T03:22:50.659856+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 2 and queue default
+2024-08-17 03:22:51,234 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_0', 'manual__2024-08-17T03:22:50.659856+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+2024-08-17 03:22:51,263 INFO - Executing command: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_0', 'manual__2024-08-17T03:22:50.659856+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+2024-08-17 03:22:53,989 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_0', run_id='manual__2024-08-17T03:22:50.659856+00:00', try_number=1, map_index=-1)
+2024-08-17 03:22:53,992 INFO - TaskInstance Finished: dag_id=two_task_dag, task_id=bash_task_0, run_id=manual__2024-08-17T03:22:50.659856+00:00, map_index=-1, run_start_date=2024-08-17 03:22:53.115696+00:00, run_end_date=2024-08-17 03:22:53.465796+00:00, run_duration=0.3501, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=14, pool=default_pool, queue=default, priority_weight=2, operator=BashOperator, queued_dttm=2024-08-17 03:22:51.232573+00:00, queued_by_job_id=11, pid=27024
+2024-08-17 03:22:54,082 INFO - 1 tasks up for execution:
+	<TaskInstance: two_task_dag.bash_task_1 manual__2024-08-17T03:22:50.659856+00:00 [scheduled]>
+2024-08-17 03:22:54,083 INFO - DAG two_task_dag has 0/16 running and queued tasks
+2024-08-17 03:22:54,083 INFO - Setting the following tasks to queued state:
+	<TaskInstance: two_task_dag.bash_task_1 manual__2024-08-17T03:22:50.659856+00:00 [scheduled]>
+2024-08-17 03:22:54,085 INFO - Trying to enqueue tasks: [<TaskInstance: two_task_dag.bash_task_1 manual__2024-08-17T03:22:50.659856+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-08-17 03:22:54,085 INFO - Sending TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_1', run_id='manual__2024-08-17T03:22:50.659856+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 1 and queue default
+2024-08-17 03:22:54,086 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_1', 'manual__2024-08-17T03:22:50.659856+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+2024-08-17 03:22:54,114 INFO - Executing command: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_1', 'manual__2024-08-17T03:22:50.659856+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+2024-08-17 03:22:56,407 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_1', run_id='manual__2024-08-17T03:22:50.659856+00:00', try_number=1, map_index=-1)
+2024-08-17 03:22:56,411 INFO - TaskInstance Finished: dag_id=two_task_dag, task_id=bash_task_1, run_id=manual__2024-08-17T03:22:50.659856+00:00, map_index=-1, run_start_date=2024-08-17 03:22:55.784837+00:00, run_end_date=2024-08-17 03:22:56.026760+00:00, run_duration=0.241923, state=failed, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=15, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2024-08-17 03:22:54.084402+00:00, queued_by_job_id=11, pid=27041
+2024-08-17 03:22:56,436 ERROR - Marking run <DagRun two_task_dag @ 2024-08-17 03:22:50.659856+00:00: manual__2024-08-17T03:22:50.659856+00:00, state:running, queued_at: 2024-08-17 03:22:50.666677+00:00. externally triggered: True> failed
+2024-08-17 03:22:56,437 INFO - DagRun Finished: dag_id=two_task_dag, execution_date=2024-08-17 03:22:50.659856+00:00, run_id=manual__2024-08-17T03:22:50.659856+00:00, run_start_date=2024-08-17 03:22:51.159389+00:00, run_end_date=2024-08-17 03:22:56.437076+00:00, run_duration=5.277687, state=failed, external_trigger=True, run_type=manual, data_interval_start=2024-08-17 03:22:50.659856+00:00, data_interval_end=2024-08-17 03:22:50.659856+00:00, dag_hash=99ba3d968751b23d112ec2db2c015deb
+2024-08-17 03:24:58,479 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-08-17 03:25:36,572 INFO - Exiting gracefully upon receiving signal 15
+2024-08-17 03:25:37,576 INFO - Sending Signals.SIGTERM to group 25548. PIDs of all processes in the group: [25548]
+2024-08-17 03:25:37,577 INFO - Sending the signal Signals.SIGTERM to group 25548
+2024-08-17 03:25:37,871 INFO - Process psutil.Process(pid=25548, status='terminated', exitcode=0, started='03:19:58') (25548) terminated with exit code 0
+2024-08-17 03:25:37,875 INFO - Sending Signals.SIGTERM to group 25548. PIDs of all processes in the group: []
+2024-08-17 03:25:37,876 INFO - Sending the signal Signals.SIGTERM to group 25548
+2024-08-17 03:25:37,876 INFO - Sending the signal Signals.SIGTERM to process 25548 as process group is missing.
+2024-08-17 03:25:37,877 INFO - Exited execute loop
+2024-08-17 03:29:38,575 INFO - Loaded executor: SequentialExecutor
+2024-08-17 03:29:38,653 INFO - Starting the scheduler
+2024-08-17 03:29:38,654 INFO - Processing each file at most -1 times
+2024-08-17 03:29:38,661 INFO - Launched DagFileProcessorManager with pid: 34536
+2024-08-17 03:29:38,667 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-08-17 03:29:38,667 INFO - Configured default timezone UTC
+2024-08-17 03:29:58,042 WARNING - The Authorization header is missing: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8,te;q=0.7,hi;q=0.6
+Referer: https://laughing-spoon-v5xggxvj54q39x6.github.dev/
+X-Request-Id: df7567df53ffba7ed9c67464b54fe2d4
+X-Real-Ip: 10.240.3.196
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Ch-Ua: "Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Priority: u=0, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: laughing-spoon-v5xggxvj54q39x6-8793.app.github.dev
+X-Forwarded-For: 10.240.3.196
+Proxy-Connection: Keep-Alive
+
+.
+2024-08-17 03:29:59,672 WARNING - The Authorization header is missing: Accept: */*
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8,te;q=0.7,hi;q=0.6
+X-Request-Id: 4427e9edc50b6d92866ecdcb207b59a7
+X-Real-Ip: 10.240.3.64
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Priority: u=1, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: laughing-spoon-v5xggxvj54q39x6-8793.app.github.dev
+X-Forwarded-For: 10.240.3.64
+Proxy-Connection: Keep-Alive
+
+.
+2024-08-17 03:29:59,830 WARNING - The Authorization header is missing: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8,te;q=0.7,hi;q=0.6
+Referer: https://laughing-spoon-v5xggxvj54q39x6-8793.app.github.dev/
+X-Request-Id: 9aa6e6cc6b163e5321191a602511b3ce
+X-Real-Ip: 10.240.3.196
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua: "Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Priority: u=1, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: laughing-spoon-v5xggxvj54q39x6-8793.app.github.dev
+X-Forwarded-For: 10.240.3.196
+Proxy-Connection: Keep-Alive
+
+.
+2024-08-17 03:30:47,225 INFO - 1 tasks up for execution:
+	<TaskInstance: two_task_dag.bash_task_0 manual__2024-08-17T03:30:46.739907+00:00 [scheduled]>
+2024-08-17 03:30:47,227 INFO - DAG two_task_dag has 0/16 running and queued tasks
+2024-08-17 03:30:47,227 INFO - Setting the following tasks to queued state:
+	<TaskInstance: two_task_dag.bash_task_0 manual__2024-08-17T03:30:46.739907+00:00 [scheduled]>
+2024-08-17 03:30:47,232 INFO - Trying to enqueue tasks: [<TaskInstance: two_task_dag.bash_task_0 manual__2024-08-17T03:30:46.739907+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-08-17 03:30:47,233 INFO - Sending TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_0', run_id='manual__2024-08-17T03:30:46.739907+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 2 and queue default
+2024-08-17 03:30:47,233 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_0', 'manual__2024-08-17T03:30:46.739907+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+2024-08-17 03:30:47,262 INFO - Executing command: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_0', 'manual__2024-08-17T03:30:46.739907+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+2024-08-17 03:30:50,260 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_0', run_id='manual__2024-08-17T03:30:46.739907+00:00', try_number=1, map_index=-1)
+2024-08-17 03:30:50,266 INFO - TaskInstance Finished: dag_id=two_task_dag, task_id=bash_task_0, run_id=manual__2024-08-17T03:30:46.739907+00:00, map_index=-1, run_start_date=2024-08-17 03:30:49.330180+00:00, run_end_date=2024-08-17 03:30:49.784501+00:00, run_duration=0.454321, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=17, pool=default_pool, queue=default, priority_weight=2, operator=BashOperator, queued_dttm=2024-08-17 03:30:47.228939+00:00, queued_by_job_id=16, pid=35214
+2024-08-17 03:30:50,366 INFO - 1 tasks up for execution:
+	<TaskInstance: two_task_dag.bash_task_1 manual__2024-08-17T03:30:46.739907+00:00 [scheduled]>
+2024-08-17 03:30:50,367 INFO - DAG two_task_dag has 0/16 running and queued tasks
+2024-08-17 03:30:50,367 INFO - Setting the following tasks to queued state:
+	<TaskInstance: two_task_dag.bash_task_1 manual__2024-08-17T03:30:46.739907+00:00 [scheduled]>
+2024-08-17 03:30:50,370 INFO - Trying to enqueue tasks: [<TaskInstance: two_task_dag.bash_task_1 manual__2024-08-17T03:30:46.739907+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-08-17 03:30:50,371 INFO - Sending TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_1', run_id='manual__2024-08-17T03:30:46.739907+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 1 and queue default
+2024-08-17 03:30:50,371 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_1', 'manual__2024-08-17T03:30:46.739907+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+2024-08-17 03:30:50,400 INFO - Executing command: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_1', 'manual__2024-08-17T03:30:46.739907+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+2024-08-17 03:30:53,026 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_1', run_id='manual__2024-08-17T03:30:46.739907+00:00', try_number=1, map_index=-1)
+2024-08-17 03:30:53,031 INFO - TaskInstance Finished: dag_id=two_task_dag, task_id=bash_task_1, run_id=manual__2024-08-17T03:30:46.739907+00:00, map_index=-1, run_start_date=2024-08-17 03:30:52.227370+00:00, run_end_date=2024-08-17 03:30:52.513938+00:00, run_duration=0.286568, state=failed, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=18, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2024-08-17 03:30:50.368628+00:00, queued_by_job_id=16, pid=35247
+2024-08-17 03:30:53,064 ERROR - Marking run <DagRun two_task_dag @ 2024-08-17 03:30:46.739907+00:00: manual__2024-08-17T03:30:46.739907+00:00, state:running, queued_at: 2024-08-17 03:30:46.754770+00:00. externally triggered: True> failed
+2024-08-17 03:30:53,065 INFO - DagRun Finished: dag_id=two_task_dag, execution_date=2024-08-17 03:30:46.739907+00:00, run_id=manual__2024-08-17T03:30:46.739907+00:00, run_start_date=2024-08-17 03:30:47.067508+00:00, run_end_date=2024-08-17 03:30:53.065137+00:00, run_duration=5.997629, state=failed, external_trigger=True, run_type=manual, data_interval_start=2024-08-17 03:30:46.739907+00:00, data_interval_end=2024-08-17 03:30:46.739907+00:00, dag_hash=99ba3d968751b23d112ec2db2c015deb
+2024-08-17 03:32:20,605 INFO - 1 tasks up for execution:
+	<TaskInstance: two_task_dag.bash_task_0 manual__2024-08-17T03:32:19.269544+00:00 [scheduled]>
+2024-08-17 03:32:20,606 INFO - DAG two_task_dag has 0/16 running and queued tasks
+2024-08-17 03:32:20,607 INFO - Setting the following tasks to queued state:
+	<TaskInstance: two_task_dag.bash_task_0 manual__2024-08-17T03:32:19.269544+00:00 [scheduled]>
+2024-08-17 03:32:20,611 INFO - Trying to enqueue tasks: [<TaskInstance: two_task_dag.bash_task_0 manual__2024-08-17T03:32:19.269544+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-08-17 03:32:20,612 INFO - Sending TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_0', run_id='manual__2024-08-17T03:32:19.269544+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 2 and queue default
+2024-08-17 03:32:20,613 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_0', 'manual__2024-08-17T03:32:19.269544+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+2024-08-17 03:32:20,644 INFO - Executing command: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_0', 'manual__2024-08-17T03:32:19.269544+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+2024-08-17 03:32:23,424 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_0', run_id='manual__2024-08-17T03:32:19.269544+00:00', try_number=1, map_index=-1)
+2024-08-17 03:32:23,428 INFO - TaskInstance Finished: dag_id=two_task_dag, task_id=bash_task_0, run_id=manual__2024-08-17T03:32:19.269544+00:00, map_index=-1, run_start_date=2024-08-17 03:32:22.664905+00:00, run_end_date=2024-08-17 03:32:22.985285+00:00, run_duration=0.32038, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=19, pool=default_pool, queue=default, priority_weight=2, operator=BashOperator, queued_dttm=2024-08-17 03:32:20.608630+00:00, queued_by_job_id=16, pid=36065
+2024-08-17 03:32:23,531 INFO - 1 tasks up for execution:
+	<TaskInstance: two_task_dag.bash_task_1 manual__2024-08-17T03:32:19.269544+00:00 [scheduled]>
+2024-08-17 03:32:23,532 INFO - DAG two_task_dag has 0/16 running and queued tasks
+2024-08-17 03:32:23,533 INFO - Setting the following tasks to queued state:
+	<TaskInstance: two_task_dag.bash_task_1 manual__2024-08-17T03:32:19.269544+00:00 [scheduled]>
+2024-08-17 03:32:23,536 INFO - Trying to enqueue tasks: [<TaskInstance: two_task_dag.bash_task_1 manual__2024-08-17T03:32:19.269544+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-08-17 03:32:23,537 INFO - Sending TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_1', run_id='manual__2024-08-17T03:32:19.269544+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 1 and queue default
+2024-08-17 03:32:23,538 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_1', 'manual__2024-08-17T03:32:19.269544+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+2024-08-17 03:32:23,565 INFO - Executing command: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_1', 'manual__2024-08-17T03:32:19.269544+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+2024-08-17 03:32:26,200 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_1', run_id='manual__2024-08-17T03:32:19.269544+00:00', try_number=1, map_index=-1)
+2024-08-17 03:32:26,205 INFO - TaskInstance Finished: dag_id=two_task_dag, task_id=bash_task_1, run_id=manual__2024-08-17T03:32:19.269544+00:00, map_index=-1, run_start_date=2024-08-17 03:32:25.424235+00:00, run_end_date=2024-08-17 03:32:25.765212+00:00, run_duration=0.340977, state=failed, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=20, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2024-08-17 03:32:23.534250+00:00, queued_by_job_id=16, pid=36110
+2024-08-17 03:32:26,237 ERROR - Marking run <DagRun two_task_dag @ 2024-08-17 03:32:19.269544+00:00: manual__2024-08-17T03:32:19.269544+00:00, state:running, queued_at: 2024-08-17 03:32:19.275942+00:00. externally triggered: True> failed
+2024-08-17 03:32:26,237 INFO - DagRun Finished: dag_id=two_task_dag, execution_date=2024-08-17 03:32:19.269544+00:00, run_id=manual__2024-08-17T03:32:19.269544+00:00, run_start_date=2024-08-17 03:32:20.510916+00:00, run_end_date=2024-08-17 03:32:26.237766+00:00, run_duration=5.72685, state=failed, external_trigger=True, run_type=manual, data_interval_start=2024-08-17 03:32:19.269544+00:00, data_interval_end=2024-08-17 03:32:19.269544+00:00, dag_hash=99ba3d968751b23d112ec2db2c015deb
+2024-08-17 03:34:16,224 INFO - 1 tasks up for execution:
+	<TaskInstance: two_task_dag.bash_task_0 manual__2024-08-17T03:34:15.309455+00:00 [scheduled]>
+2024-08-17 03:34:16,224 INFO - DAG two_task_dag has 0/16 running and queued tasks
+2024-08-17 03:34:16,225 INFO - Setting the following tasks to queued state:
+	<TaskInstance: two_task_dag.bash_task_0 manual__2024-08-17T03:34:15.309455+00:00 [scheduled]>
+2024-08-17 03:34:16,226 INFO - Trying to enqueue tasks: [<TaskInstance: two_task_dag.bash_task_0 manual__2024-08-17T03:34:15.309455+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-08-17 03:34:16,227 INFO - Sending TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_0', run_id='manual__2024-08-17T03:34:15.309455+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 2 and queue default
+2024-08-17 03:34:16,227 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_0', 'manual__2024-08-17T03:34:15.309455+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+2024-08-17 03:34:16,254 INFO - Executing command: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_0', 'manual__2024-08-17T03:34:15.309455+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+2024-08-17 03:34:18,769 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_0', run_id='manual__2024-08-17T03:34:15.309455+00:00', try_number=1, map_index=-1)
+2024-08-17 03:34:18,774 INFO - TaskInstance Finished: dag_id=two_task_dag, task_id=bash_task_0, run_id=manual__2024-08-17T03:34:15.309455+00:00, map_index=-1, run_start_date=2024-08-17 03:34:18.017525+00:00, run_end_date=2024-08-17 03:34:18.312382+00:00, run_duration=0.294857, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=21, pool=default_pool, queue=default, priority_weight=2, operator=BashOperator, queued_dttm=2024-08-17 03:34:16.225947+00:00, queued_by_job_id=16, pid=37201
+2024-08-17 03:34:18,842 INFO - 1 tasks up for execution:
+	<TaskInstance: two_task_dag.bash_task_1 manual__2024-08-17T03:34:15.309455+00:00 [scheduled]>
+2024-08-17 03:34:18,843 INFO - DAG two_task_dag has 0/16 running and queued tasks
+2024-08-17 03:34:18,844 INFO - Setting the following tasks to queued state:
+	<TaskInstance: two_task_dag.bash_task_1 manual__2024-08-17T03:34:15.309455+00:00 [scheduled]>
+2024-08-17 03:34:18,847 INFO - Trying to enqueue tasks: [<TaskInstance: two_task_dag.bash_task_1 manual__2024-08-17T03:34:15.309455+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-08-17 03:34:18,848 INFO - Sending TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_1', run_id='manual__2024-08-17T03:34:15.309455+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 1 and queue default
+2024-08-17 03:34:18,848 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_1', 'manual__2024-08-17T03:34:15.309455+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+2024-08-17 03:34:18,879 INFO - Executing command: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_1', 'manual__2024-08-17T03:34:15.309455+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+2024-08-17 03:34:26,406 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_1', run_id='manual__2024-08-17T03:34:15.309455+00:00', try_number=1, map_index=-1)
+2024-08-17 03:34:26,410 INFO - TaskInstance Finished: dag_id=two_task_dag, task_id=bash_task_1, run_id=manual__2024-08-17T03:34:15.309455+00:00, map_index=-1, run_start_date=2024-08-17 03:34:20.724224+00:00, run_end_date=2024-08-17 03:34:26.051964+00:00, run_duration=5.32774, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=22, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2024-08-17 03:34:18.845045+00:00, queued_by_job_id=16, pid=37236
+2024-08-17 03:34:26,469 INFO - Marking run <DagRun two_task_dag @ 2024-08-17 03:34:15.309455+00:00: manual__2024-08-17T03:34:15.309455+00:00, state:running, queued_at: 2024-08-17 03:34:15.351603+00:00. externally triggered: True> successful
+2024-08-17 03:34:26,469 INFO - DagRun Finished: dag_id=two_task_dag, execution_date=2024-08-17 03:34:15.309455+00:00, run_id=manual__2024-08-17T03:34:15.309455+00:00, run_start_date=2024-08-17 03:34:16.153857+00:00, run_end_date=2024-08-17 03:34:26.469836+00:00, run_duration=10.315979, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-08-17 03:34:15.309455+00:00, data_interval_end=2024-08-17 03:34:15.309455+00:00, dag_hash=57770cb35d83894b2cbad360785a5850
+2024-08-17 03:34:38,721 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-08-17 03:34:39,948 INFO - 1 tasks up for execution:
+	<TaskInstance: two_task_dag.bash_task_0 manual__2024-08-17T03:34:38.023545+00:00 [scheduled]>
+2024-08-17 03:34:39,949 INFO - DAG two_task_dag has 0/16 running and queued tasks
+2024-08-17 03:34:39,950 INFO - Setting the following tasks to queued state:
+	<TaskInstance: two_task_dag.bash_task_0 manual__2024-08-17T03:34:38.023545+00:00 [scheduled]>
+2024-08-17 03:34:39,956 INFO - Trying to enqueue tasks: [<TaskInstance: two_task_dag.bash_task_0 manual__2024-08-17T03:34:38.023545+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-08-17 03:34:39,956 INFO - Sending TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_0', run_id='manual__2024-08-17T03:34:38.023545+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 2 and queue default
+2024-08-17 03:34:39,957 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_0', 'manual__2024-08-17T03:34:38.023545+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+2024-08-17 03:34:39,986 INFO - Executing command: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_0', 'manual__2024-08-17T03:34:38.023545+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+2024-08-17 03:34:42,742 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_0', run_id='manual__2024-08-17T03:34:38.023545+00:00', try_number=1, map_index=-1)
+2024-08-17 03:34:42,745 INFO - TaskInstance Finished: dag_id=two_task_dag, task_id=bash_task_0, run_id=manual__2024-08-17T03:34:38.023545+00:00, map_index=-1, run_start_date=2024-08-17 03:34:41.806786+00:00, run_end_date=2024-08-17 03:34:42.238339+00:00, run_duration=0.431553, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=23, pool=default_pool, queue=default, priority_weight=2, operator=BashOperator, queued_dttm=2024-08-17 03:34:39.951538+00:00, queued_by_job_id=16, pid=37478
+2024-08-17 03:34:42,948 INFO - 1 tasks up for execution:
+	<TaskInstance: two_task_dag.bash_task_1 manual__2024-08-17T03:34:38.023545+00:00 [scheduled]>
+2024-08-17 03:34:42,949 INFO - DAG two_task_dag has 0/16 running and queued tasks
+2024-08-17 03:34:42,949 INFO - Setting the following tasks to queued state:
+	<TaskInstance: two_task_dag.bash_task_1 manual__2024-08-17T03:34:38.023545+00:00 [scheduled]>
+2024-08-17 03:34:42,951 INFO - Trying to enqueue tasks: [<TaskInstance: two_task_dag.bash_task_1 manual__2024-08-17T03:34:38.023545+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-08-17 03:34:42,951 INFO - Sending TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_1', run_id='manual__2024-08-17T03:34:38.023545+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 1 and queue default
+2024-08-17 03:34:42,951 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_1', 'manual__2024-08-17T03:34:38.023545+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+2024-08-17 03:34:42,980 INFO - Executing command: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_1', 'manual__2024-08-17T03:34:38.023545+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+2024-08-17 03:34:50,690 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_1', run_id='manual__2024-08-17T03:34:38.023545+00:00', try_number=1, map_index=-1)
+2024-08-17 03:34:50,694 INFO - TaskInstance Finished: dag_id=two_task_dag, task_id=bash_task_1, run_id=manual__2024-08-17T03:34:38.023545+00:00, map_index=-1, run_start_date=2024-08-17 03:34:44.925003+00:00, run_end_date=2024-08-17 03:34:50.263045+00:00, run_duration=5.338042, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=24, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2024-08-17 03:34:42.950148+00:00, queued_by_job_id=16, pid=37536
+2024-08-17 03:34:50,902 INFO - Marking run <DagRun two_task_dag @ 2024-08-17 03:34:38.023545+00:00: manual__2024-08-17T03:34:38.023545+00:00, state:running, queued_at: 2024-08-17 03:34:38.029773+00:00. externally triggered: True> successful
+2024-08-17 03:34:50,902 INFO - DagRun Finished: dag_id=two_task_dag, execution_date=2024-08-17 03:34:38.023545+00:00, run_id=manual__2024-08-17T03:34:38.023545+00:00, run_start_date=2024-08-17 03:34:39.875083+00:00, run_end_date=2024-08-17 03:34:50.902761+00:00, run_duration=11.027678, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-08-17 03:34:38.023545+00:00, data_interval_end=2024-08-17 03:34:38.023545+00:00, dag_hash=57770cb35d83894b2cbad360785a5850
+2024-08-17 03:34:50,942 INFO - 1 tasks up for execution:
+	<TaskInstance: two_task_dag.bash_task_0 manual__2024-08-17T03:34:49.270139+00:00 [scheduled]>
+2024-08-17 03:34:50,943 INFO - DAG two_task_dag has 0/16 running and queued tasks
+2024-08-17 03:34:50,943 INFO - Setting the following tasks to queued state:
+	<TaskInstance: two_task_dag.bash_task_0 manual__2024-08-17T03:34:49.270139+00:00 [scheduled]>
+2024-08-17 03:34:50,945 INFO - Trying to enqueue tasks: [<TaskInstance: two_task_dag.bash_task_0 manual__2024-08-17T03:34:49.270139+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-08-17 03:34:50,946 INFO - Sending TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_0', run_id='manual__2024-08-17T03:34:49.270139+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 2 and queue default
+2024-08-17 03:34:50,946 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_0', 'manual__2024-08-17T03:34:49.270139+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+2024-08-17 03:34:50,975 INFO - Executing command: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_0', 'manual__2024-08-17T03:34:49.270139+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+2024-08-17 03:34:53,605 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_0', run_id='manual__2024-08-17T03:34:49.270139+00:00', try_number=1, map_index=-1)
+2024-08-17 03:34:53,610 INFO - TaskInstance Finished: dag_id=two_task_dag, task_id=bash_task_0, run_id=manual__2024-08-17T03:34:49.270139+00:00, map_index=-1, run_start_date=2024-08-17 03:34:52.716461+00:00, run_end_date=2024-08-17 03:34:52.991103+00:00, run_duration=0.274642, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=25, pool=default_pool, queue=default, priority_weight=2, operator=BashOperator, queued_dttm=2024-08-17 03:34:50.944502+00:00, queued_by_job_id=16, pid=37640
+2024-08-17 03:34:53,689 INFO - 1 tasks up for execution:
+	<TaskInstance: two_task_dag.bash_task_1 manual__2024-08-17T03:34:49.270139+00:00 [scheduled]>
+2024-08-17 03:34:53,689 INFO - DAG two_task_dag has 0/16 running and queued tasks
+2024-08-17 03:34:53,690 INFO - Setting the following tasks to queued state:
+	<TaskInstance: two_task_dag.bash_task_1 manual__2024-08-17T03:34:49.270139+00:00 [scheduled]>
+2024-08-17 03:34:53,693 INFO - Trying to enqueue tasks: [<TaskInstance: two_task_dag.bash_task_1 manual__2024-08-17T03:34:49.270139+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-08-17 03:34:53,694 INFO - Sending TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_1', run_id='manual__2024-08-17T03:34:49.270139+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 1 and queue default
+2024-08-17 03:34:53,695 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_1', 'manual__2024-08-17T03:34:49.270139+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+2024-08-17 03:34:53,722 INFO - Executing command: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_1', 'manual__2024-08-17T03:34:49.270139+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+2024-08-17 03:35:01,538 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_1', run_id='manual__2024-08-17T03:34:49.270139+00:00', try_number=1, map_index=-1)
+2024-08-17 03:35:01,543 INFO - TaskInstance Finished: dag_id=two_task_dag, task_id=bash_task_1, run_id=manual__2024-08-17T03:34:49.270139+00:00, map_index=-1, run_start_date=2024-08-17 03:34:55.832573+00:00, run_end_date=2024-08-17 03:35:01.116445+00:00, run_duration=5.283872, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=26, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2024-08-17 03:34:53.691502+00:00, queued_by_job_id=16, pid=37707
+2024-08-17 03:35:01,614 INFO - Marking run <DagRun two_task_dag @ 2024-08-17 03:34:49.270139+00:00: manual__2024-08-17T03:34:49.270139+00:00, state:running, queued_at: 2024-08-17 03:34:49.276714+00:00. externally triggered: True> successful
+2024-08-17 03:35:01,615 INFO - DagRun Finished: dag_id=two_task_dag, execution_date=2024-08-17 03:34:49.270139+00:00, run_id=manual__2024-08-17T03:34:49.270139+00:00, run_start_date=2024-08-17 03:34:50.861821+00:00, run_end_date=2024-08-17 03:35:01.615658+00:00, run_duration=10.753837, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-08-17 03:34:49.270139+00:00, data_interval_end=2024-08-17 03:34:49.270139+00:00, dag_hash=57770cb35d83894b2cbad360785a5850
+2024-08-17 03:39:38,761 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-08-17 03:44:38,793 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-08-17 03:49:38,832 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-08-17 03:54:38,863 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-08-17 03:59:38,893 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-08-17 04:04:38,930 INFO - Adopting or resetting orphaned tasks for active dag runs

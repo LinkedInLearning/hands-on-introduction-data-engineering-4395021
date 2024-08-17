@@ -1,45 +1,67 @@
-[2024-08-16T06:45:54.421+0000] {executor_loader.py:254} INFO - Loaded executor: SequentialExecutor
-[2024-08-16T06:45:54.499+0000] {scheduler_job_runner.py:935} INFO - Starting the scheduler
-[2024-08-16T06:45:54.500+0000] {scheduler_job_runner.py:942} INFO - Processing each file at most -1 times
-[2024-08-16T06:45:54.514+0000] {manager.py:174} INFO - Launched DagFileProcessorManager with pid: 12104
-[2024-08-16T06:45:54.516+0000] {scheduler_job_runner.py:1843} INFO - Adopting or resetting orphaned tasks for active dag runs
-[2024-08-16T06:45:54.519+0000] {settings.py:63} INFO - Configured default timezone UTC
-[2024-08-16T06:45:54.552+0000] {manager.py:406} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
-[2024-08-16T06:46:03.639+0000] {serve_logs.py:85} WARNING - The Authorization header is missing: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[2024-08-17T03:29:38.575+0000] {executor_loader.py:254} INFO - Loaded executor: SequentialExecutor
+[2024-08-17T03:29:38.653+0000] {scheduler_job_runner.py:935} INFO - Starting the scheduler
+[2024-08-17T03:29:38.654+0000] {scheduler_job_runner.py:942} INFO - Processing each file at most -1 times
+[2024-08-17T03:29:38.661+0000] {manager.py:174} INFO - Launched DagFileProcessorManager with pid: 34536
+[2024-08-17T03:29:38.667+0000] {scheduler_job_runner.py:1843} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-08-17T03:29:38.667+0000] {settings.py:63} INFO - Configured default timezone UTC
+[2024-08-17T03:29:38.701+0000] {manager.py:406} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
+[2024-08-17T03:29:58.042+0000] {serve_logs.py:85} WARNING - The Authorization header is missing: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
 Host: localhost:8793
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
 Accept-Encoding: gzip, deflate, br, zstd
 Accept-Language: en-GB,en-US;q=0.9,en;q=0.8,te;q=0.7,hi;q=0.6
-Cache-Control: max-age=0
 Referer: https://laughing-spoon-v5xggxvj54q39x6.github.dev/
-X-Request-Id: 482a55f3f106a27f51f1e63e88bdf18b
-X-Real-Ip: 10.240.0.69
+X-Request-Id: df7567df53ffba7ed9c67464b54fe2d4
+X-Real-Ip: 10.240.3.196
 X-Forwarded-Port: 443
 X-Forwarded-Scheme: https
 X-Original-Uri: /
 X-Scheme: https
-Sec-Fetch-Site: same-site
-Sec-Fetch-Mode: navigate
-Sec-Fetch-Dest: document
 Sec-Ch-Ua: "Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"
 Sec-Ch-Ua-Mobile: ?0
 Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
 Priority: u=0, i
 X-Original-Proto: https
 X-Forwarded-Proto: https
 X-Forwarded-Host: laughing-spoon-v5xggxvj54q39x6-8793.app.github.dev
-X-Forwarded-For: 10.240.0.69
+X-Forwarded-For: 10.240.3.196
 Proxy-Connection: Keep-Alive
 
 .
-[2024-08-16T06:46:04.099+0000] {serve_logs.py:85} WARNING - The Authorization header is missing: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+[2024-08-17T03:29:59.672+0000] {serve_logs.py:85} WARNING - The Authorization header is missing: Accept: */*
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8,te;q=0.7,hi;q=0.6
+X-Request-Id: 4427e9edc50b6d92866ecdcb207b59a7
+X-Real-Ip: 10.240.3.64
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Priority: u=1, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: laughing-spoon-v5xggxvj54q39x6-8793.app.github.dev
+X-Forwarded-For: 10.240.3.64
+Proxy-Connection: Keep-Alive
+
+.
+[2024-08-17T03:29:59.830+0000] {serve_logs.py:85} WARNING - The Authorization header is missing: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
 Host: localhost:8793
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
 Accept-Encoding: gzip, deflate, br, zstd
 Accept-Language: en-GB,en-US;q=0.9,en;q=0.8,te;q=0.7,hi;q=0.6
 Referer: https://laughing-spoon-v5xggxvj54q39x6-8793.app.github.dev/
-X-Request-Id: 727d1318958ace273b8dc51795368316
-X-Real-Ip: 10.240.0.69
+X-Request-Id: 9aa6e6cc6b163e5321191a602511b3ce
+X-Real-Ip: 10.240.3.196
 X-Forwarded-Port: 443
 X-Forwarded-Scheme: https
 X-Original-Uri: /favicon.ico
@@ -54,18 +76,154 @@ Priority: u=1, i
 X-Original-Proto: https
 X-Forwarded-Proto: https
 X-Forwarded-Host: laughing-spoon-v5xggxvj54q39x6-8793.app.github.dev
-X-Forwarded-For: 10.240.0.69
+X-Forwarded-For: 10.240.3.196
 Proxy-Connection: Keep-Alive
 
 .
-[2024-08-16T06:50:54.685+0000] {scheduler_job_runner.py:1843} INFO - Adopting or resetting orphaned tasks for active dag runs
-[2024-08-16T06:55:54.924+0000] {scheduler_job_runner.py:1843} INFO - Adopting or resetting orphaned tasks for active dag runs
-[2024-08-16T07:00:55.174+0000] {scheduler_job_runner.py:1843} INFO - Adopting or resetting orphaned tasks for active dag runs
-[2024-08-16T07:02:51.596+0000] {scheduler_job_runner.py:260} INFO - Exiting gracefully upon receiving signal 15
-[2024-08-16T07:02:52.600+0000] {process_utils.py:132} INFO - Sending Signals.SIGTERM to group 12104. PIDs of all processes in the group: [12104]
-[2024-08-16T07:02:52.601+0000] {process_utils.py:87} INFO - Sending the signal Signals.SIGTERM to group 12104
-[2024-08-16T07:02:52.940+0000] {process_utils.py:80} INFO - Process psutil.Process(pid=12104, status='terminated', exitcode=0, started='06:45:54') (12104) terminated with exit code 0
-[2024-08-16T07:02:52.943+0000] {process_utils.py:132} INFO - Sending Signals.SIGTERM to group 12104. PIDs of all processes in the group: []
-[2024-08-16T07:02:52.944+0000] {process_utils.py:87} INFO - Sending the signal Signals.SIGTERM to group 12104
-[2024-08-16T07:02:52.944+0000] {process_utils.py:101} INFO - Sending the signal Signals.SIGTERM to process 12104 as process group is missing.
-[2024-08-16T07:02:52.945+0000] {scheduler_job_runner.py:1014} INFO - Exited execute loop
+[2024-08-17T03:30:47.225+0000] {scheduler_job_runner.py:423} INFO - 1 tasks up for execution:
+	<TaskInstance: two_task_dag.bash_task_0 manual__2024-08-17T03:30:46.739907+00:00 [scheduled]>
+[2024-08-17T03:30:47.227+0000] {scheduler_job_runner.py:495} INFO - DAG two_task_dag has 0/16 running and queued tasks
+[2024-08-17T03:30:47.227+0000] {scheduler_job_runner.py:634} INFO - Setting the following tasks to queued state:
+	<TaskInstance: two_task_dag.bash_task_0 manual__2024-08-17T03:30:46.739907+00:00 [scheduled]>
+[2024-08-17T03:30:47.232+0000] {scheduler_job_runner.py:736} INFO - Trying to enqueue tasks: [<TaskInstance: two_task_dag.bash_task_0 manual__2024-08-17T03:30:46.739907+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-08-17T03:30:47.233+0000] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_0', run_id='manual__2024-08-17T03:30:46.739907+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 2 and queue default
+[2024-08-17T03:30:47.233+0000] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_0', 'manual__2024-08-17T03:30:46.739907+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+[2024-08-17T03:30:47.262+0000] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_0', 'manual__2024-08-17T03:30:46.739907+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+[2024-08-17T03:30:48.909+0000] {dagbag.py:587} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task.py
+[2024-08-17T03:30:49.177+0000] {task_command.py:467} INFO - Running <TaskInstance: two_task_dag.bash_task_0 manual__2024-08-17T03:30:46.739907+00:00 [queued]> on host codespaces-80360b
+[2024-08-17T03:30:50.260+0000] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_0', run_id='manual__2024-08-17T03:30:46.739907+00:00', try_number=1, map_index=-1)
+[2024-08-17T03:30:50.266+0000] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=two_task_dag, task_id=bash_task_0, run_id=manual__2024-08-17T03:30:46.739907+00:00, map_index=-1, run_start_date=2024-08-17 03:30:49.330180+00:00, run_end_date=2024-08-17 03:30:49.784501+00:00, run_duration=0.454321, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=17, pool=default_pool, queue=default, priority_weight=2, operator=BashOperator, queued_dttm=2024-08-17 03:30:47.228939+00:00, queued_by_job_id=16, pid=35214
+[2024-08-17T03:30:50.366+0000] {scheduler_job_runner.py:423} INFO - 1 tasks up for execution:
+	<TaskInstance: two_task_dag.bash_task_1 manual__2024-08-17T03:30:46.739907+00:00 [scheduled]>
+[2024-08-17T03:30:50.367+0000] {scheduler_job_runner.py:495} INFO - DAG two_task_dag has 0/16 running and queued tasks
+[2024-08-17T03:30:50.367+0000] {scheduler_job_runner.py:634} INFO - Setting the following tasks to queued state:
+	<TaskInstance: two_task_dag.bash_task_1 manual__2024-08-17T03:30:46.739907+00:00 [scheduled]>
+[2024-08-17T03:30:50.370+0000] {scheduler_job_runner.py:736} INFO - Trying to enqueue tasks: [<TaskInstance: two_task_dag.bash_task_1 manual__2024-08-17T03:30:46.739907+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-08-17T03:30:50.371+0000] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_1', run_id='manual__2024-08-17T03:30:46.739907+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 1 and queue default
+[2024-08-17T03:30:50.371+0000] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_1', 'manual__2024-08-17T03:30:46.739907+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+[2024-08-17T03:30:50.400+0000] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_1', 'manual__2024-08-17T03:30:46.739907+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+[2024-08-17T03:30:52.023+0000] {dagbag.py:587} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task.py
+[2024-08-17T03:30:52.149+0000] {task_command.py:467} INFO - Running <TaskInstance: two_task_dag.bash_task_1 manual__2024-08-17T03:30:46.739907+00:00 [queued]> on host codespaces-80360b
+[2024-08-17T03:30:53.026+0000] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_1', run_id='manual__2024-08-17T03:30:46.739907+00:00', try_number=1, map_index=-1)
+[2024-08-17T03:30:53.031+0000] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=two_task_dag, task_id=bash_task_1, run_id=manual__2024-08-17T03:30:46.739907+00:00, map_index=-1, run_start_date=2024-08-17 03:30:52.227370+00:00, run_end_date=2024-08-17 03:30:52.513938+00:00, run_duration=0.286568, state=failed, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=18, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2024-08-17 03:30:50.368628+00:00, queued_by_job_id=16, pid=35247
+[2024-08-17T03:30:53.064+0000] {dagrun.py:823} ERROR - Marking run <DagRun two_task_dag @ 2024-08-17 03:30:46.739907+00:00: manual__2024-08-17T03:30:46.739907+00:00, state:running, queued_at: 2024-08-17 03:30:46.754770+00:00. externally triggered: True> failed
+[2024-08-17T03:30:53.065+0000] {dagrun.py:905} INFO - DagRun Finished: dag_id=two_task_dag, execution_date=2024-08-17 03:30:46.739907+00:00, run_id=manual__2024-08-17T03:30:46.739907+00:00, run_start_date=2024-08-17 03:30:47.067508+00:00, run_end_date=2024-08-17 03:30:53.065137+00:00, run_duration=5.997629, state=failed, external_trigger=True, run_type=manual, data_interval_start=2024-08-17 03:30:46.739907+00:00, data_interval_end=2024-08-17 03:30:46.739907+00:00, dag_hash=99ba3d968751b23d112ec2db2c015deb
+[2024-08-17T03:32:20.605+0000] {scheduler_job_runner.py:423} INFO - 1 tasks up for execution:
+	<TaskInstance: two_task_dag.bash_task_0 manual__2024-08-17T03:32:19.269544+00:00 [scheduled]>
+[2024-08-17T03:32:20.606+0000] {scheduler_job_runner.py:495} INFO - DAG two_task_dag has 0/16 running and queued tasks
+[2024-08-17T03:32:20.607+0000] {scheduler_job_runner.py:634} INFO - Setting the following tasks to queued state:
+	<TaskInstance: two_task_dag.bash_task_0 manual__2024-08-17T03:32:19.269544+00:00 [scheduled]>
+[2024-08-17T03:32:20.611+0000] {scheduler_job_runner.py:736} INFO - Trying to enqueue tasks: [<TaskInstance: two_task_dag.bash_task_0 manual__2024-08-17T03:32:19.269544+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-08-17T03:32:20.612+0000] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_0', run_id='manual__2024-08-17T03:32:19.269544+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 2 and queue default
+[2024-08-17T03:32:20.613+0000] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_0', 'manual__2024-08-17T03:32:19.269544+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+[2024-08-17T03:32:20.644+0000] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_0', 'manual__2024-08-17T03:32:19.269544+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+[2024-08-17T03:32:22.362+0000] {dagbag.py:587} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task.py
+[2024-08-17T03:32:22.590+0000] {task_command.py:467} INFO - Running <TaskInstance: two_task_dag.bash_task_0 manual__2024-08-17T03:32:19.269544+00:00 [queued]> on host codespaces-80360b
+[2024-08-17T03:32:23.424+0000] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_0', run_id='manual__2024-08-17T03:32:19.269544+00:00', try_number=1, map_index=-1)
+[2024-08-17T03:32:23.428+0000] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=two_task_dag, task_id=bash_task_0, run_id=manual__2024-08-17T03:32:19.269544+00:00, map_index=-1, run_start_date=2024-08-17 03:32:22.664905+00:00, run_end_date=2024-08-17 03:32:22.985285+00:00, run_duration=0.32038, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=19, pool=default_pool, queue=default, priority_weight=2, operator=BashOperator, queued_dttm=2024-08-17 03:32:20.608630+00:00, queued_by_job_id=16, pid=36065
+[2024-08-17T03:32:23.531+0000] {scheduler_job_runner.py:423} INFO - 1 tasks up for execution:
+	<TaskInstance: two_task_dag.bash_task_1 manual__2024-08-17T03:32:19.269544+00:00 [scheduled]>
+[2024-08-17T03:32:23.532+0000] {scheduler_job_runner.py:495} INFO - DAG two_task_dag has 0/16 running and queued tasks
+[2024-08-17T03:32:23.533+0000] {scheduler_job_runner.py:634} INFO - Setting the following tasks to queued state:
+	<TaskInstance: two_task_dag.bash_task_1 manual__2024-08-17T03:32:19.269544+00:00 [scheduled]>
+[2024-08-17T03:32:23.536+0000] {scheduler_job_runner.py:736} INFO - Trying to enqueue tasks: [<TaskInstance: two_task_dag.bash_task_1 manual__2024-08-17T03:32:19.269544+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-08-17T03:32:23.537+0000] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_1', run_id='manual__2024-08-17T03:32:19.269544+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 1 and queue default
+[2024-08-17T03:32:23.538+0000] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_1', 'manual__2024-08-17T03:32:19.269544+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+[2024-08-17T03:32:23.565+0000] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_1', 'manual__2024-08-17T03:32:19.269544+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+[2024-08-17T03:32:25.115+0000] {dagbag.py:587} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task.py
+[2024-08-17T03:32:25.324+0000] {task_command.py:467} INFO - Running <TaskInstance: two_task_dag.bash_task_1 manual__2024-08-17T03:32:19.269544+00:00 [queued]> on host codespaces-80360b
+[2024-08-17T03:32:26.200+0000] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_1', run_id='manual__2024-08-17T03:32:19.269544+00:00', try_number=1, map_index=-1)
+[2024-08-17T03:32:26.205+0000] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=two_task_dag, task_id=bash_task_1, run_id=manual__2024-08-17T03:32:19.269544+00:00, map_index=-1, run_start_date=2024-08-17 03:32:25.424235+00:00, run_end_date=2024-08-17 03:32:25.765212+00:00, run_duration=0.340977, state=failed, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=20, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2024-08-17 03:32:23.534250+00:00, queued_by_job_id=16, pid=36110
+[2024-08-17T03:32:26.237+0000] {dagrun.py:823} ERROR - Marking run <DagRun two_task_dag @ 2024-08-17 03:32:19.269544+00:00: manual__2024-08-17T03:32:19.269544+00:00, state:running, queued_at: 2024-08-17 03:32:19.275942+00:00. externally triggered: True> failed
+[2024-08-17T03:32:26.237+0000] {dagrun.py:905} INFO - DagRun Finished: dag_id=two_task_dag, execution_date=2024-08-17 03:32:19.269544+00:00, run_id=manual__2024-08-17T03:32:19.269544+00:00, run_start_date=2024-08-17 03:32:20.510916+00:00, run_end_date=2024-08-17 03:32:26.237766+00:00, run_duration=5.72685, state=failed, external_trigger=True, run_type=manual, data_interval_start=2024-08-17 03:32:19.269544+00:00, data_interval_end=2024-08-17 03:32:19.269544+00:00, dag_hash=99ba3d968751b23d112ec2db2c015deb
+[2024-08-17T03:34:16.224+0000] {scheduler_job_runner.py:423} INFO - 1 tasks up for execution:
+	<TaskInstance: two_task_dag.bash_task_0 manual__2024-08-17T03:34:15.309455+00:00 [scheduled]>
+[2024-08-17T03:34:16.224+0000] {scheduler_job_runner.py:495} INFO - DAG two_task_dag has 0/16 running and queued tasks
+[2024-08-17T03:34:16.225+0000] {scheduler_job_runner.py:634} INFO - Setting the following tasks to queued state:
+	<TaskInstance: two_task_dag.bash_task_0 manual__2024-08-17T03:34:15.309455+00:00 [scheduled]>
+[2024-08-17T03:34:16.226+0000] {scheduler_job_runner.py:736} INFO - Trying to enqueue tasks: [<TaskInstance: two_task_dag.bash_task_0 manual__2024-08-17T03:34:15.309455+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-08-17T03:34:16.227+0000] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_0', run_id='manual__2024-08-17T03:34:15.309455+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 2 and queue default
+[2024-08-17T03:34:16.227+0000] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_0', 'manual__2024-08-17T03:34:15.309455+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+[2024-08-17T03:34:16.254+0000] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_0', 'manual__2024-08-17T03:34:15.309455+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+[2024-08-17T03:34:17.829+0000] {dagbag.py:587} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task.py
+[2024-08-17T03:34:17.953+0000] {task_command.py:467} INFO - Running <TaskInstance: two_task_dag.bash_task_0 manual__2024-08-17T03:34:15.309455+00:00 [queued]> on host codespaces-80360b
+[2024-08-17T03:34:18.769+0000] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_0', run_id='manual__2024-08-17T03:34:15.309455+00:00', try_number=1, map_index=-1)
+[2024-08-17T03:34:18.774+0000] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=two_task_dag, task_id=bash_task_0, run_id=manual__2024-08-17T03:34:15.309455+00:00, map_index=-1, run_start_date=2024-08-17 03:34:18.017525+00:00, run_end_date=2024-08-17 03:34:18.312382+00:00, run_duration=0.294857, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=21, pool=default_pool, queue=default, priority_weight=2, operator=BashOperator, queued_dttm=2024-08-17 03:34:16.225947+00:00, queued_by_job_id=16, pid=37201
+[2024-08-17T03:34:18.842+0000] {scheduler_job_runner.py:423} INFO - 1 tasks up for execution:
+	<TaskInstance: two_task_dag.bash_task_1 manual__2024-08-17T03:34:15.309455+00:00 [scheduled]>
+[2024-08-17T03:34:18.843+0000] {scheduler_job_runner.py:495} INFO - DAG two_task_dag has 0/16 running and queued tasks
+[2024-08-17T03:34:18.844+0000] {scheduler_job_runner.py:634} INFO - Setting the following tasks to queued state:
+	<TaskInstance: two_task_dag.bash_task_1 manual__2024-08-17T03:34:15.309455+00:00 [scheduled]>
+[2024-08-17T03:34:18.847+0000] {scheduler_job_runner.py:736} INFO - Trying to enqueue tasks: [<TaskInstance: two_task_dag.bash_task_1 manual__2024-08-17T03:34:15.309455+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-08-17T03:34:18.848+0000] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_1', run_id='manual__2024-08-17T03:34:15.309455+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 1 and queue default
+[2024-08-17T03:34:18.848+0000] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_1', 'manual__2024-08-17T03:34:15.309455+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+[2024-08-17T03:34:18.879+0000] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_1', 'manual__2024-08-17T03:34:15.309455+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+[2024-08-17T03:34:20.394+0000] {dagbag.py:587} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task.py
+[2024-08-17T03:34:20.629+0000] {task_command.py:467} INFO - Running <TaskInstance: two_task_dag.bash_task_1 manual__2024-08-17T03:34:15.309455+00:00 [queued]> on host codespaces-80360b
+[2024-08-17T03:34:26.406+0000] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_1', run_id='manual__2024-08-17T03:34:15.309455+00:00', try_number=1, map_index=-1)
+[2024-08-17T03:34:26.410+0000] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=two_task_dag, task_id=bash_task_1, run_id=manual__2024-08-17T03:34:15.309455+00:00, map_index=-1, run_start_date=2024-08-17 03:34:20.724224+00:00, run_end_date=2024-08-17 03:34:26.051964+00:00, run_duration=5.32774, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=22, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2024-08-17 03:34:18.845045+00:00, queued_by_job_id=16, pid=37236
+[2024-08-17T03:34:26.469+0000] {dagrun.py:854} INFO - Marking run <DagRun two_task_dag @ 2024-08-17 03:34:15.309455+00:00: manual__2024-08-17T03:34:15.309455+00:00, state:running, queued_at: 2024-08-17 03:34:15.351603+00:00. externally triggered: True> successful
+[2024-08-17T03:34:26.469+0000] {dagrun.py:905} INFO - DagRun Finished: dag_id=two_task_dag, execution_date=2024-08-17 03:34:15.309455+00:00, run_id=manual__2024-08-17T03:34:15.309455+00:00, run_start_date=2024-08-17 03:34:16.153857+00:00, run_end_date=2024-08-17 03:34:26.469836+00:00, run_duration=10.315979, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-08-17 03:34:15.309455+00:00, data_interval_end=2024-08-17 03:34:15.309455+00:00, dag_hash=57770cb35d83894b2cbad360785a5850
+[2024-08-17T03:34:38.721+0000] {scheduler_job_runner.py:1843} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-08-17T03:34:39.948+0000] {scheduler_job_runner.py:423} INFO - 1 tasks up for execution:
+	<TaskInstance: two_task_dag.bash_task_0 manual__2024-08-17T03:34:38.023545+00:00 [scheduled]>
+[2024-08-17T03:34:39.949+0000] {scheduler_job_runner.py:495} INFO - DAG two_task_dag has 0/16 running and queued tasks
+[2024-08-17T03:34:39.950+0000] {scheduler_job_runner.py:634} INFO - Setting the following tasks to queued state:
+	<TaskInstance: two_task_dag.bash_task_0 manual__2024-08-17T03:34:38.023545+00:00 [scheduled]>
+[2024-08-17T03:34:39.956+0000] {scheduler_job_runner.py:736} INFO - Trying to enqueue tasks: [<TaskInstance: two_task_dag.bash_task_0 manual__2024-08-17T03:34:38.023545+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-08-17T03:34:39.956+0000] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_0', run_id='manual__2024-08-17T03:34:38.023545+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 2 and queue default
+[2024-08-17T03:34:39.957+0000] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_0', 'manual__2024-08-17T03:34:38.023545+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+[2024-08-17T03:34:39.986+0000] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_0', 'manual__2024-08-17T03:34:38.023545+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+[2024-08-17T03:34:41.582+0000] {dagbag.py:587} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task.py
+[2024-08-17T03:34:41.721+0000] {task_command.py:467} INFO - Running <TaskInstance: two_task_dag.bash_task_0 manual__2024-08-17T03:34:38.023545+00:00 [queued]> on host codespaces-80360b
+[2024-08-17T03:34:42.742+0000] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_0', run_id='manual__2024-08-17T03:34:38.023545+00:00', try_number=1, map_index=-1)
+[2024-08-17T03:34:42.745+0000] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=two_task_dag, task_id=bash_task_0, run_id=manual__2024-08-17T03:34:38.023545+00:00, map_index=-1, run_start_date=2024-08-17 03:34:41.806786+00:00, run_end_date=2024-08-17 03:34:42.238339+00:00, run_duration=0.431553, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=23, pool=default_pool, queue=default, priority_weight=2, operator=BashOperator, queued_dttm=2024-08-17 03:34:39.951538+00:00, queued_by_job_id=16, pid=37478
+[2024-08-17T03:34:42.948+0000] {scheduler_job_runner.py:423} INFO - 1 tasks up for execution:
+	<TaskInstance: two_task_dag.bash_task_1 manual__2024-08-17T03:34:38.023545+00:00 [scheduled]>
+[2024-08-17T03:34:42.949+0000] {scheduler_job_runner.py:495} INFO - DAG two_task_dag has 0/16 running and queued tasks
+[2024-08-17T03:34:42.949+0000] {scheduler_job_runner.py:634} INFO - Setting the following tasks to queued state:
+	<TaskInstance: two_task_dag.bash_task_1 manual__2024-08-17T03:34:38.023545+00:00 [scheduled]>
+[2024-08-17T03:34:42.951+0000] {scheduler_job_runner.py:736} INFO - Trying to enqueue tasks: [<TaskInstance: two_task_dag.bash_task_1 manual__2024-08-17T03:34:38.023545+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-08-17T03:34:42.951+0000] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_1', run_id='manual__2024-08-17T03:34:38.023545+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 1 and queue default
+[2024-08-17T03:34:42.951+0000] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_1', 'manual__2024-08-17T03:34:38.023545+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+[2024-08-17T03:34:42.980+0000] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_1', 'manual__2024-08-17T03:34:38.023545+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+[2024-08-17T03:34:44.737+0000] {dagbag.py:587} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task.py
+[2024-08-17T03:34:44.858+0000] {task_command.py:467} INFO - Running <TaskInstance: two_task_dag.bash_task_1 manual__2024-08-17T03:34:38.023545+00:00 [queued]> on host codespaces-80360b
+[2024-08-17T03:34:50.690+0000] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_1', run_id='manual__2024-08-17T03:34:38.023545+00:00', try_number=1, map_index=-1)
+[2024-08-17T03:34:50.694+0000] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=two_task_dag, task_id=bash_task_1, run_id=manual__2024-08-17T03:34:38.023545+00:00, map_index=-1, run_start_date=2024-08-17 03:34:44.925003+00:00, run_end_date=2024-08-17 03:34:50.263045+00:00, run_duration=5.338042, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=24, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2024-08-17 03:34:42.950148+00:00, queued_by_job_id=16, pid=37536
+[2024-08-17T03:34:50.902+0000] {dagrun.py:854} INFO - Marking run <DagRun two_task_dag @ 2024-08-17 03:34:38.023545+00:00: manual__2024-08-17T03:34:38.023545+00:00, state:running, queued_at: 2024-08-17 03:34:38.029773+00:00. externally triggered: True> successful
+[2024-08-17T03:34:50.902+0000] {dagrun.py:905} INFO - DagRun Finished: dag_id=two_task_dag, execution_date=2024-08-17 03:34:38.023545+00:00, run_id=manual__2024-08-17T03:34:38.023545+00:00, run_start_date=2024-08-17 03:34:39.875083+00:00, run_end_date=2024-08-17 03:34:50.902761+00:00, run_duration=11.027678, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-08-17 03:34:38.023545+00:00, data_interval_end=2024-08-17 03:34:38.023545+00:00, dag_hash=57770cb35d83894b2cbad360785a5850
+[2024-08-17T03:34:50.942+0000] {scheduler_job_runner.py:423} INFO - 1 tasks up for execution:
+	<TaskInstance: two_task_dag.bash_task_0 manual__2024-08-17T03:34:49.270139+00:00 [scheduled]>
+[2024-08-17T03:34:50.943+0000] {scheduler_job_runner.py:495} INFO - DAG two_task_dag has 0/16 running and queued tasks
+[2024-08-17T03:34:50.943+0000] {scheduler_job_runner.py:634} INFO - Setting the following tasks to queued state:
+	<TaskInstance: two_task_dag.bash_task_0 manual__2024-08-17T03:34:49.270139+00:00 [scheduled]>
+[2024-08-17T03:34:50.945+0000] {scheduler_job_runner.py:736} INFO - Trying to enqueue tasks: [<TaskInstance: two_task_dag.bash_task_0 manual__2024-08-17T03:34:49.270139+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-08-17T03:34:50.946+0000] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_0', run_id='manual__2024-08-17T03:34:49.270139+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 2 and queue default
+[2024-08-17T03:34:50.946+0000] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_0', 'manual__2024-08-17T03:34:49.270139+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+[2024-08-17T03:34:50.975+0000] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_0', 'manual__2024-08-17T03:34:49.270139+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+[2024-08-17T03:34:52.505+0000] {dagbag.py:587} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task.py
+[2024-08-17T03:34:52.639+0000] {task_command.py:467} INFO - Running <TaskInstance: two_task_dag.bash_task_0 manual__2024-08-17T03:34:49.270139+00:00 [queued]> on host codespaces-80360b
+[2024-08-17T03:34:53.605+0000] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_0', run_id='manual__2024-08-17T03:34:49.270139+00:00', try_number=1, map_index=-1)
+[2024-08-17T03:34:53.610+0000] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=two_task_dag, task_id=bash_task_0, run_id=manual__2024-08-17T03:34:49.270139+00:00, map_index=-1, run_start_date=2024-08-17 03:34:52.716461+00:00, run_end_date=2024-08-17 03:34:52.991103+00:00, run_duration=0.274642, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=25, pool=default_pool, queue=default, priority_weight=2, operator=BashOperator, queued_dttm=2024-08-17 03:34:50.944502+00:00, queued_by_job_id=16, pid=37640
+[2024-08-17T03:34:53.689+0000] {scheduler_job_runner.py:423} INFO - 1 tasks up for execution:
+	<TaskInstance: two_task_dag.bash_task_1 manual__2024-08-17T03:34:49.270139+00:00 [scheduled]>
+[2024-08-17T03:34:53.689+0000] {scheduler_job_runner.py:495} INFO - DAG two_task_dag has 0/16 running and queued tasks
+[2024-08-17T03:34:53.690+0000] {scheduler_job_runner.py:634} INFO - Setting the following tasks to queued state:
+	<TaskInstance: two_task_dag.bash_task_1 manual__2024-08-17T03:34:49.270139+00:00 [scheduled]>
+[2024-08-17T03:34:53.693+0000] {scheduler_job_runner.py:736} INFO - Trying to enqueue tasks: [<TaskInstance: two_task_dag.bash_task_1 manual__2024-08-17T03:34:49.270139+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-08-17T03:34:53.694+0000] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_1', run_id='manual__2024-08-17T03:34:49.270139+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 1 and queue default
+[2024-08-17T03:34:53.695+0000] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_1', 'manual__2024-08-17T03:34:49.270139+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+[2024-08-17T03:34:53.722+0000] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_1', 'manual__2024-08-17T03:34:49.270139+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task.py']
+[2024-08-17T03:34:55.552+0000] {dagbag.py:587} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task.py
+[2024-08-17T03:34:55.763+0000] {task_command.py:467} INFO - Running <TaskInstance: two_task_dag.bash_task_1 manual__2024-08-17T03:34:49.270139+00:00 [queued]> on host codespaces-80360b
+[2024-08-17T03:35:01.538+0000] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_1', run_id='manual__2024-08-17T03:34:49.270139+00:00', try_number=1, map_index=-1)
+[2024-08-17T03:35:01.543+0000] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=two_task_dag, task_id=bash_task_1, run_id=manual__2024-08-17T03:34:49.270139+00:00, map_index=-1, run_start_date=2024-08-17 03:34:55.832573+00:00, run_end_date=2024-08-17 03:35:01.116445+00:00, run_duration=5.283872, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=26, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2024-08-17 03:34:53.691502+00:00, queued_by_job_id=16, pid=37707
+[2024-08-17T03:35:01.614+0000] {dagrun.py:854} INFO - Marking run <DagRun two_task_dag @ 2024-08-17 03:34:49.270139+00:00: manual__2024-08-17T03:34:49.270139+00:00, state:running, queued_at: 2024-08-17 03:34:49.276714+00:00. externally triggered: True> successful
+[2024-08-17T03:35:01.615+0000] {dagrun.py:905} INFO - DagRun Finished: dag_id=two_task_dag, execution_date=2024-08-17 03:34:49.270139+00:00, run_id=manual__2024-08-17T03:34:49.270139+00:00, run_start_date=2024-08-17 03:34:50.861821+00:00, run_end_date=2024-08-17 03:35:01.615658+00:00, run_duration=10.753837, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-08-17 03:34:49.270139+00:00, data_interval_end=2024-08-17 03:34:49.270139+00:00, dag_hash=57770cb35d83894b2cbad360785a5850
+[2024-08-17T03:39:38.761+0000] {scheduler_job_runner.py:1843} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-08-17T03:44:38.793+0000] {scheduler_job_runner.py:1843} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-08-17T03:49:38.832+0000] {scheduler_job_runner.py:1843} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-08-17T03:54:38.863+0000] {scheduler_job_runner.py:1843} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-08-17T03:59:38.893+0000] {scheduler_job_runner.py:1843} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-08-17T04:04:38.930+0000] {scheduler_job_runner.py:1843} INFO - Adopting or resetting orphaned tasks for active dag runs
