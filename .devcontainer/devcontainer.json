@@ -4,10 +4,9 @@
     "vscode": {
       "extensions": [
         "GitHub.github-vscode-theme",
-        //"alexcvzz.vscode-sqlite",
-        "ms-python.python" 
+        "ms-python.python"
       ],
-      "settings": { // see https://github.com/AlexCovizzi/vscode-sqlite/issues/247
+      "settings": {
         "sqlite.sqlite3": "/usr/bin/sqlite3"
       }
     }
