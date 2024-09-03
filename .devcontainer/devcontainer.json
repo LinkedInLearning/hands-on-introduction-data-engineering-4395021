@@ -1,18 +1,19 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2.10.2",
+  "image": "mcr.microsoft.com/devcontainers/python:3.10",
   "customizations": {
     "vscode": {
       "extensions": [
         "GitHub.github-vscode-theme",
-        "alexcvzz.vscode-sqlite",
         "ms-python.python"
       ],
-      "settings": { // see https://github.com/AlexCovizzi/vscode-sqlite/issues/247
-        "sqlite.sqlite3": ".vscode\\extensions\\alexcvzz.vscode-sqlite-0.14.1\\bin"
+      "settings": {
+        "sqlite.sqlite3": "/usr/bin/sqlite3"
       }
     }
   },
-  "features": {},
-  "postCreateCommand": "./lab_setup.sh"
+  "features": {
+    "ghcr.io/warrenbuckley/codespace-features/sqlite:latest": {}
+  },
+  "postCreateCommand": "bash ./lab_setup.sh"
 }
 // DevContainer Reference: https://code.visualstudio.com/docs/remote/devcontainerjson-reference
