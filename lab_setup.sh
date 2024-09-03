@@ -1,5 +1,9 @@
 #!/bin/sh
 
+# Install sqlite3
+# sudo apt update
+# sudo apt install sqlite3 
+
 # Turn off SQLALCHEMY Warning
 export SQLALCHEMY_SILENCE_UBER_WARNING=1
 echo 'export SQLALCHEMY_SILENCE_UBER_WARNING=1' >> ~/.bashrc 
