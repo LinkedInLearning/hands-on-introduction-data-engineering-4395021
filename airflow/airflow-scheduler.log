@@ -1,0 +1,56 @@
+2025-01-21 03:31:17,525 INFO - Loaded executor: SequentialExecutor
+2025-01-21 03:31:17,566 INFO - Starting the scheduler
+2025-01-21 03:31:17,567 INFO - Processing each file at most -1 times
+2025-01-21 03:31:17,579 INFO - Launched DagFileProcessorManager with pid: 8967
+2025-01-21 03:31:17,581 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-21 03:31:17,584 INFO - Configured default timezone UTC
+2025-01-21 03:32:12,336 INFO - Exiting gracefully upon receiving signal 15
+2025-01-21 03:32:13,340 INFO - Sending Signals.SIGTERM to group 8967. PIDs of all processes in the group: [8967]
+2025-01-21 03:32:13,342 INFO - Sending the signal Signals.SIGTERM to group 8967
+2025-01-21 03:32:13,520 INFO - Process psutil.Process(pid=8967, status='terminated', exitcode=0, started='03:31:16') (8967) terminated with exit code 0
+2025-01-21 03:32:13,522 INFO - Sending Signals.SIGTERM to group 8967. PIDs of all processes in the group: []
+2025-01-21 03:32:13,522 INFO - Sending the signal Signals.SIGTERM to group 8967
+2025-01-21 03:32:13,522 INFO - Sending the signal Signals.SIGTERM to process 8967 as process group is missing.
+2025-01-21 03:32:13,523 INFO - Exited execute loop
+2025-01-21 03:32:47,903 INFO - Loaded executor: SequentialExecutor
+2025-01-21 03:32:47,938 INFO - Starting the scheduler
+2025-01-21 03:32:47,939 INFO - Processing each file at most -1 times
+2025-01-21 03:32:47,953 INFO - Launched DagFileProcessorManager with pid: 9763
+2025-01-21 03:32:47,955 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-21 03:32:47,957 INFO - Configured default timezone UTC
+2025-01-21 03:37:48,000 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-21 03:41:57,231 INFO - 1 tasks up for execution:
+	<TaskInstance: two_task_dag.bash_task_0 manual__2025-01-21T03:41:56.327499+00:00 [scheduled]>
+2025-01-21 03:41:57,232 INFO - DAG two_task_dag has 0/16 running and queued tasks
+2025-01-21 03:41:57,232 INFO - Setting the following tasks to queued state:
+	<TaskInstance: two_task_dag.bash_task_0 manual__2025-01-21T03:41:56.327499+00:00 [scheduled]>
+2025-01-21 03:41:57,235 INFO - Trying to enqueue tasks: [<TaskInstance: two_task_dag.bash_task_0 manual__2025-01-21T03:41:56.327499+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2025-01-21 03:41:57,235 INFO - Sending TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_0', run_id='manual__2025-01-21T03:41:56.327499+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 2 and queue default
+2025-01-21 03:41:57,235 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_0', 'manual__2025-01-21T03:41:56.327499+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task_dag.py']
+2025-01-21 03:41:57,239 INFO - Executing command: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_0', 'manual__2025-01-21T03:41:56.327499+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task_dag.py']
+2025-01-21 03:41:58,979 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_0', run_id='manual__2025-01-21T03:41:56.327499+00:00', try_number=1, map_index=-1)
+2025-01-21 03:41:58,985 INFO - TaskInstance Finished: dag_id=two_task_dag, task_id=bash_task_0, run_id=manual__2025-01-21T03:41:56.327499+00:00, map_index=-1, run_start_date=2025-01-21 03:41:58.632561+00:00, run_end_date=2025-01-21 03:41:58.749637+00:00, run_duration=0.117076, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=3, pool=default_pool, queue=default, priority_weight=2, operator=BashOperator, queued_dttm=2025-01-21 03:41:57.233694+00:00, queued_by_job_id=2, pid=13227
+2025-01-21 03:41:59,025 INFO - 1 tasks up for execution:
+	<TaskInstance: two_task_dag.bash_task_1 manual__2025-01-21T03:41:56.327499+00:00 [scheduled]>
+2025-01-21 03:41:59,025 INFO - DAG two_task_dag has 0/16 running and queued tasks
+2025-01-21 03:41:59,025 INFO - Setting the following tasks to queued state:
+	<TaskInstance: two_task_dag.bash_task_1 manual__2025-01-21T03:41:56.327499+00:00 [scheduled]>
+2025-01-21 03:41:59,026 INFO - Trying to enqueue tasks: [<TaskInstance: two_task_dag.bash_task_1 manual__2025-01-21T03:41:56.327499+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2025-01-21 03:41:59,027 INFO - Sending TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_1', run_id='manual__2025-01-21T03:41:56.327499+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 1 and queue default
+2025-01-21 03:41:59,027 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_1', 'manual__2025-01-21T03:41:56.327499+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task_dag.py']
+2025-01-21 03:41:59,030 INFO - Executing command: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_1', 'manual__2025-01-21T03:41:56.327499+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task_dag.py']
+2025-01-21 03:42:05,620 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_1', run_id='manual__2025-01-21T03:41:56.327499+00:00', try_number=1, map_index=-1)
+2025-01-21 03:42:05,624 INFO - TaskInstance Finished: dag_id=two_task_dag, task_id=bash_task_1, run_id=manual__2025-01-21T03:41:56.327499+00:00, map_index=-1, run_start_date=2025-01-21 03:42:00.282334+00:00, run_end_date=2025-01-21 03:42:05.398651+00:00, run_duration=5.116317, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=4, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2025-01-21 03:41:59.026147+00:00, queued_by_job_id=2, pid=13240
+2025-01-21 03:42:05,658 INFO - Marking run <DagRun two_task_dag @ 2025-01-21 03:41:56.327499+00:00: manual__2025-01-21T03:41:56.327499+00:00, state:running, queued_at: 2025-01-21 03:41:56.364387+00:00. externally triggered: True> successful
+2025-01-21 03:42:05,659 INFO - DagRun Finished: dag_id=two_task_dag, execution_date=2025-01-21 03:41:56.327499+00:00, run_id=manual__2025-01-21T03:41:56.327499+00:00, run_start_date=2025-01-21 03:41:57.189956+00:00, run_end_date=2025-01-21 03:42:05.659080+00:00, run_duration=8.469124, state=success, external_trigger=True, run_type=manual, data_interval_start=2025-01-21 03:41:56.327499+00:00, data_interval_end=2025-01-21 03:41:56.327499+00:00, dag_hash=c198f53d8a2e865cbb589fa7dfe66a06
+2025-01-21 03:42:48,027 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-21 03:47:48,054 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-21 03:52:48,082 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-21 03:55:07,292 INFO - Exiting gracefully upon receiving signal 15
+2025-01-21 03:55:08,295 INFO - Sending Signals.SIGTERM to group 9763. PIDs of all processes in the group: [9763]
+2025-01-21 03:55:08,296 INFO - Sending the signal Signals.SIGTERM to group 9763
+2025-01-21 03:55:08,468 INFO - Process psutil.Process(pid=9763, status='terminated', exitcode=0, started='03:32:47') (9763) terminated with exit code 0
+2025-01-21 03:55:08,470 INFO - Sending Signals.SIGTERM to group 9763. PIDs of all processes in the group: []
+2025-01-21 03:55:08,471 INFO - Sending the signal Signals.SIGTERM to group 9763
+2025-01-21 03:55:08,471 INFO - Sending the signal Signals.SIGTERM to process 9763 as process group is missing.
+2025-01-21 03:55:08,471 INFO - Exited execute loop

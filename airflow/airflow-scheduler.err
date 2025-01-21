@@ -1,0 +1,9 @@
+[2025-01-21 03:32:47 +0000] [9761] [INFO] Starting gunicorn 23.0.0
+[2025-01-21 03:32:47 +0000] [9761] [INFO] Listening at: http://[::]:8793 (9761)
+[2025-01-21 03:32:47 +0000] [9761] [INFO] Using worker: sync
+[2025-01-21 03:32:47 +0000] [9762] [INFO] Booting worker with pid: 9762
+[2025-01-21 03:32:48 +0000] [9764] [INFO] Booting worker with pid: 9764
+[2025-01-21 03:55:08 +0000] [9761] [INFO] Handling signal: term
+[2025-01-21 03:55:08 +0000] [9764] [INFO] Worker exiting (pid: 9764)
+[2025-01-21 03:55:08 +0000] [9762] [INFO] Worker exiting (pid: 9762)
+[2025-01-21 03:55:08 +0000] [9761] [INFO] Shutting down: Master

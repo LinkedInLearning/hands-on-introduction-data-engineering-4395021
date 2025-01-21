@@ -1,0 +1,47 @@
+[2025-01-21T03:32:47.903+0000] {executor_loader.py:254} INFO - Loaded executor: SequentialExecutor
+[2025-01-21T03:32:47.938+0000] {scheduler_job_runner.py:950} INFO - Starting the scheduler
+[2025-01-21T03:32:47.939+0000] {scheduler_job_runner.py:957} INFO - Processing each file at most -1 times
+[2025-01-21T03:32:47.953+0000] {manager.py:174} INFO - Launched DagFileProcessorManager with pid: 9763
+[2025-01-21T03:32:47.955+0000] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-01-21T03:32:47.957+0000] {settings.py:63} INFO - Configured default timezone UTC
+[2025-01-21T03:32:47.982+0000] {manager.py:406} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
+[2025-01-21T03:37:48.000+0000] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-01-21T03:41:57.231+0000] {scheduler_job_runner.py:435} INFO - 1 tasks up for execution:
+	<TaskInstance: two_task_dag.bash_task_0 manual__2025-01-21T03:41:56.327499+00:00 [scheduled]>
+[2025-01-21T03:41:57.232+0000] {scheduler_job_runner.py:507} INFO - DAG two_task_dag has 0/16 running and queued tasks
+[2025-01-21T03:41:57.232+0000] {scheduler_job_runner.py:646} INFO - Setting the following tasks to queued state:
+	<TaskInstance: two_task_dag.bash_task_0 manual__2025-01-21T03:41:56.327499+00:00 [scheduled]>
+[2025-01-21T03:41:57.235+0000] {scheduler_job_runner.py:748} INFO - Trying to enqueue tasks: [<TaskInstance: two_task_dag.bash_task_0 manual__2025-01-21T03:41:56.327499+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2025-01-21T03:41:57.235+0000] {scheduler_job_runner.py:692} INFO - Sending TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_0', run_id='manual__2025-01-21T03:41:56.327499+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 2 and queue default
+[2025-01-21T03:41:57.235+0000] {base_executor.py:169} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_0', 'manual__2025-01-21T03:41:56.327499+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task_dag.py']
+[2025-01-21T03:41:57.239+0000] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_0', 'manual__2025-01-21T03:41:56.327499+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task_dag.py']
+[2025-01-21T03:41:58.487+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py
+[2025-01-21T03:41:58.599+0000] {task_command.py:467} INFO - Running <TaskInstance: two_task_dag.bash_task_0 manual__2025-01-21T03:41:56.327499+00:00 [queued]> on host codespaces-abc8f7
+[2025-01-21T03:41:58.979+0000] {scheduler_job_runner.py:776} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_0', run_id='manual__2025-01-21T03:41:56.327499+00:00', try_number=1, map_index=-1)
+[2025-01-21T03:41:58.985+0000] {scheduler_job_runner.py:813} INFO - TaskInstance Finished: dag_id=two_task_dag, task_id=bash_task_0, run_id=manual__2025-01-21T03:41:56.327499+00:00, map_index=-1, run_start_date=2025-01-21 03:41:58.632561+00:00, run_end_date=2025-01-21 03:41:58.749637+00:00, run_duration=0.117076, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=3, pool=default_pool, queue=default, priority_weight=2, operator=BashOperator, queued_dttm=2025-01-21 03:41:57.233694+00:00, queued_by_job_id=2, pid=13227
+[2025-01-21T03:41:59.025+0000] {scheduler_job_runner.py:435} INFO - 1 tasks up for execution:
+	<TaskInstance: two_task_dag.bash_task_1 manual__2025-01-21T03:41:56.327499+00:00 [scheduled]>
+[2025-01-21T03:41:59.025+0000] {scheduler_job_runner.py:507} INFO - DAG two_task_dag has 0/16 running and queued tasks
+[2025-01-21T03:41:59.025+0000] {scheduler_job_runner.py:646} INFO - Setting the following tasks to queued state:
+	<TaskInstance: two_task_dag.bash_task_1 manual__2025-01-21T03:41:56.327499+00:00 [scheduled]>
+[2025-01-21T03:41:59.026+0000] {scheduler_job_runner.py:748} INFO - Trying to enqueue tasks: [<TaskInstance: two_task_dag.bash_task_1 manual__2025-01-21T03:41:56.327499+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2025-01-21T03:41:59.027+0000] {scheduler_job_runner.py:692} INFO - Sending TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_1', run_id='manual__2025-01-21T03:41:56.327499+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 1 and queue default
+[2025-01-21T03:41:59.027+0000] {base_executor.py:169} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_1', 'manual__2025-01-21T03:41:56.327499+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task_dag.py']
+[2025-01-21T03:41:59.030+0000] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_1', 'manual__2025-01-21T03:41:56.327499+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task_dag.py']
+[2025-01-21T03:42:00.141+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py
+[2025-01-21T03:42:00.248+0000] {task_command.py:467} INFO - Running <TaskInstance: two_task_dag.bash_task_1 manual__2025-01-21T03:41:56.327499+00:00 [queued]> on host codespaces-abc8f7
+[2025-01-21T03:42:05.620+0000] {scheduler_job_runner.py:776} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_1', run_id='manual__2025-01-21T03:41:56.327499+00:00', try_number=1, map_index=-1)
+[2025-01-21T03:42:05.624+0000] {scheduler_job_runner.py:813} INFO - TaskInstance Finished: dag_id=two_task_dag, task_id=bash_task_1, run_id=manual__2025-01-21T03:41:56.327499+00:00, map_index=-1, run_start_date=2025-01-21 03:42:00.282334+00:00, run_end_date=2025-01-21 03:42:05.398651+00:00, run_duration=5.116317, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=4, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2025-01-21 03:41:59.026147+00:00, queued_by_job_id=2, pid=13240
+[2025-01-21T03:42:05.658+0000] {dagrun.py:854} INFO - Marking run <DagRun two_task_dag @ 2025-01-21 03:41:56.327499+00:00: manual__2025-01-21T03:41:56.327499+00:00, state:running, queued_at: 2025-01-21 03:41:56.364387+00:00. externally triggered: True> successful
+[2025-01-21T03:42:05.659+0000] {dagrun.py:905} INFO - DagRun Finished: dag_id=two_task_dag, execution_date=2025-01-21 03:41:56.327499+00:00, run_id=manual__2025-01-21T03:41:56.327499+00:00, run_start_date=2025-01-21 03:41:57.189956+00:00, run_end_date=2025-01-21 03:42:05.659080+00:00, run_duration=8.469124, state=success, external_trigger=True, run_type=manual, data_interval_start=2025-01-21 03:41:56.327499+00:00, data_interval_end=2025-01-21 03:41:56.327499+00:00, dag_hash=c198f53d8a2e865cbb589fa7dfe66a06
+[2025-01-21T03:42:48.027+0000] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-01-21T03:47:48.054+0000] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-01-21T03:52:48.082+0000] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-01-21T03:55:07.292+0000] {scheduler_job_runner.py:272} INFO - Exiting gracefully upon receiving signal 15
+[2025-01-21T03:55:08.295+0000] {process_utils.py:132} INFO - Sending Signals.SIGTERM to group 9763. PIDs of all processes in the group: [9763]
+[2025-01-21T03:55:08.296+0000] {process_utils.py:87} INFO - Sending the signal Signals.SIGTERM to group 9763
+[2025-01-21T03:55:08.468+0000] {process_utils.py:80} INFO - Process psutil.Process(pid=9763, status='terminated', exitcode=0, started='03:32:47') (9763) terminated with exit code 0
+[2025-01-21T03:55:08.470+0000] {process_utils.py:132} INFO - Sending Signals.SIGTERM to group 9763. PIDs of all processes in the group: []
+[2025-01-21T03:55:08.471+0000] {process_utils.py:87} INFO - Sending the signal Signals.SIGTERM to group 9763
+[2025-01-21T03:55:08.471+0000] {process_utils.py:101} INFO - Sending the signal Signals.SIGTERM to process 9763 as process group is missing.
+[2025-01-21T03:55:08.471+0000] {scheduler_job_runner.py:1029} INFO - Exited execute loop
