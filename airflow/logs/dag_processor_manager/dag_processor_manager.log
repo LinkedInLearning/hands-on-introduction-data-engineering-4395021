@@ -1,0 +1,1083 @@
+[2025-01-19T04:27:10.552+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2025-01-19T04:27:10.552+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-01-19T04:27:10.553+0000] {manager.py:485} INFO - Checking for new files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags every 300 seconds
+[2025-01-19T04:27:10.553+0000] {manager.py:821} INFO - Searching for files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2025-01-19T04:27:10.554+0000] {manager.py:824} INFO - There are 0 files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2025-01-19T04:29:17.249+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-01-19T04:45:23.916+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2025-01-19T04:45:23.916+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-01-19T04:45:23.916+0000] {manager.py:485} INFO - Checking for new files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags every 300 seconds
+[2025-01-19T04:45:23.916+0000] {manager.py:821} INFO - Searching for files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2025-01-19T04:45:23.917+0000] {manager.py:824} INFO - There are 0 files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2025-01-19T04:50:24.008+0000] {manager.py:821} INFO - Searching for files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2025-01-19T04:50:24.019+0000] {manager.py:824} INFO - There are 1 files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2025-01-19T04:50:24.577+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           0           0  0.11s           2025-01-19T04:50:24                       3
+================================================================================
+[2025-01-19T04:50:54.655+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           0           1  0.10s           2025-01-19T04:50:54                       5
+================================================================================
+[2025-01-19T04:51:24.863+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           0           1  0.10s           2025-01-19T04:51:19                       5
+================================================================================
+[2025-01-19T04:51:54.925+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           0           1  0.10s           2025-01-19T04:51:42                       5
+================================================================================
+[2025-01-19T04:52:24.999+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           0           1  0.10s           2025-01-19T04:52:24                       5
+================================================================================
+[2025-01-19T04:52:55.064+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           0           1  0.10s           2025-01-19T04:52:53                       5
+================================================================================
+[2025-01-19T04:53:25.376+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T04:53:20                       9
+================================================================================
+[2025-01-19T04:53:55.512+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           0           1  0.10s           2025-01-19T04:53:36                       3
+================================================================================
+[2025-01-19T04:54:25.567+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           0           1  0.10s           2025-01-19T04:54:06                       5
+================================================================================
+[2025-01-19T04:54:55.633+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           0           1  0.13s           2025-01-19T04:54:54                       5
+================================================================================
+[2025-01-19T04:55:24.400+0000] {manager.py:821} INFO - Searching for files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2025-01-19T04:55:24.402+0000] {manager.py:824} INFO - There are 1 files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2025-01-19T04:55:25.710+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           0           1  0.10s           2025-01-19T04:55:25                       5
+================================================================================
+[2025-01-19T04:55:55.769+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           0           1  0.11s           2025-01-19T04:55:53                       3
+================================================================================
+[2025-01-19T04:56:25.824+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           0           1  0.10s           2025-01-19T04:55:56                       5
+================================================================================
+[2025-01-19T04:56:55.857+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.21s           2025-01-19T04:56:38                      10
+================================================================================
+[2025-01-19T04:57:25.930+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T04:57:09                      10
+================================================================================
+[2025-01-19T04:57:55.995+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.11s           2025-01-19T04:57:40                      10
+================================================================================
+[2025-01-19T04:58:26.060+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T04:58:10                      10
+================================================================================
+[2025-01-19T04:58:56.117+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T04:58:40                      10
+================================================================================
+[2025-01-19T04:59:26.288+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T04:59:11                      10
+================================================================================
+[2025-01-19T04:59:56.437+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T04:59:41                      10
+================================================================================
+[2025-01-19T05:00:24.575+0000] {manager.py:821} INFO - Searching for files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2025-01-19T05:00:24.576+0000] {manager.py:824} INFO - There are 1 files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2025-01-19T05:00:26.600+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:00:11                      10
+================================================================================
+[2025-01-19T05:00:56.776+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:00:41                      10
+================================================================================
+[2025-01-19T05:01:26.936+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:01:11                      10
+================================================================================
+[2025-01-19T05:01:57.097+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:01:42                      10
+================================================================================
+[2025-01-19T05:02:27.280+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.11s           2025-01-19T05:02:12                      10
+================================================================================
+[2025-01-19T05:02:57.450+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:02:42                      10
+================================================================================
+[2025-01-19T05:03:27.619+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:03:12                      10
+================================================================================
+[2025-01-19T05:03:57.780+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:03:42                      10
+================================================================================
+[2025-01-19T05:04:27.802+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:04:12                      10
+================================================================================
+[2025-01-19T05:04:58.102+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:04:43                      10
+================================================================================
+[2025-01-19T05:05:24.744+0000] {manager.py:821} INFO - Searching for files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2025-01-19T05:05:24.747+0000] {manager.py:824} INFO - There are 1 files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2025-01-19T05:05:28.190+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:05:13                      10
+================================================================================
+[2025-01-19T05:05:58.194+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:05:43                      10
+================================================================================
+[2025-01-19T05:06:28.350+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:06:13                      10
+================================================================================
+[2025-01-19T05:06:58.437+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:06:43                      10
+================================================================================
+[2025-01-19T05:07:28.534+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:07:03                      10
+================================================================================
+[2025-01-19T05:07:58.744+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:07:54                      10
+================================================================================
+[2025-01-19T05:08:28.830+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           0           1  0.11s           2025-01-19T05:08:24                       5
+================================================================================
+[2025-01-19T05:08:58.913+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:08:55                       9
+================================================================================
+[2025-01-19T05:09:28.999+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:09:25                      10
+================================================================================
+[2025-01-19T05:09:59.086+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:09:56                      10
+================================================================================
+[2025-01-19T05:10:24.904+0000] {manager.py:821} INFO - Searching for files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2025-01-19T05:10:24.906+0000] {manager.py:824} INFO - There are 1 files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2025-01-19T05:10:29.153+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:10:26                      10
+================================================================================
+[2025-01-19T05:10:59.209+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:10:56                      10
+================================================================================
+[2025-01-19T05:11:29.216+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:11:27                      10
+================================================================================
+[2025-01-19T05:11:59.318+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:11:57                      10
+================================================================================
+[2025-01-19T05:12:29.377+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:12:27                      10
+================================================================================
+[2025-01-19T05:12:59.441+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:12:58                      10
+================================================================================
+[2025-01-19T05:13:29.445+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:13:28                      10
+================================================================================
+[2025-01-19T05:13:59.560+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:13:58                      10
+================================================================================
+[2025-01-19T05:14:29.631+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:14:29                      10
+================================================================================
+[2025-01-19T05:14:59.690+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:14:59                      10
+================================================================================
+[2025-01-19T05:15:25.050+0000] {manager.py:821} INFO - Searching for files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2025-01-19T05:15:25.051+0000] {manager.py:824} INFO - There are 1 files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2025-01-19T05:15:29.753+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:15:29                      10
+================================================================================
+[2025-01-19T05:15:59.909+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:15:59                      10
+================================================================================
+[2025-01-19T05:16:30.078+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:16:30                      10
+================================================================================
+[2025-01-19T05:17:00.241+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:17:00                      10
+================================================================================
+[2025-01-19T05:17:30.302+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.11s           2025-01-19T05:17:18                       9
+================================================================================
+[2025-01-19T05:18:00.360+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.20s           2025-01-19T05:17:48                      32
+================================================================================
+[2025-01-19T05:18:30.424+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:18:19                      10
+================================================================================
+[2025-01-19T05:19:00.481+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.11s           2025-01-19T05:18:49                      10
+================================================================================
+[2025-01-19T05:19:30.534+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:19:19                      10
+================================================================================
+[2025-01-19T05:20:00.591+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:19:49                      10
+================================================================================
+[2025-01-19T05:20:25.197+0000] {manager.py:821} INFO - Searching for files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2025-01-19T05:20:25.198+0000] {manager.py:824} INFO - There are 1 files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2025-01-19T05:20:30.650+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:20:19                      10
+================================================================================
+[2025-01-19T05:21:00.708+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:20:50                      10
+================================================================================
+[2025-01-19T05:21:30.766+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:21:20                      10
+================================================================================
+[2025-01-19T05:22:00.824+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.11s           2025-01-19T05:21:50                      10
+================================================================================
+[2025-01-19T05:22:30.895+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:22:20                      10
+================================================================================
+[2025-01-19T05:23:00.921+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:22:50                      10
+================================================================================
+[2025-01-19T05:23:31.008+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:23:11                       9
+================================================================================
+[2025-01-19T05:24:00.266+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-01-19T05:24:28.423+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2025-01-19T05:24:28.424+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-01-19T05:24:28.424+0000] {manager.py:485} INFO - Checking for new files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags every 300 seconds
+[2025-01-19T05:24:28.425+0000] {manager.py:821} INFO - Searching for files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2025-01-19T05:24:28.426+0000] {manager.py:824} INFO - There are 1 files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2025-01-19T05:24:28.662+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.20s           2025-01-19T05:24:28                      10
+================================================================================
+[2025-01-19T05:24:59.559+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:24:59                      10
+================================================================================
+[2025-01-19T05:25:30.540+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:25:30                      10
+================================================================================
+[2025-01-19T05:26:00.709+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:26:00                      10
+================================================================================
+[2025-01-19T05:26:30.906+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:26:30                      10
+================================================================================
+[2025-01-19T05:27:01.098+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:27:01                      10
+================================================================================
+[2025-01-19T05:27:31.290+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:27:31                      10
+================================================================================
+[2025-01-19T05:28:01.485+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.11s           2025-01-19T05:28:01                      10
+================================================================================
+[2025-01-19T05:28:31.685+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:28:31                      10
+================================================================================
+[2025-01-19T05:29:01.876+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:29:01                      10
+================================================================================
+[2025-01-19T05:29:28.511+0000] {manager.py:821} INFO - Searching for files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2025-01-19T05:29:28.512+0000] {manager.py:824} INFO - There are 1 files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2025-01-19T05:29:32.069+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:29:32                      10
+================================================================================
+[2025-01-19T05:30:02.192+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:30:02                      10
+================================================================================
+[2025-01-19T05:30:32.383+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:30:32                      10
+================================================================================
+[2025-01-19T05:31:02.575+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:31:02                      10
+================================================================================
+[2025-01-19T05:31:32.766+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:31:32                      10
+================================================================================
+[2025-01-19T05:32:02.959+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:32:02                      10
+================================================================================
+[2025-01-19T05:32:33.152+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:32:33                      10
+================================================================================
+[2025-01-19T05:33:03.343+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:33:03                      10
+================================================================================
+[2025-01-19T05:33:33.545+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.11s           2025-01-19T05:33:33                      10
+================================================================================
+[2025-01-19T05:34:03.693+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:34:03                      10
+================================================================================
+[2025-01-19T05:34:28.672+0000] {manager.py:821} INFO - Searching for files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2025-01-19T05:34:28.673+0000] {manager.py:824} INFO - There are 1 files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2025-01-19T05:34:33.913+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:34:33                      10
+================================================================================
+[2025-01-19T05:35:04.110+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.11s           2025-01-19T05:35:04                      10
+================================================================================
+[2025-01-19T05:35:34.308+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:35:34                      10
+================================================================================
+[2025-01-19T05:36:04.499+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:36:04                      10
+================================================================================
+[2025-01-19T05:36:34.703+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:36:34                      10
+================================================================================
+[2025-01-19T05:37:04.901+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:37:04                      10
+================================================================================
+[2025-01-19T05:37:35.090+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:37:35                      10
+================================================================================
+[2025-01-19T05:38:05.197+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:38:05                      10
+================================================================================
+[2025-01-19T05:38:35.373+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:38:35                      10
+================================================================================
+[2025-01-19T05:39:05.565+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:39:05                      10
+================================================================================
+[2025-01-19T05:39:28.823+0000] {manager.py:821} INFO - Searching for files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2025-01-19T05:39:28.824+0000] {manager.py:824} INFO - There are 1 files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2025-01-19T05:39:35.757+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:39:35                      10
+================================================================================
+[2025-01-19T05:40:05.949+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:40:05                      10
+================================================================================
+[2025-01-19T05:40:36.147+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:40:36                      10
+================================================================================
+[2025-01-19T05:41:06.341+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:41:06                      10
+================================================================================
+[2025-01-19T05:41:36.532+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:41:36                      10
+================================================================================
+[2025-01-19T05:42:06.725+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:42:06                      10
+================================================================================
+[2025-01-19T05:42:36.929+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:42:36                      10
+================================================================================
+[2025-01-19T05:43:07.130+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:43:07                      10
+================================================================================
+[2025-01-19T05:43:37.333+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:43:37                      10
+================================================================================
+[2025-01-19T05:44:07.524+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:44:07                      10
+================================================================================
+[2025-01-19T05:44:28.989+0000] {manager.py:821} INFO - Searching for files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2025-01-19T05:44:28.990+0000] {manager.py:824} INFO - There are 1 files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2025-01-19T05:44:37.723+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:44:37                      10
+================================================================================
+[2025-01-19T05:45:07.916+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:45:07                      10
+================================================================================
+[2025-01-19T05:45:38.112+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:45:38                      10
+================================================================================
+[2025-01-19T05:46:08.304+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:46:08                      10
+================================================================================
+[2025-01-19T05:46:38.503+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:46:38                      10
+================================================================================
+[2025-01-19T05:47:08.696+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:47:08                      10
+================================================================================
+[2025-01-19T05:47:38.888+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:47:38                      10
+================================================================================
+[2025-01-19T05:48:09.099+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:48:09                      10
+================================================================================
+[2025-01-19T05:48:39.507+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.31s           2025-01-19T05:48:39                      10
+================================================================================
+[2025-01-19T05:49:09.704+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:49:09                      10
+================================================================================
+[2025-01-19T05:49:29.121+0000] {manager.py:821} INFO - Searching for files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2025-01-19T05:49:29.122+0000] {manager.py:824} INFO - There are 1 files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2025-01-19T05:49:39.898+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:49:39                      10
+================================================================================
+[2025-01-19T05:50:10.090+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:50:10                      10
+================================================================================
+[2025-01-19T05:50:40.290+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:50:40                      10
+================================================================================
+[2025-01-19T05:51:10.484+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:51:10                      10
+================================================================================
+[2025-01-19T05:51:40.675+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:51:40                      10
+================================================================================
+[2025-01-19T05:52:10.872+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.11s           2025-01-19T05:52:10                      10
+================================================================================
+[2025-01-19T05:52:41.068+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.11s           2025-01-19T05:52:41                      10
+================================================================================
+[2025-01-19T05:53:11.266+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:53:11                      10
+================================================================================
+[2025-01-19T05:53:41.446+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:53:41                      10
+================================================================================
+[2025-01-19T05:54:11.638+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:54:11                      10
+================================================================================
+[2025-01-19T05:54:29.273+0000] {manager.py:821} INFO - Searching for files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2025-01-19T05:54:29.274+0000] {manager.py:824} INFO - There are 1 files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2025-01-19T05:54:41.847+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:54:41                      10
+================================================================================
+[2025-01-19T05:55:12.041+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.11s           2025-01-19T05:55:12                      10
+================================================================================
+[2025-01-19T05:55:42.220+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2025-01-19T05:55:42                      10
+================================================================================

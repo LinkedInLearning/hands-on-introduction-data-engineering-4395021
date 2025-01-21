@@ -1,0 +1,69 @@
+[2025-01-19T05:16:24.572+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-19T05:16:24.579+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: one_task_dag.one_task manual__2025-01-19T05:16:22.234345+00:00 [queued]>
+[2025-01-19T05:16:24.584+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: one_task_dag.one_task manual__2025-01-19T05:16:22.234345+00:00 [queued]>
+[2025-01-19T05:16:24.584+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-01-19T05:16:24.596+0000] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): one_task> on 2025-01-19 05:16:22.234345+00:00
+[2025-01-19T05:16:24.598+0000] {standard_task_runner.py:72} INFO - Started process 32803 to run task
+[2025-01-19T05:16:24.601+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'one_task_dag', 'one_task', 'manual__2025-01-19T05:16:22.234345+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/one_task_dag.py', '--cfg-path', '/tmp/tmperj0ks4l']
+[2025-01-19T05:16:24.603+0000] {standard_task_runner.py:105} INFO - Job 3: Subtask one_task
+[2025-01-19T05:16:24.627+0000] {task_command.py:467} INFO - Running <TaskInstance: one_task_dag.one_task manual__2025-01-19T05:16:22.234345+00:00 [running]> on host codespaces-9aba4b
+[2025-01-19T05:16:24.670+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Shanique' AIRFLOW_CTX_DAG_ID='one_task_dag' AIRFLOW_CTX_TASK_ID='one_task' AIRFLOW_CTX_EXECUTION_DATE='2025-01-19T05:16:22.234345+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-19T05:16:22.234345+00:00'
+[2025-01-19T05:16:24.671+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-19T05:16:24.687+0000] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2025-01-19T05:16:24.687+0000] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'echo "Hello, LinkedIn Learning!" > /workspace/hands-on-introduction-data-enginerring-4395021/lab/temp/create-this-file.txt']
+[2025-01-19T05:16:24.693+0000] {subprocess.py:99} INFO - Output:
+[2025-01-19T05:16:24.695+0000] {subprocess.py:106} INFO - /usr/bin/bash: line 1: /workspace/hands-on-introduction-data-enginerring-4395021/lab/temp/create-this-file.txt: No such file or directory
+[2025-01-19T05:16:24.695+0000] {subprocess.py:110} INFO - Command exited with return code 1
+[2025-01-19T05:16:24.701+0000] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/operators/bash.py", line 276, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2025-01-19T05:16:24.704+0000] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=one_task_dag, task_id=one_task, run_id=manual__2025-01-19T05:16:22.234345+00:00, execution_date=20250119T051622, start_date=20250119T051624, end_date=20250119T051624
+[2025-01-19T05:16:24.713+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-19T05:16:24.714+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 3 for task one_task (Bash command failed. The command returned a non-zero exit code 1.; 32803)
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/operators/bash.py", line 276, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2025-01-19T05:16:24.733+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-01-19T05:16:24.742+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-01-19T05:16:24.743+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
