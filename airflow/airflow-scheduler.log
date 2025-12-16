@@ -72,3 +72,9 @@ Traceback (most recent call last):
   File "/home/vscode/.local/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
     raise self.mapping[code](*args, **kwargs)
 werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2025-12-16 17:58:17,430 INFO - Resetting orphaned tasks for active dag runs
+2025-12-16 18:03:17,483 INFO - Resetting orphaned tasks for active dag runs
+2025-12-16 18:08:17,627 INFO - Resetting orphaned tasks for active dag runs
+2025-12-16 18:13:17,767 INFO - Resetting orphaned tasks for active dag runs
+2025-12-16 18:18:17,900 INFO - Resetting orphaned tasks for active dag runs
+2025-12-16 18:23:18,035 INFO - Resetting orphaned tasks for active dag runs
