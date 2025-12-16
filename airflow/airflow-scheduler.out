@@ -1,0 +1,75 @@
+[[34m2025-12-16T17:53:17.120+0000[0m] {[34mscheduler_job_runner.py:[0m788} INFO[0m - Starting the scheduler[0m
+[[34m2025-12-16T17:53:17.121+0000[0m] {[34mscheduler_job_runner.py:[0m795} INFO[0m - Processing each file at most -1 times[0m
+[[34m2025-12-16T17:53:17.132+0000[0m] {[34mmanager.py:[0m165} INFO[0m - Launched DagFileProcessorManager with pid: 2545[0m
+[[34m2025-12-16T17:53:17.134+0000[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2025-12-16T17:53:17.148+0000[0m] {[34msettings.py:[0m60} INFO[0m - Configured default timezone Timezone('UTC')[0m
+[2025-12-16T17:53:17.231+0000] {manager.py:411} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
+[[34m2025-12-16T17:53:22.625+0000[0m] {[34mserve_logs.py:[0m60} WARNING[0m - The Authorization header is missing: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+Referer: https://upgraded-pancake-5g6x599p774fpvr9.github.dev/
+X-Request-Id: f6f6bdfdfba1684a490d4420d8b0036a
+X-Real-Ip: 165.89.114.113
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: document
+Sec-Ch-Ua: "Microsoft Edge";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "macOS"
+Priority: u=0, i
+X-Forwarded-Proto: https
+X-Forwarded-Host: upgraded-pancake-5g6x599p774fpvr9-8793.app.github.dev
+X-Forwarded-For: 165.89.114.113
+Proxy-Connection: Keep-Alive
+
+.[0m
+[[34m2025-12-16T17:53:22.626+0000[0m] {[34mserve_logs.py:[0m104} WARNING[0m - Unknown error[0m
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/home/vscode/.local/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/home/vscode/.local/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.[0m
+[[34m2025-12-16T17:53:22.771+0000[0m] {[34mserve_logs.py:[0m60} WARNING[0m - The Authorization header is missing: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: https://upgraded-pancake-5g6x599p774fpvr9-8793.app.github.dev/
+X-Request-Id: 386a107eef07b4a99a51fafeda9c4c2f
+X-Real-Ip: 165.89.114.113
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Ch-Ua: "Microsoft Edge";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Priority: u=1, i
+X-Forwarded-Proto: https
+X-Forwarded-Host: upgraded-pancake-5g6x599p774fpvr9-8793.app.github.dev
+X-Forwarded-For: 165.89.114.113
+Proxy-Connection: Keep-Alive
+
+.[0m
+[[34m2025-12-16T17:53:22.771+0000[0m] {[34mserve_logs.py:[0m104} WARNING[0m - Unknown error[0m
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/home/vscode/.local/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/home/vscode/.local/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.[0m

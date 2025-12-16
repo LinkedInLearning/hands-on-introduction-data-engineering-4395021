@@ -1,0 +1,11 @@
+[2025-12-16T17:53:51.108+0000] {processor.py:157} INFO - Started process (PID=3833) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-12-16T17:53:51.108+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-12-16T17:53:51.109+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:51.109+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-12-16T17:53:51.123+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_trigger_ui']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-12-16T17:53:51.239+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:51.239+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:example_params_trigger_ui
+[2025-12-16T17:53:51.247+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:51.247+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:example_params_trigger_ui
+[2025-12-16T17:53:51.253+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:51.253+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:example_params_trigger_ui
+[2025-12-16T17:53:51.260+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:51.260+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-12-16T17:53:51.267+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:51.267+0000] {dag.py:2763} INFO - Creating ORM DAG for example_params_trigger_ui
+[2025-12-16T17:53:51.272+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:51.272+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-12-16T17:53:51.289+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.183 seconds

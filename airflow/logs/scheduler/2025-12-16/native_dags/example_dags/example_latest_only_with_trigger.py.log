@@ -1,0 +1,11 @@
+[2025-12-16T17:53:53.869+0000] {processor.py:157} INFO - Started process (PID=3866) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-12-16T17:53:53.870+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2025-12-16T17:53:53.871+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:53.870+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-12-16T17:53:53.879+0000] {processor.py:836} INFO - DAG(s) dict_keys(['latest_only_with_trigger']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-12-16T17:53:53.952+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:53.952+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:latest_only_with_trigger
+[2025-12-16T17:53:53.960+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:53.960+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:latest_only_with_trigger
+[2025-12-16T17:53:53.966+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:53.966+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:latest_only_with_trigger
+[2025-12-16T17:53:53.974+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:53.973+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-12-16T17:53:53.980+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:53.980+0000] {dag.py:2763} INFO - Creating ORM DAG for latest_only_with_trigger
+[2025-12-16T17:53:53.987+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:53.987+0000] {dag.py:3504} INFO - Setting next_dagrun for latest_only_with_trigger to 2025-12-16T13:53:53.986989+00:00, run_after=2025-12-16T17:53:53.986989+00:00
+[2025-12-16T17:53:54.003+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.137 seconds

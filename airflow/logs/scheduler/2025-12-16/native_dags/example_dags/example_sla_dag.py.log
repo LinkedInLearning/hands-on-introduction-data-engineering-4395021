@@ -1,0 +1,11 @@
+[2025-12-16T17:53:42.871+0000] {processor.py:157} INFO - Started process (PID=3770) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-12-16T17:53:42.872+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-12-16T17:53:42.873+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:42.872+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-12-16T17:53:42.882+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-12-16T17:53:42.967+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:42.967+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:example_sla_dag
+[2025-12-16T17:53:42.976+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:42.976+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:example_sla_dag
+[2025-12-16T17:53:42.982+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:42.982+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:example_sla_dag
+[2025-12-16T17:53:42.990+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:42.990+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-12-16T17:53:42.998+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:42.998+0000] {dag.py:2763} INFO - Creating ORM DAG for example_sla_dag
+[2025-12-16T17:53:43.006+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:43.006+0000] {dag.py:3504} INFO - Setting next_dagrun for example_sla_dag to 2025-12-16T17:50:00+00:00, run_after=2025-12-16T17:52:00+00:00
+[2025-12-16T17:53:43.022+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.154 seconds

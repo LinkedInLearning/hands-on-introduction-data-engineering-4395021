@@ -1,0 +1,11 @@
+[2025-12-16T17:53:39.736+0000] {processor.py:157} INFO - Started process (PID=3746) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2025-12-16T17:53:39.737+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2025-12-16T17:53:39.740+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:39.739+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2025-12-16T17:53:39.769+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_short_circuit_decorator']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2025-12-16T17:53:40.208+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:40.208+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:example_short_circuit_decorator
+[2025-12-16T17:53:40.248+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:40.248+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:example_short_circuit_decorator
+[2025-12-16T17:53:40.273+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:40.273+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:example_short_circuit_decorator
+[2025-12-16T17:53:40.336+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:40.335+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-12-16T17:53:40.369+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:40.369+0000] {dag.py:2763} INFO - Creating ORM DAG for example_short_circuit_decorator
+[2025-12-16T17:53:40.399+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:40.399+0000] {dag.py:3504} INFO - Setting next_dagrun for example_short_circuit_decorator to 2025-12-15T17:53:40.395054+00:00, run_after=2025-12-16T17:53:40.395054+00:00
+[2025-12-16T17:53:40.465+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.733 seconds

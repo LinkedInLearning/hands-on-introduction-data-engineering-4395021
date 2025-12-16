@@ -1,0 +1,11 @@
+[2025-12-16T17:53:52.343+0000] {processor.py:157} INFO - Started process (PID=3841) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-12-16T17:53:52.344+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-12-16T17:53:52.344+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:52.344+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-12-16T17:53:52.353+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-12-16T17:53:52.466+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:52.466+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:example_nested_branch_dag
+[2025-12-16T17:53:52.477+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:52.477+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:example_nested_branch_dag
+[2025-12-16T17:53:52.484+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:52.484+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:example_nested_branch_dag
+[2025-12-16T17:53:52.491+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:52.491+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-12-16T17:53:52.498+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:52.497+0000] {dag.py:2763} INFO - Creating ORM DAG for example_nested_branch_dag
+[2025-12-16T17:53:52.505+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:52.505+0000] {dag.py:3504} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-12-15T00:00:00+00:00, run_after=2025-12-16T00:00:00+00:00
+[2025-12-16T17:53:52.519+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.179 seconds

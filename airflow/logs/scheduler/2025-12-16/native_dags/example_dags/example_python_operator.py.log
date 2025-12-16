@@ -1,0 +1,11 @@
+[2025-12-16T17:53:46.045+0000] {processor.py:157} INFO - Started process (PID=3794) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2025-12-16T17:53:46.045+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2025-12-16T17:53:46.046+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:46.045+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2025-12-16T17:53:46.053+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2025-12-16T17:53:46.153+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:46.153+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:example_python_operator
+[2025-12-16T17:53:46.162+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:46.162+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:example_python_operator
+[2025-12-16T17:53:46.168+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:46.168+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:example_python_operator
+[2025-12-16T17:53:46.175+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:46.175+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-12-16T17:53:46.182+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:46.182+0000] {dag.py:2763} INFO - Creating ORM DAG for example_python_operator
+[2025-12-16T17:53:46.196+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:46.196+0000] {dag.py:3504} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2025-12-16T17:53:46.221+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.178 seconds

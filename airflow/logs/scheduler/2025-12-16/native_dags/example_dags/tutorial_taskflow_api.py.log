@@ -1,0 +1,11 @@
+[2025-12-16T17:53:26.053+0000] {processor.py:157} INFO - Started process (PID=2630) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-12-16T17:53:26.053+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-12-16T17:53:26.054+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:26.053+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-12-16T17:53:26.060+0000] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-12-16T17:53:26.147+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:26.147+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:tutorial_taskflow_api
+[2025-12-16T17:53:26.155+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:26.155+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:tutorial_taskflow_api
+[2025-12-16T17:53:26.161+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:26.161+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:tutorial_taskflow_api
+[2025-12-16T17:53:26.169+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:26.169+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-12-16T17:53:26.176+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:26.176+0000] {dag.py:2763} INFO - Creating ORM DAG for tutorial_taskflow_api
+[2025-12-16T17:53:26.181+0000] {logging_mixin.py:150} INFO - [2025-12-16T17:53:26.181+0000] {dag.py:3504} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-12-16T17:53:26.196+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.146 seconds
